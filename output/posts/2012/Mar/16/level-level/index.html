@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Level Level</title>
+        <link rel="stylesheet" href="../../../../../theme/css/main.css" />
+        <meta name="description" content="I've been meaning to do a post on my programming mistakes with Traction Edge since I started. I'll do it soon but one item that will be in the..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../../">the skreegs</a></h1>
+                <nav><ul>
+                    <li><a href="../../../../../category/content.html">content</a></li>
+                    <li><a href="../../../../../category/the-skreegs.html">The Skreegs</a></li>
+                    <li class="active"><a href="../../../../../category/traction-edge.html">Traction Edge</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../../../../../posts/2012/Mar/16/level-level/" rel="bookmark"
+           title="Permalink to Level Level">Level Level</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-03-16T20:42:00+10:00">
+                Published: Fri 16 March 2012
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../../../../../author/mongrol.html">mongrol</a>
+        </address>
+<p>In <a href="../../../../../category/traction-edge.html">Traction Edge</a>.</p>
+
+</footer><!-- /.post-info -->      <p>I've been meaning to do a post on my programming mistakes with Traction
+Edge since I started. I'll do it soon but one item that will be in the
+list bit me on the bum yesterday. Because I'm such a genius, my Creature
+class has all it's attributes as int's instead of in a std::map. I've
+always had the thought this was a bad idea every time I added another
+attribute and it finally bit me when I tried to do the UI for level up.</p>
+<p>When you level up you get an point to spend on strength, dexterity or
+intelligence. The UI needs to be able to iterate over these to select
+one to upgrade. Ever tried iterating over something that's not in a list
+or a map? It doesn't work very well. So basically I need to move all
+these into an attribute map and then refactor every little bit of code
+that's accessing these directly. There's another mistake. They're all
+public and not accessed through proper accessors.</p>
+<p>So the next release will be without levelling up, which isn't a big
+issue yet since there's so much content still missing. I've also got
+some more sensible level population code in and have a couple of sticky
+AI bugs to fix and we're out! Yay!</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://www.fsf.org">Free Software Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="http://identi.ca/mongrol">pump.io</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

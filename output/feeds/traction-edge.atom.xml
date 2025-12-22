@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>the skreegs</title><link href="http://www.scorch.org/" rel="alternate"></link><link href="http://www.scorch.org/feeds/traction-edge.atom.xml" rel="self"></link><id>http://www.scorch.org/</id><updated>2012-12-28T13:13:00+10:00</updated><entry><title>Traction Edge Development Ceased</title><link href="http://www.scorch.org/posts/2012/Dec/28/traction-edge-development-ceased/" rel="alternate"></link><updated>2012-12-28T13:13:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-12-28:posts/2012/Dec/28/traction-edge-development-ceased/</id><summary type="html">&lt;p&gt;Unfortunately TE development is now over and probably never to restart.
+Basically after 3 years of work I still have only a small game to show.
+My limited time doesn't leave much space to make the game I envisage.
+C++ development is slow with a lot of my time fighting my existing code
+base and the stuff I've just rushed in. It's become too painful.&lt;/p&gt;
+&lt;p&gt;I've also realised that my vision isn't fully formed. Couple that with
+slow development and it's onto a loser. When your game mechanics aren't
+complete then you can find yourself coding for a month then having to
+scrap or rewrite large chunks.&lt;/p&gt;
+&lt;p&gt;I've now started looking at Lua and &lt;a href="http://www.love2d.org"&gt;Love2d&lt;/a&gt; for my next projects. It
+appears to allow much more rapid development. TE may arrive in a newer
+form at some point as its still a game I want to make.&lt;/p&gt;</summary></entry><entry><title>Appraise? Nah</title><link href="http://www.scorch.org/posts/2012/Aug/27/appraise-nah/" rel="alternate"></link><updated>2012-08-27T21:39:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-27:posts/2012/Aug/27/appraise-nah/</id><summary type="html">&lt;p&gt;I had the appraise skill in and about to start using it when I realised
+I didn't need it. What is an appraise skill anyway? It's based on
+intelligence and lets you identify creatures and objects but you can't
+raise it with skill points. This means UI work to avoid those
+untrainable skills in the list. I then reassessed why I had this skill?
+To test if creatures can identify other creatures and objects? It's only
+based on intelligence so why would it exist at all. Let's just use
+intelligence.&lt;/p&gt;
+&lt;p&gt;Bravery is a bit different. I want intelligent monsters to have some
+idea of their toughness. If they are tough I want them to know they can
+take more hits before doing a runner. So everytime we want to check this
+chain, like when low on health, I'd want an INT check first to see if
+we're clever enough to make a decision, then a STR and AC check to see
+how resilient we are. (note to self: implement AC ;) )&lt;/p&gt;
+&lt;p&gt;What a handy blog. I solve my problems while typing out loud. :)&lt;/p&gt;</summary><category term="AI"></category></entry><entry><title>AI stable</title><link href="http://www.scorch.org/posts/2012/Aug/24/ai-stable/" rel="alternate"></link><updated>2012-08-24T21:14:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-24:posts/2012/Aug/24/ai-stable/</id><summary type="html">&lt;p&gt;Fleeing monsters are now in, they do tend to do a bit of pillar dancing
+in and out of FOV but I'll fix that later. Next up though I want to get
+some individuality in and we can do that with the flee desire. I want
+monsters to have different flee characteristics.&lt;/p&gt;
+&lt;p&gt;Mindless creatures, spiders, slithers to some degree should only flee at
+the last resort. Larger ones should exhibit more intelligence and there
+lies the balancing act.&lt;/p&gt;
+&lt;p&gt;It would be easy to gauge up the prowess of player and attacker and make
+the attacker more skittish if the player is a lot more powerful.
+However, this need to be weighted by the monsters intelligence. Cleverer
+monsters are better at "appraising". This may be an opportunity to get
+an appraise skill in and actually get the intelligence attribute into
+play. Hmm, good idea Mongrol. Yes.&lt;/p&gt;</summary><category term="AI"></category></entry><entry><title>TE AI Update</title><link href="http://www.scorch.org/posts/2012/Aug/23/te-ai-update/" rel="alternate"></link><updated>2012-08-23T21:14:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-23:posts/2012/Aug/23/te-ai-update/</id><summary type="html">&lt;p&gt;My Dijkstra implementation is now in and providing some lovely
+pathfinding indeed. I'm now finishing up initial desires and getting
+monsters to flee appropriately. I'm sure my handling of the various DJ
+maps isn't very efficient. After this is done I'll move onto something
+else as it's taken a few months to get it done (kids, work, the usual
+mental issues haven't left much time).&lt;/p&gt;
+&lt;p&gt;I'll have this out for ARRP 2012 then we'll move into the tech tree
+area.&lt;/p&gt;</summary></entry><entry><title>Straight And True</title><link href="http://www.scorch.org/posts/2012/Jul/19/straight-and-true/" rel="alternate"></link><updated>2012-07-19T20:21:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-07-19:posts/2012/Jul/19/straight-and-true/</id><summary type="html">&lt;p&gt;I was fairly quick getting Dijkstra maps in for path finding but still
+found my monsters taking round about paths to get to targets. Exactly
+the same as my old code. It took an infuriatingly long time to fix as
+well. The problem was I was calculating every tile around the centre
+tile including the diagonals instead of just the orthagonal neighbours.
+The result was a steeper slope on the diagonals and gentler on orthos.&lt;/p&gt;
+&lt;p&gt;I can't see why it makes a difference even after doing it in a
+spreadsheet and staring at it for most of a flight back from Melbourne.
+A tweak to code later and now my AI is straight and true. They run right
+up and hit you in the face without all the silly dancing around they've
+been doing for over a year. :)&lt;/p&gt;
+&lt;p&gt;Next, some aggression traits and fleeing and I'll be happy to move onto
+Item progression.&lt;/p&gt;</summary></entry><entry><title>Desire me Dijkstra</title><link href="http://www.scorch.org/posts/2012/Jul/10/desire-me-dijkstra/" rel="alternate"></link><updated>2012-07-10T20:24:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-07-10:posts/2012/Jul/10/desire-me-dijkstra/</id><summary type="html">&lt;p&gt;The AI refresh is going great. I have some fantasy is my head about
+ditching the state machine, which technically I have. The idea is to
+update awareness of every loop, then update desires, and goals for those
+desires,  based on that awareness. The final result is a djmap that the
+monster just roles downhill on which is towards the strongest desire. On
+the next step, we update our awareness and take an action if required.
+This is where state machines creep back in.&lt;/p&gt;
+&lt;p&gt;My first thought was to update awareness, update desires then enter a
+behaviour tree to perform an action. After I started coding this I
+realised that updating desires, goals and choosing an action is
+basically the same thing. Also surely only one desire can be the
+strongest at any one time? If not, then two equally strong desires would
+pull teh creature towards the closest one and now I've just written
+then, seems like not such a bad thing. Still, having a dominant desire
+still means we have a state machine. The current state is the dominant
+awareness.&lt;/p&gt;
+&lt;p&gt;The big chunky bit is the processing of desires based on awareness. I
+want to componentise this enough to allow me to develop different traits
+for different creatures. I'd also like to avoid hardcoding values and
+farm out AI traits to either xml or possibly even lua (eek, exciting!).
+To reach this point I'll need to draft up some kind of abstraction layer
+of what I want to feed values into. Wine threshold reached. I'll stop
+typing now.&lt;/p&gt;</summary></entry><entry><title>Game Stuff</title><link href="http://www.scorch.org/posts/2012/Jun/14/game-stuff/" rel="alternate"></link><updated>2012-06-14T20:47:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-06-14:posts/2012/Jun/14/game-stuff/</id><summary type="html">&lt;p&gt;Firstly I just watched the talk by Icculus at Flourish 2012. Very good
+talk and a great overview of all the useful tools the open source
+community provides for game programmers. Picked up a few myself
+including Valgrind and I'm even more interested in Lua that I was before
+thought I don't think I'm quite ready yet to incorporate scripting.
+Video is &lt;a href="http://www.youtube.com/watch?v=r3wDnOAjrtk&amp;amp;feature=player_embedded#!"&gt;here&lt;/a&gt;. Tis very good.&lt;/p&gt;
+&lt;p&gt;I've also started on TE's AI refresh. I'm moving to Dijkstra maps and a
+behavioural model and getting rid of the horrid inflexible and coding
+nightmare of a state machine I've put in. I'm pretty excited about this.
+I've already got pathfinding running straight and true. Slightly
+troubled about how I get terrain costs into it but I'm sure some Shiraz
+and thoughtful sleeps will iron that one out.&lt;/p&gt;
+&lt;p&gt;Inspiration for Dijkstra maps came from Brian Walkers excellent
+&lt;a href="http://roguebasin.roguelikedevelopment.org/index.php/The_Incredible_Power_of_Dijkstra_Maps"&gt;article&lt;/a&gt; on roguebasin.&lt;/p&gt;</summary></entry><entry><title>XP progression in</title><link href="http://www.scorch.org/posts/2012/Jun/06/xp-progression-in/" rel="alternate"></link><updated>2012-06-06T20:05:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-06-06:posts/2012/Jun/06/xp-progression-in/</id><summary type="html">&lt;p&gt;So now I've got XP progression in and had a good play testing session.
+The result.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It's beatable until the Gimps on level 3 appear.&lt;/li&gt;
+&lt;li&gt;Path finding sucks. Monsters still get stuck at map edges&lt;/li&gt;
+&lt;li&gt;AI needs obvious real work&lt;/li&gt;
+&lt;li&gt;XP gain grants too many skill points.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+ I only have 2 AI models, 1 melee and 1 ranged. The ranged one is a real
+challenge while the gimps can one shot your soldiers. The first obvious
+thing to fix is pathfinding so my next challenge is to get some real A\*
+pathfinding in before fleshing out the AI's. I do remember I was going
+to look at Djikstra maps which can also serve other AI behaviours.
+
+&lt;/div&gt;</summary></entry><entry><title>TE update</title><link href="http://www.scorch.org/posts/2012/Jun/04/te-update/" rel="alternate"></link><updated>2012-06-04T20:18:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-06-04:posts/2012/Jun/04/te-update/</id><summary type="html">&lt;p&gt;XP gain is now in. There's a rough curve that'll need tuning as we go
+but now after a map your patrolmen will have attribute points to spend
+on level up.&lt;/p&gt;
+&lt;p&gt;I hate UI programming. It's just painful and timeconsuming. I first had
+a go at doing some window,view, object type framework ages ago which I
+abandoned due to inexperience. I now hard code it all into screens. My
+next game will have a proper framework, or most likely, use a 3rd party
+UI lib.&lt;/p&gt;</summary></entry><entry><title>TE Simplification Project</title><link href="http://www.scorch.org/posts/2012/May/20/te-simplification-project/" rel="alternate"></link><updated>2012-05-20T13:48:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-05-20:posts/2012/May/20/te-simplification-project/</id><summary type="html">&lt;p&gt;I've done no dev in the last 4 weeks for a couple of main reasons. 1)
+I've been hammered by anxiety and 2) I realise that with my current game
+design I won't be finished for another 3 years at my current rate. So
+it's time for the Traction Edge Simplification Project.&lt;/p&gt;
+&lt;p&gt;TE is my first game and first C++ program and it shows in terms of code
+design. Normally new game programmers stick to simple games and get a
+few out before tackling something bigger. I didn't do that and now 3
+years down the line I fear losing enthusiasm for it which I don't want
+to do. So design refresh time it is.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Simple items&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I was going to stick to traditional roguelike inventory handling.
+Players can find and pick up items on the battlefield. They can carry
+many and can swap them, pass them to other players etc. I'm now changing
+back to a very original plan and players will have 2 simple slots.
+Wielding and Belt. The equivalent of left and right hand I suppose.
+Players are equipped on the embark screen. Belt will hold things like a
+grenade or a medikit.&lt;/p&gt;
+&lt;p&gt;This also has the advantage of make choices easier. A player can't carry
+a grenade AND a medikit. It also means you can only carry one grenade
+with you making the choice of when you use it much starker. I like this
+plan. It's nice.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item research&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;New items will appear at chosen levels. Like every 2 level or so you'll
+get a new one. Perhaps I could do a research tree where you pick a
+branch to travel down and it becomes available at level completion
+(research happens while you're off in the field)&lt;/p&gt;
+&lt;p&gt;The idea is to keep the next release progressing rather than getting
+bogged down in implementing a larger system that may take months.&lt;/p&gt;</summary></entry><entry><title>Dev Distractions</title><link href="http://www.scorch.org/posts/2012/May/02/dev-distractions/" rel="alternate"></link><updated>2012-05-02T21:12:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-05-02:posts/2012/May/02/dev-distractions/</id><summary type="html">&lt;p&gt;The last two weeks have been pretty hard for me as an anxiety sufferer
+so practically no devving has been done at all. Anxiety makes you reach
+for escape and distraction and this came in the form of a nearly new
+Nokia N900. The ultimate geeks phone. :)&lt;/p&gt;
+&lt;p&gt;Back on TE now I'm working on adding item handling functionality. I want
+to drop, pickup and possibly pass items around. This also makes me think
+of progression in terms of how we gain new items. A tech tree is the
+ultimate aim but with dev going so slowly I want TE to remain fairly
+playable as I iterate forward. Since mobs are going to be dropping weird
+weapons (e.g. Brass Fangs) some requirement should be implemented to use
+it. Or perhaps it needs to be held by someone with high intelligence in
+order to identify it properly and reveal what skill it needs. After that
+anyway can use it.&lt;/p&gt;</summary></entry><entry><title>UI Mistake Redux</title><link href="http://www.scorch.org/posts/2012/Apr/16/ui-mistake-redux/" rel="alternate"></link><updated>2012-04-16T20:39:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-04-16:posts/2012/Apr/16/ui-mistake-redux/</id><summary type="html">&lt;p&gt;My last post berated my event loop and UI structure. I had a good old
+look at it today and some reading and I'm not so sure I've got it wrong
+after all. MVC means the view reacts to events and sends commands to the
+controller. The controller then translates that into an order to change
+the model.&lt;/p&gt;
+&lt;p&gt;In TE both my UI classes and my EngineState reacts to events so these
+are essentially performing the View role. My monster GameWorld class is
+doing the Controller role. All model data is modified through this
+class. It's supposed to represent the Model but I've kinda squished the
+controller into both UI and Gameworld class. Oh well. No dramas.&lt;/p&gt;</summary></entry><entry><title>Traction Edge Design Mistakes #1</title><link href="http://www.scorch.org/posts/2012/Apr/11/traction-edge-design-mistakes-1/" rel="alternate"></link><updated>2012-04-11T20:55:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-04-11:posts/2012/Apr/11/traction-edge-design-mistakes-1/</id><summary type="html">&lt;p&gt;Traction Edge is the one and only C++ program I've ever written. I
+didn't start with Hello World. I just got in and started moving an @
+around using SFML (then called EnemyX) and it just kept going from
+there. Since my dev time is quite limited and games take a lot of
+devtime, in order to get content in I follow this methodology.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Implement idea using quick and dirty code with about 1 bus trips
+    worth of thought into doing it properly and cleanly. That's about 30
+    mins.&lt;/li&gt;
+&lt;li&gt;Refactor that code the next time I encounter it. This can sometimes
+    be either the following week or 12 months away.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This methodology, and my early lack of experience in C++ has led to some
+rather glaring design mistakes in Traction Edge. Particularly when I
+didn't encounter said code again for a number of months. Here's the
+first of my big boobs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Singleton Pattern&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By far my biggest mistake has been the singleton pattern. Initially I
+fell into the trap of creating "Manager" classes. These are dubious at
+best and frequently the newbie thinks they need only one of these, and
+from that they produce a singleton instance of said beasts. Singleton's
+are also easier to access from any class which also leads to class bloat
+in these monsters as it's a handy place to just shove any old function
+in. This in turn leads to bad design choices and a big lack of
+separation of duty.&lt;/p&gt;
+&lt;p&gt;In Traction Edge my monster singleton is the GameWorld class. It's
+purpose is to hold data of the world, levels and the players progression
+through the game. Almost everything has their hooks into this class from
+the GfxSFML.h class which draws the graphics to all the UI classes which
+control input into states. It's just ridiculous and will be quite
+difficult to unpick but as the codebase matures it's going to have to be
+fixed at some stage.&lt;/p&gt;
+&lt;p&gt;What should be happening is the GameWorld is created by the Engine at
+game start and a reference passed to whatever classes needs access to it
+as the loop roles along. This ensures thought is given to what classes
+need access to it when I'm writing code and better design is produced
+more naturally.&lt;/p&gt;
+&lt;p&gt;I do have other singleton's as well but code has been cut down
+significantly. DisplayManager is the interface to SFML and manages the
+UI screens as they change from state to state. It's a tiny class and I
+haven't touched it in 2 years and have no intention to. Sometimes I do
+wonder why it exists at all.&lt;/p&gt;
+&lt;p&gt;Logger.h is also a singleton. This is a very common pattern though. Who
+needs more than one logger? Since blah.h, which is implemented into my
+Logger.h, can parse out to separate logs then I'm perfectly happy have a
+singleton Logger.&lt;/p&gt;
+&lt;p&gt;SFML2.0 is due any time and at some point this year I'll be doing a
+graphics engine refresh. I want layers and proper animation and I expect
+this GameWorld monster will need to go before then.&lt;/p&gt;</summary></entry><entry><title>blah for teh logw1n.</title><link href="http://www.scorch.org/posts/2012/Apr/08/blah-for-teh-logw1n/" rel="alternate"></link><updated>2012-04-08T20:44:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-04-08:posts/2012/Apr/08/blah-for-teh-logw1n/</id><summary type="html">&lt;p&gt;I've now ripped through all the code and replaced any output with
+&lt;a href="https://bitbucket.org/edd/blah/overview" title="blah"&gt;blah&lt;/a&gt;. This is an awesome little C++ logger library and has
+completely solved all my debug woes, std::cout spam and my poor effort
+at a logger. Who wants to write a perfect logger? Not me, I'd rather
+write game code.&lt;/p&gt;
+&lt;p&gt;Next up, I think I'll move the level population data out into xml files.&lt;/p&gt;</summary></entry><entry><title>Traction Edge v0.3 Released</title><link href="http://www.scorch.org/posts/2012/Mar/30/traction-edge-v0-3-released/" rel="alternate"></link><updated>2012-03-30T22:03:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-03-30:posts/2012/Mar/30/traction-edge-v0-3-released/</id><summary type="html">&lt;p&gt;Yay! That makes 3 releases in less than 3 years. Awesome! This is the
+first release that I consider a playable game in that it allows you to
+progress through several levels of increasing difficulty with the
+ability to boost your skills during map intervals. I've also setup a new
+home page domain &lt;a href="http://www.tractionedge.org" title="www.tractionedge.org"&gt;www.tractionedge.org&lt;/a&gt; which still goes to the
+Sourceforge site but means I can move it here when I eventually get some
+wordpress theme skills.&lt;/p&gt;
+&lt;p&gt;What's next then? Well since it's turning into a proper game I need to
+go through another bout of code cleanup. First to die is the excessive
+std::cout debug spam. This all has to go and I've found a lovely logging
+library called "blah" to help with this. After that's done I'll get more
+content in, monsters, weapons and scale the difficulty to allow players
+to progress further than level 4 (it's kill hard at the moment).&lt;/p&gt;</summary></entry><entry><title>Level Level</title><link href="http://www.scorch.org/posts/2012/Mar/16/level-level/" rel="alternate"></link><updated>2012-03-16T20:42:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-03-16:posts/2012/Mar/16/level-level/</id><summary type="html">&lt;p&gt;I've been meaning to do a post on my programming mistakes with Traction
+Edge since I started. I'll do it soon but one item that will be in the
+list bit me on the bum yesterday. Because I'm such a genius, my Creature
+class has all it's attributes as int's instead of in a std::map. I've
+always had the thought this was a bad idea every time I added another
+attribute and it finally bit me when I tried to do the UI for level up.&lt;/p&gt;
+&lt;p&gt;When you level up you get an point to spend on strength, dexterity or
+intelligence. The UI needs to be able to iterate over these to select
+one to upgrade. Ever tried iterating over something that's not in a list
+or a map? It doesn't work very well. So basically I need to move all
+these into an attribute map and then refactor every little bit of code
+that's accessing these directly. There's another mistake. They're all
+public and not accessed through proper accessors.&lt;/p&gt;
+&lt;p&gt;So the next release will be without levelling up, which isn't a big
+issue yet since there's so much content still missing. I've also got
+some more sensible level population code in and have a couple of sticky
+AI bugs to fix and we're out! Yay!&lt;/p&gt;</summary></entry><entry><title>Level up!</title><link href="http://www.scorch.org/posts/2012/Mar/13/level-up/" rel="alternate"></link><updated>2012-03-13T22:54:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-03-13:posts/2012/Mar/13/level-up/</id><summary type="html">&lt;p&gt;We're getting close to the next release. We now have skill point
+upgrades between levels and modified melee damage to be dependent on
+strength hopefully encouraging players to build tank style squaddies.&lt;/p&gt;
+&lt;p&gt;What's left before the next release? Not a lot.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level up with XP gain. Every level grants you a point to spend on
+    attributes.&lt;/li&gt;
+&lt;li&gt;Better tuning of the mobs delivered with each level. I just flung
+    some crap code in the populate levels. It needs much better code
+    with some random hardness thrown in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That's it. I sense a release within a couple of a week.&lt;/p&gt;</summary></entry><entry><title>Attack code sucks</title><link href="http://www.scorch.org/posts/2012/Feb/23/attack-code-sucks/" rel="alternate"></link><updated>2012-02-23T11:07:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-02-23:posts/2012/Feb/23/attack-code-sucks/</id><summary type="html">&lt;p&gt;Now I'm back into the actual game proper and done with PCG for the time
+being, I've quickly realised that my old ranged attack code sucks quite
+badly. I also jammed melee attack code into it without fully realising
+how sucky it was. The result is some ugly components that are out of
+order and also are probably wrongly tightly coupled to the AI system as
+well.&lt;/p&gt;
+&lt;p&gt;Ah, I had good 3 months since my last re-factoring exercise. Here we go
+again, again.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>PCG Screenshot</title><link href="http://www.scorch.org/posts/2012/Feb/16/pcg-screenshot/" rel="alternate"></link><updated>2012-02-16T09:29:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-02-16:posts/2012/Feb/16/pcg-screenshot/</id><summary type="html">&lt;p&gt;I'm really quite pleased with how its turned out. Not bad for a first
+attempt at all. It's also flexible enough to be able to make it easy to
+create other map types like villages, towns, cities etc.&lt;/p&gt;
+&lt;p&gt;Here's a screenshot.&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/tepcg.png"&gt;&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>PCG Phase 1 Complete</title><link href="http://www.scorch.org/posts/2012/Feb/14/pcg-phase-1-complete/" rel="alternate"></link><updated>2012-02-14T10:29:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-02-14:posts/2012/Feb/14/pcg-phase-1-complete/</id><summary type="html">&lt;p&gt;Phew, that took some doing. For my first PCG map "farm" I've used
+Cellular Automation for tree generation. This took some tweaking to get
+right with some random variables liberally sprinkled to get the right
+amount of clumping and spacing. I didn't want a cavern type thick forest
+and it was only a couple of integers away from wide open fields with
+only trees around the edges. Still, I've enough to get on with. I then
+drawn a road from left to right randomly varying the Y coordinate to
+make it wander a bit. It's not that clever but good enough to get on
+with. These coupled with my 5x5 and 10x10 building tiles is making a
+suitably random farm type map every time.&lt;/p&gt;
+&lt;p&gt;So, that out of the way I need to go back to progression. I'm going to
+remove the static content just now while I figure out how to fit in the
+storyline. I'll change to a simple equip, map, levelup sequence that'll
+allow me to start looking at balance and more item contents.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Ok, more PCG</title><link href="http://www.scorch.org/posts/2012/Jan/30/ok-more-pcg/" rel="alternate"></link><updated>2012-01-30T10:34:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-01-30:posts/2012/Jan/30/ok-more-pcg/</id><summary type="html">&lt;p&gt;Just had a wee play through. I'm not very happy with the state of PCG as
+it is. If I left it as it is I'd have to live with it for probably 6
+months or more and it'll just piss me off. So, targets are.&lt;/p&gt;
+&lt;p&gt;* Correct meandering roads and rivers.&lt;br /&gt;
+* Correct blocks of trees&lt;br /&gt;
+* Fill routines etc to deal with above.&lt;/p&gt;
+&lt;p&gt;The fill thing has me interested. It would be nice to say, fill this XY
+Coord with A tile using B tile as the ground. And off it goes doing a
+flood fill.&lt;/p&gt;
+&lt;p&gt;Roads and rivers I've thought about a bit but my habit of using loops
+and layering on lots of rands and if's to vary things just seems
+rubbish. There must be established methods of doing this sort of thing.&lt;/p&gt;
+&lt;p&gt;Duckduckgo to the rescue!&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>PCG draft 1 complete</title><link href="http://www.scorch.org/posts/2012/Jan/27/pcg-draft-1-complete/" rel="alternate"></link><updated>2012-01-27T21:36:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-01-27:posts/2012/Jan/27/pcg-draft-1-complete/</id><summary type="html">&lt;p&gt;PCG is up to a state now that I can move on a bit. Currently I have one
+scenario, the farm. 2 sizes of construction, random trees and a dirst
+road. The trees and road I'm not happy with but it'll do just now.  &lt;/p&gt;
+&lt;p&gt;I now need to figure out how progression works. Static content needs to
+be removed just niw then slotted in somehow later. It's working out how
+the game scales the difficulty.   &lt;/p&gt;
+&lt;p&gt;And when are you going to fix those bloody doors?&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>PCG Update</title><link href="http://www.scorch.org/posts/2012/Jan/24/pcg-update/" rel="alternate"></link><updated>2012-01-24T09:50:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-01-24:posts/2012/Jan/24/pcg-update/</id><summary type="html">&lt;p&gt;Good progress today. A trip to Sydney resulted in much code being
+written on the plane and in the airport. I now have 5x5 and 10x10
+building placement into a base map with the config for each scenario
+parsed from xml files. Next up is to tighten up the code as the rands
+spring up the occasional segfault. Then it's a job of weighting the
+placement a bit more central so buildings aren't so much jammed against
+the edges of the map.&lt;/p&gt;
+&lt;p&gt;Very pleased so far. It's nice to see a random map every time I crank it
+up and this will allow my next release to potentially have replayability
+and the foundation for balancing and character progression. A real game!&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>TE on Freegamer</title><link href="http://www.scorch.org/posts/2012/Jan/22/te-on-freegamer/" rel="alternate"></link><updated>2012-01-22T04:12:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-01-22:posts/2012/Jan/22/te-on-freegamer/</id><summary type="html">&lt;p&gt;Traction Edge landed a news post on &lt;a href="http://freegamer.blogspot.com/2012/01/traction-edge-squad-based-tactics.html"&gt;freegamer&lt;/a&gt; this week. Cool! Cept,
+now 25 people have downloaded my source in 2 days, more than my current
+2 year total. Will I have guilt for not working on it? No! Because I am
+working on it!. muha!&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>PCG Progress</title><link href="http://www.scorch.org/posts/2012/Jan/05/pcg-progress/" rel="alternate"></link><updated>2012-01-05T23:32:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-01-05:posts/2012/Jan/05/pcg-progress/</id><summary type="html">&lt;p&gt;I've successfully switched my PCG code from the convoluted BSP code to
+the much simpler map squares alah UFO(Xcom). The square size of 5x5
+seems a nice fit too. I've also got masking in so buildings that don't
+entirely fill the square simply overlay on top of the ground already
+there.&lt;/p&gt;
+&lt;p&gt;I've decided buildings, instead of being procedurally generated will be
+drawn statically and stored in a tilemap (Tiled to the rescue again).
+This is much quicker and I can get more detailed buildings in easily. I
+can always rotate them around to get some variety.&lt;/p&gt;
+&lt;p&gt;So next up. Draw some buildings. Get code in to handle buildings that
+take up more than one square. Get weighted placement in so farms are in
+the middle of the map.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>TE and PCG</title><link href="http://www.scorch.org/posts/2011/Dec/30/te-and-pcg/" rel="alternate"></link><updated>2011-12-30T03:42:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-12-30:posts/2011/Dec/30/te-and-pcg/</id><summary type="html">&lt;p&gt;I'm now plugging away at procedural maps. Maps are created for
+"scenarios", e.g. Farm, Village, City, Dungeon etc. With custom code for
+each without obvious reuse where possible. Buildings are then generated
+and placed into the map where there is space. Finding space is the
+tricky part. At first I attempted using a BSP to divide the space up.
+This proved too hard as to cater for different sized buildings I had to
+traverse an overlapping map of "nodes' that may or may not have
+buildings in there children. When I started thinking about all the nice
+bits like, paths, road, rivers etc I just knew this would be a nightmare
+going forward.&lt;/p&gt;
+&lt;p&gt;I've now went for a more UFO style approach by dividing the map up into
+squares and placing a building in each. UFO had 10x10 squares. I've gone
+for 5x5 in the hope it can give a bit more granular feel to it. I've got
+the basics down and need to work on handling buildings that take up more
+than 1 square. Then its back into the building code to work on randomly
+generating interesting builds for each scenario.&lt;/p&gt;
+&lt;p&gt;Then I get to do the fun stuff of fitting it all together, placing
+rivers and roads and making sure it all looks decent.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>TE progress</title><link href="http://www.scorch.org/posts/2011/Nov/16/te-progress/" rel="alternate"></link><updated>2011-11-16T10:34:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-11-16:posts/2011/Nov/16/te-progress/</id><summary type="html">&lt;p&gt;ARRP 2011 is now two months gone and I've so far, in my usual slow
+fashion, implemented melee. I'm becoming more conscious of the usability
+of the interface as this is exacerbated by the success of indie games
+recently. User's have higher expectations and Indie games these days
+have to strive to be as professional as larger company products. I
+thought I could get away with poor UI by sticking to the roguelike genre
+but now even RL's are coming out with slick interfaces (Dredmor,
+Cardinal Quest).&lt;/p&gt;
+&lt;p&gt;Now melee is in I'm going to create a citizen faction. What we need is
+some farmers blindly panicing while being slaughtered by brass worms.
+I'll then shove out another release before tackling the procedural maps.&lt;/p&gt;
+&lt;p&gt;Also noticed some wobbly pathing issues when I implemented the melee
+charge. It really needs a proper A* routine but I'll just pretend
+everyone has been on the oil for now. :)&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Traction Edge v0.2 Released</title><link href="http://www.scorch.org/posts/2011/Sep/21/traction-edge-v0-2-released/" rel="alternate"></link><updated>2011-09-21T05:12:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-09-21:posts/2011/Sep/21/traction-edge-v0-2-released/</id><summary type="html">&lt;p&gt;I've finally got another release successfully out he door last weekend.
+v0.2 was punted out for the ARRP 2011. Main changes were updated AI,
+reaction fire and stats affecting gameplay.&lt;/p&gt;
+&lt;p&gt;Since I'm only distributing source, and since the source is always
+available and a release is only a sort of stable branch, I'm going to
+aim at more regular releases. Here's the next features coming up.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Melee&lt;/li&gt;
+&lt;li&gt;Opening Doors&lt;/li&gt;
+&lt;li&gt;Civilians and more mobs.&lt;/li&gt;
+&lt;li&gt;Procedural maps&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Terminal Monotony</title><link href="http://www.scorch.org/posts/2011/Aug/07/terminal-monotony/" rel="alternate"></link><updated>2011-08-07T10:02:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-08-07:posts/2011/Aug/07/terminal-monotony/</id><summary type="html">&lt;p&gt;My coding fruition reaches new lows as it's taken nearly 10 weeks to
+implement a save game feature. My god that was dull. In the end though,
+it actually turned out easier, and more monotonous than I thought.
+Loading all the data in and bootstrapping the game at whatever screen
+I've chosen was a minimum of fuss and did show up some bad design
+decisions made during my "just get it in and working" coding sprees. So
+all good. What's next?&lt;/p&gt;
+&lt;p&gt;After nearly 2 years I now have enough engine to actually flesh the
+gameplay out more. I've started an RPG model design wiki (vimwiki) to
+write everything down. This is the fun bit as there are so many
+different ways of doing things and I hope to employ many of the rules
+from Jesse Schell's The Art Of Game Design book, which is truly
+excellent. It's gave me lots to think about.&lt;/p&gt;
+&lt;p&gt;The next release of Traction Edge will be for ARRP 2011 on Sept 16th. It
+should have the following changed features over last years release.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Actual FSM AI. It runs, hide, makes decisions, shoots etc&lt;/li&gt;
+&lt;li&gt;Reaction Fire. (Currently very reactive)&lt;/li&gt;
+&lt;li&gt;Tons of bugs fixed and new ones implemented.&lt;/li&gt;
+&lt;li&gt;More weapons and skills.&lt;/li&gt;
+&lt;li&gt;Initial implementation of the RPG system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not a great deal but considering nearly 9 months has been re-factoring
+at my glacial pace at least it's something.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Serialised Monotony</title><link href="http://www.scorch.org/posts/2011/May/10/serialised-monotony/" rel="alternate"></link><updated>2011-05-10T09:53:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-05-10:posts/2011/May/10/serialised-monotony/</id><summary type="html">&lt;p&gt;I'm now starting to implement the savegame feature in Traction Edge. A
+worthwhile and necessary task that's sure to propel it into the annals
+of gaming history. It's incredibly tedious though. I'm using TinyXML so
+that's the file IO burden removed but trawling through all the objects
+needing to be saved out is already irritating me and I've only been at
+it for an hour.&lt;/p&gt;
+&lt;p&gt;Still, it can't all be glamourous coding of AI and accidentally
+asymmetric field of view algorithms can it?&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Reactions</title><link href="http://www.scorch.org/posts/2011/Mar/25/reactions/" rel="alternate"></link><updated>2011-03-25T10:21:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-03-25:posts/2011/Mar/25/reactions/</id><summary type="html">&lt;p&gt;An important feature of any XCom-a-like is opportunity fire, or reaction
+fire. This means when you click to move your wee man and he starts
+moving towards his destination, if an enemy see's him there's a chance
+of the opposition getting a free shot at him, during your turn, if they
+have action points and win some kind of initiative. This also means that
+you can "save" points during your turn for possible reaction fire during
+the enemies turn. Handy for setting up guard posts, ambushes, covering
+fire etc.&lt;/p&gt;
+&lt;p&gt;Traction Edge though, doesn't use the point and click interface. It's a
+roguelike so every turn step or action is a single keypress. While
+implementing reaction fire I noticed how different this style of control
+is to the usual point and click. In the traditional XCom's you click a
+destination and the man moves towards it. If spotted on the way you're
+man freezes and the enemy has a few pot shots. Basically he's stuck
+there until the enemy decides he's done shooting at you.&lt;/p&gt;
+&lt;p&gt;In TE with the current RF(reaction fire) code you move onto a new tile,
+enemy spots you and has a shot if it has AP (I'll implement initiative
+later). You then get a chance to move again, if you're still alive and
+again, the enemy gets his chance at RF. This means that instead of being
+stuck to the spot until the enemy is finished you actually get to duck
+and run, change direction, fire back, whatever during the RF.&lt;/p&gt;
+&lt;p&gt;It does need more fine tuning though. At present if enemies are already
+visible then they still take reaction fire which doesn't seem quite
+right. It quickly turns into a visible firefight from both sides when
+really it should be your turn. I think RF should only be granted when an
+previously unseen enemy comes into view. Not when they are already in
+view.&lt;/p&gt;</summary><category term="Traction Edge"></category></entry><entry><title>Traction Edge: Stable AI</title><link href="http://www.scorch.org/posts/2011/Mar/01/traction-edge-stable-ai/" rel="alternate"></link><updated>2011-03-01T09:15:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-03-01:posts/2011/Mar/01/traction-edge-stable-ai/</id><summary type="html">&lt;p&gt;My second iteration of TE's AI has finally reached some kind of
+stability. It's the first draft of a fairly basic state machine with a
+few bits of bandaid over my rushed code.&lt;/p&gt;
+&lt;p&gt;The FSM consists of Patrol state, Attack State and Run State. Each
+state, during update will run an awareness update (process fov) then
+make some decisions based on what it can see and also what the creatures
+present condition is. Just now that consists of assessing whether it can
+attack and reach safety in the same round. If not, just run for safety.
+Once it reaches safety it returns to Patrol which consists of picking a
+random point that's reachable and moving towards it until it's awareness
+detects an enemy.&lt;/p&gt;
+&lt;p&gt;The switch from Safety to Patrol does cause some flickering in and out
+of hiding places that's a bit unnatural but it's good enough just now.
+It also present a decent challenge. The next iteration will have a more
+complex behavior system and will soften the transitions.&lt;/p&gt;
+&lt;p&gt;Since the AI just now presents a usable enough enemy I'm going to jump
+back into the guts of the RPG system and get some progress to make this
+an actual game, rather than a tech demo.&lt;/p&gt;</summary><category term="Open Source"></category><category term="Traction Edge"></category></entry></feed>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Traction Edge Design Mistakes #1</title>
+        <link rel="stylesheet" href="../../../../../theme/css/main.css" />
+        <meta name="description" content="Traction Edge is the one and only C++ program I've ever written. I didn't start with Hello World. I just got in and started moving an @ around..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../../">the skreegs</a></h1>
+                <nav><ul>
+                    <li><a href="../../../../../category/content.html">content</a></li>
+                    <li><a href="../../../../../category/the-skreegs.html">The Skreegs</a></li>
+                    <li class="active"><a href="../../../../../category/traction-edge.html">Traction Edge</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../../../../../posts/2012/Apr/11/traction-edge-design-mistakes-1/" rel="bookmark"
+           title="Permalink to Traction Edge Design Mistakes #1">Traction Edge Design Mistakes #1</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2012-04-11T20:55:00+10:00">
+                Published: Wed 11 April 2012
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../../../../../author/mongrol.html">mongrol</a>
+        </address>
+<p>In <a href="../../../../../category/traction-edge.html">Traction Edge</a>.</p>
+
+</footer><!-- /.post-info -->      <p>Traction Edge is the one and only C++ program I've ever written. I
+didn't start with Hello World. I just got in and started moving an @
+around using SFML (then called EnemyX) and it just kept going from
+there. Since my dev time is quite limited and games take a lot of
+devtime, in order to get content in I follow this methodology.</p>
+<ol>
+<li>Implement idea using quick and dirty code with about 1 bus trips
+    worth of thought into doing it properly and cleanly. That's about 30
+    mins.</li>
+<li>Refactor that code the next time I encounter it. This can sometimes
+    be either the following week or 12 months away.</li>
+</ol>
+<p>This methodology, and my early lack of experience in C++ has led to some
+rather glaring design mistakes in Traction Edge. Particularly when I
+didn't encounter said code again for a number of months. Here's the
+first of my big boobs.</p>
+<p><strong>The Singleton Pattern</strong></p>
+<p>By far my biggest mistake has been the singleton pattern. Initially I
+fell into the trap of creating "Manager" classes. These are dubious at
+best and frequently the newbie thinks they need only one of these, and
+from that they produce a singleton instance of said beasts. Singleton's
+are also easier to access from any class which also leads to class bloat
+in these monsters as it's a handy place to just shove any old function
+in. This in turn leads to bad design choices and a big lack of
+separation of duty.</p>
+<p>In Traction Edge my monster singleton is the GameWorld class. It's
+purpose is to hold data of the world, levels and the players progression
+through the game. Almost everything has their hooks into this class from
+the GfxSFML.h class which draws the graphics to all the UI classes which
+control input into states. It's just ridiculous and will be quite
+difficult to unpick but as the codebase matures it's going to have to be
+fixed at some stage.</p>
+<p>What should be happening is the GameWorld is created by the Engine at
+game start and a reference passed to whatever classes needs access to it
+as the loop roles along. This ensures thought is given to what classes
+need access to it when I'm writing code and better design is produced
+more naturally.</p>
+<p>I do have other singleton's as well but code has been cut down
+significantly. DisplayManager is the interface to SFML and manages the
+UI screens as they change from state to state. It's a tiny class and I
+haven't touched it in 2 years and have no intention to. Sometimes I do
+wonder why it exists at all.</p>
+<p>Logger.h is also a singleton. This is a very common pattern though. Who
+needs more than one logger? Since blah.h, which is implemented into my
+Logger.h, can parse out to separate logs then I'm perfectly happy have a
+singleton Logger.</p>
+<p>SFML2.0 is due any time and at some point this year I'll be doing a
+graphics engine refresh. I want layers and proper animation and I expect
+this GameWorld monster will need to go before then.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://www.fsf.org">Free Software Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="http://identi.ca/mongrol">pump.io</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

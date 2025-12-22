@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <title>Traction Edge: Stable AI</title>
+        <link rel="stylesheet" href="../../../../../theme/css/main.css" />
+        <meta name="description" content="My second iteration of TE's AI has finally reached some kind of stability. It's the first draft of a fairly basic state machine with a few bits of..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="../../../../../">the skreegs</a></h1>
+                <nav><ul>
+                    <li><a href="../../../../../category/content.html">content</a></li>
+                    <li><a href="../../../../../category/the-skreegs.html">The Skreegs</a></li>
+                    <li class="active"><a href="../../../../../category/traction-edge.html">Traction Edge</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../../../../../posts/2011/Mar/01/traction-edge-stable-ai/" rel="bookmark"
+           title="Permalink to Traction Edge: Stable AI">Traction Edge: Stable AI</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2011-03-01T09:15:00+10:00">
+                Published: Tue 01 March 2011
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="../../../../../author/mongrol.html">mongrol</a>
+        </address>
+<p>In <a href="../../../../../category/traction-edge.html">Traction Edge</a>.</p>
+<p>tags: <a href="../../../../../tag/open-source.html">Open Source</a> <a href="../../../../../tag/traction-edge.html">Traction Edge</a> </p>
+</footer><!-- /.post-info -->      <p>My second iteration of TE's AI has finally reached some kind of
+stability. It's the first draft of a fairly basic state machine with a
+few bits of bandaid over my rushed code.</p>
+<p>The FSM consists of Patrol state, Attack State and Run State. Each
+state, during update will run an awareness update (process fov) then
+make some decisions based on what it can see and also what the creatures
+present condition is. Just now that consists of assessing whether it can
+attack and reach safety in the same round. If not, just run for safety.
+Once it reaches safety it returns to Patrol which consists of picking a
+random point that's reachable and moving towards it until it's awareness
+detects an enemy.</p>
+<p>The switch from Safety to Patrol does cause some flickering in and out
+of hiding places that's a bit unnatural but it's good enough just now.
+It also present a decent challenge. The next iteration will have a more
+complex behavior system and will soften the transitions.</p>
+<p>Since the AI just now presents a usable enough enemy I'm going to jump
+back into the guts of the RPG system and get some progress to make this
+an actual game, rather than a tech demo.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://www.fsf.org">Free Software Foundation</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="http://identi.ca/mongrol">pump.io</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

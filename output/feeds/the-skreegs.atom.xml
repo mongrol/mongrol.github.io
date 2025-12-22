@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>the skreegs</title><link href="http://www.scorch.org/" rel="alternate"></link><link href="http://www.scorch.org/feeds/the-skreegs.atom.xml" rel="self"></link><id>http://www.scorch.org/</id><updated>2014-04-09T20:14:00+10:00</updated><entry><title>The Monster Between The Cracks</title><link href="http://www.scorch.org/posts/2014/Apr/09/monster-between-the-cracks/" rel="alternate"></link><updated>2014-04-09T20:14:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-04-09:posts/2014/Apr/09/monster-between-the-cracks/</id><summary type="html">&lt;p&gt;The process of switching from one SRRI to another is quite simple. You cut down a bit on the one
+you're taking for a few days then switch over to the other, ramping up over the next couple of 
+weeks. This process can be quite unpleasant however, the very reason you're doing it is because
+you're having quite an unpleasant time anyway. So it should just be a case of riding it out till the
+your new favourite drug kicks in.&lt;/p&gt;
+&lt;p&gt;Not so.&lt;/p&gt;
+&lt;p&gt;I was on 100mg of Praxitine. The last week of taking it was the worst I've probably ever had but 
+on the first day of dropping to 50mg I started to feel better. Calmer. I could still feel the rumblings
+deep down in my wires but generally I was happier and able to hold a reasonable social
+engagement with other living beings. 3 days later I'd dropped them completely and started on 
+Elev (the proper name will come to me in by the next post). 50mg for a week then double it.&lt;/p&gt;
+&lt;p&gt;All good for 5 days, feel better every day then woosh, down back into the doldrums for 2 days.
+Not quite as bad as before but the speed at which my mood dropped last Sunday afternoon was
+quite scary. As was the accompanying thoughts. Monday seen the boost to 100mg and I'm now
+back on an even keel. Best I've been for a few months.&lt;/p&gt;
+&lt;p&gt;It's very difficult to see what's working and what's not. The last 3 months have seen me good for
+5 days then 2 shocking ones. I now try and get as much quality time in with my kids as I can 
+when I'm good as I know when I'm bad, I retreat from them. The random babble and constant
+attention seeking is too much for me.&lt;/p&gt;
+&lt;p&gt;Amazingly I managed to play &lt;a href="http://www.kerbalspaceprogram.com"&gt;Kerbal Space Program&lt;/a&gt; for
+nearly 2 hours last night, calmly and without context switch, getting distracted, chasing squirrels.&lt;/p&gt;</summary><category term="anxiety"></category></entry><entry><title>On Fire</title><link href="http://www.scorch.org/posts/2014/Mar/29/onfire/" rel="alternate"></link><updated>2014-03-29T20:45:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-03-29:posts/2014/Mar/29/onfire/</id><summary type="html">&lt;p&gt;I've been an anxiety sufferer for nearly 2 decades. The worst of which have been the last 
+3 months. Imagine every nerve in your body activated, ready to spring into action, heart
+speeded up, an increased sensitivity to everything happening in you body. Imagine being
+in this state from waking to bedtime, then all day the next day, the day after that. That's
+how I currently live.&lt;/p&gt;
+&lt;p&gt;My condition has taken different shapes over the years. First it was then undiagnosed
+panic attacks and an odd seizure while driving down the A70. We quickly found that
+the SSRI citalopram helped. It was effective when I needed it over the last 2 decades.
+A year ago I found my stress and anxiety was getting worse. Citalopram no longer worked
+We changed to Escetalopram, a variant, and got me back calm again. However, 6 months
+ago my anxiety was rising. Small things would irritate me. I'd feel like having a good cry
+and had to "escape" family situations more often. We tried increasing the dose until Xmas
+when I decided to switch doctors. &lt;/p&gt;
+&lt;p&gt;The new doctor suggests Proxatrine. It goes well for a month. Well, better than the week
+of going dry while it kicked in, during which I was basically homicidal.&lt;/p&gt;
+&lt;p&gt;I'm not stressed about anything at all. I don't worry about things. Work is secure, money
+is ok, family is great. With the help of Buddhism I've even came to terms with the nature
+of my own existence so that no longer stresses me either and I'm reasonobly comfortable
+with Emacs! The disorder appears to be entirely biological.&lt;/p&gt;
+&lt;p&gt;The 3 weeks has seen the effects of Proxatrine wear off. The last week I've been entirely
+on fire every waking moment. I wake up. My nerves are "activated" like I've just been
+jumped by a bunch of ninjas. While in this state it's almost impossible to focus on any
+one thing for longer than 30 seconds. My work doesn't suffer too badly since I tend to
+work on 10-15 things at once anyway. I just don't usually context switch like a squirrel
+after a 500ml can of Mother. At the end of the day I'm knackered, feeling like I've ran
+a half marathon. I get home, greet my children who want me to play, then collapse on 
+the bed. After a failed attempt at relaxing I start drinking till bedtime.&lt;/p&gt;
+&lt;p&gt;We now switch drugs to another and keep going until we either find one that works or we
+run out of options. I'm not sure what happens then.&lt;/p&gt;</summary><category term="anxiety"></category></entry><entry><title>Language Indecision</title><link href="http://www.scorch.org/posts/2014/Jan/14/indecision/" rel="alternate"></link><updated>2014-01-14T21:14:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-01-14:posts/2014/Jan/14/indecision/</id><summary type="html">&lt;p&gt;I feel like moving back to Love2d and Lua. Nothing wrong with Python as such
+and I still prefer that over Lua but the pysdl2 has some issues. Let's do a procon.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Python/PySDL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cons;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It's relatively low level. Even to do something as simple as scaling or rotating
+ forces you to dive down into SDL itself. &lt;/li&gt;
+&lt;li&gt;No community. The pygame community doesn't count.&lt;/li&gt;
+&lt;li&gt;SDL docs are terrible. Really.&lt;/li&gt;
+&lt;li&gt;Nowhere near as feature rich as Love2d.&lt;/li&gt;
+&lt;li&gt;Harder to package and distribute games&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pros;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python is preferred as it benefits my career&lt;/li&gt;
+&lt;li&gt;SDL is big, popular and not going away any time soon&lt;/li&gt;
+&lt;li&gt;More cross platform targets (not that I care much about this)&lt;/li&gt;
+&lt;li&gt;Easier to switch to 3d engine e.g. Panda3d&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Love2d/Lua&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cons;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lua is lower level than Python. Most structure as missing and need to be
+ implemented yourself or via a library e.g. Classes etc.&lt;/li&gt;
+&lt;li&gt;It's not python and doesn't benefit my career&lt;/li&gt;
+&lt;li&gt;There's something less verbose about it compared to Python.&lt;/li&gt;
+&lt;li&gt;Difficult to swap engine out for a 3d one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pros;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Love2d is feature rich and fast.&lt;/li&gt;
+&lt;li&gt;Loads of libraries for every kind of feature you'd want in a game.&lt;/li&gt;
+&lt;li&gt;Vibrant community&lt;/li&gt;
+&lt;li&gt;Active development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From that list it looks like a no brainer but for 2 things. As an Infrastructure
+ Enterprise Architect for a firm entering the devops era bigtime, python 
+ contributed directly to my career. Lua only contributes as programming
+ practise, however, they are very similar and if needed to, I could switch
+ back to Python with ease.&lt;/p&gt;
+&lt;p&gt;There's something else about Lua that I don't like. The syntax of control
+structures, the need to drill into libraries when reading others code to 
+make sure I understand how this guy's written his class implementation
+this time, the available documentation is a bit thin on the ground and I don't
+like the way the current manuals are written.&lt;/p&gt;
+&lt;p&gt;Oh bugger it. Lua/Love2d it is. :)&lt;/p&gt;</summary><category term="tractionedge"></category></entry><entry><title>TeRL Idea</title><link href="http://www.scorch.org/posts/2014/Jan/11/terl_idea/" rel="alternate"></link><updated>2014-01-11T21:09:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-01-11:posts/2014/Jan/11/terl_idea/</id><summary type="html">&lt;p&gt;Just had a game idea. Let's write and talk at the same time!&lt;/p&gt;
+&lt;p&gt;I've been playing Shadowrun Returns. Love the graphics, love the simplified
+action points, love the cover system. Don't like that the game is on rails
+so much. What if we had a vertically scrolling roguelike? The Traction Edge
+has occurred. It creeps up from the bottom of the screen and if it reaches 
+our intrepid policeman it's all over. He is absorbed into the mechanical 
+singularity. So he must run north, up the map. Along the way, he encounters
+mechs attacking him which he can either run past, or destroy.&lt;/p&gt;
+&lt;h1&gt;Terrain&lt;/h1&gt;
+&lt;p&gt;Mostly above ground to give movement. Trees, villages. A similar cover system
+to shadowrun and which I also had in TractionEdge should be used. Tunnel
+systems could be used sparingly, canyons, tight areas introduces tension points
+(hmm, which lens is that?). Let's make it continuous. There's no levels. You're
+constantly on the run until you reach the end of the game. This would need
+some fancy procedural generation nonsense indeed.&lt;/p&gt;
+&lt;h1&gt;Turns&lt;/h1&gt;
+&lt;p&gt;Roguelikes are usually single turn based. A player turn is a visible unit. Monsters
+either have turns faster or slower than the player. In this we could use the two
+turn method of Shadowrun Returns. This allows for fast play with a single player
+while also giving the effect of a turn based action point game. More accessible.&lt;/p&gt;
+&lt;h1&gt;Progression&lt;/h1&gt;
+&lt;p&gt;Not sure about this. I'd like to avoid the traditional XP raising, get points to spend
+style system and think up something simpler.&lt;/p&gt;
+&lt;p&gt;That'll do for now.&lt;/p&gt;</summary><category term="traction edge"></category></entry><entry><title>Love2d Policy</title><link href="http://www.scorch.org/posts/2014/Jan/09/love2dpolicy/" rel="alternate"></link><updated>2014-01-09T19:59:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-01-09:posts/2014/Jan/09/love2dpolicy/</id><summary type="html">&lt;p&gt;That's one todo off the list. Tonight I knocked up a &lt;a href="https://wiki.debian.org/Games/Love2d"&gt;proposed standard&lt;/a&gt; for packaging love2d games
+in Debian. This is the first technical, contributary, positive, evening activity I've been able to perform
+for a few months. That'll be the drugs then. :)&lt;/p&gt;</summary><category term="debian"></category><category term="opensource"></category></entry><entry><title>Todos &amp; Emerging from the Fog</title><link href="http://www.scorch.org/posts/2014/Jan/01/todos/" rel="alternate"></link><updated>2014-01-01T19:17:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2014-01-01:posts/2014/Jan/01/todos/</id><summary type="html">&lt;p&gt;I suffer from General Anxiety Disorder and the last few months have been a
+downhill spiral with the last few weeks being the worst I've ever experienced
+due to a switch of SRRI's. In the evening's I"ve been utterly unable to 
+contribute to any project beyond the slightest triviality. This week however,
+the new drugs are kicking in and I'm feeling up. Time to get back on the horse
+and get stuff done.&lt;/p&gt;
+&lt;p&gt;I've been trying to learn python and have started Traction Edge RL for this
+purpose. It's not going very fast and it benefits noone but myself so I'll get on
+with some community projects instead.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Finish Debian Love packing Policy.&lt;/li&gt;
+&lt;li&gt;Research and polish Libreplanet's guide on Open Smartphones.&lt;/li&gt;
+&lt;li&gt;Research and polish Libreplanet's guide on Single Board Computers.&lt;/li&gt;
+&lt;li&gt;Debian Games Team bugfixing.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A nice easy start.&lt;/p&gt;
+&lt;p&gt;Then we have some other tasks that have been on the backburner&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Article on Buddhism and Free Software&lt;/li&gt;
+&lt;li&gt;TractionEdgeRL&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="anxiety"></category></entry><entry><title>VPS gone</title><link href="http://www.scorch.org/posts/2013/Oct/30/vps%20gone/" rel="alternate"></link><updated>2013-10-30T21:53:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2013-10-30:posts/2013/Oct/30/vps gone/</id><summary type="html">&lt;p&gt;I've now knocked up my other Raspberrypi Model B as a web server to replace
+my slowing VPS. It's performing way better than I expected. I've set it up with
+Lighttpd, Postgresql and enabled php-apc to cache php. Php-apc is giving a 
+reasonable speedup of around 30%. The Pi is serving tt-rss external over https,
+using a server cert from &lt;a href="www.cacert.org"&gt;cacert.org&lt;/a&gt;. It's also running dokuwiki
+which basically gets no action.&lt;/p&gt;
+&lt;p&gt;Really must back it up at some point. Pi's eat sdcards for breakfast. I've also just
+received my &lt;a href="www.cubieboard.org"&gt;Cubietruck&lt;/a&gt;. For some chinese tat I'm very
+impressed. More on this once I find a power supply that can run it. &lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>Changes</title><link href="http://www.scorch.org/posts/2013/Oct/13/Changes/" rel="alternate"></link><updated>2013-10-13T20:22:00+10:00</updated><author><name>Steven Hamilton</name></author><id>tag:www.scorch.org,2013-10-13:posts/2013/Oct/13/Changes/</id><summary type="html">&lt;h1&gt;Blog&lt;/h1&gt;
+&lt;p&gt;In an effort to increase my geekdom I've moved my blog over to &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; and AWS S3. I don't have anything against cloud hosting for information that is deemed publically available and I need to learn AWS for work. My VIP is also slowing down the past few months so it's time for it to go.&lt;/p&gt;
+&lt;h1&gt;Hosting&lt;/h1&gt;
+&lt;p&gt;At home I have a PC acting as a server. It's a Sempron with 4GB of ram. It hosts Transmission and a VM running Mythtv Backend. Myth is the only reason I have a server at home pulling 30-50W's. I've ordered a &lt;a href="http://www.cubieboard.org"&gt;Cubietruck&lt;/a&gt; to host the Myth Backend instead. I don't need grunt for transcoding, only 1GB ethernet and SATA. The Cubietruck is the first dual core ARM board to come out under $100 with both of these. I can then close my server and run Myth with 5W instead.&lt;/p&gt;
+&lt;p&gt;I have a VIP running tt-rss and roundcube. The plan is to close this security nightmare and move these services back in house running on a Raspberrypi. I'll then have all my services running on less than 10W.&lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>Mame4all-pi</title><link href="http://www.scorch.org/posts/2013/Mar/16/mame4all-pi/" rel="alternate"></link><updated>2013-03-16T14:22:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2013-03-16:posts/2013/Mar/16/mame4all-pi/</id><summary type="html">&lt;p&gt;Mame4all is the ONLY way to play mame on the Pi. Combined with DISPMANX
+it gives a near 50% performance increase and perfect sound. AWESOME! Get
+it here.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://code.google.com/p/mame4all-pi/"&gt;https://code.google.com/p/mame4all-pi/&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>MongCade Update</title><link href="http://www.scorch.org/posts/2013/Feb/12/mongcade-update/" rel="alternate"></link><updated>2013-02-12T19:42:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2013-02-12:posts/2013/Feb/12/mongcade-update/</id><summary type="html">&lt;p&gt;Roughly on schedule the final physical build is complete. It's turned
+out very well with only the usual audio issues from advmame on the Pi.
+Here's the parts list.&lt;/p&gt;
+&lt;p&gt;* Raspberry Pi \$40&lt;br /&gt;
+* Ultimarc miniPac keyboard encoder (\$60 delivered from USA)&lt;br /&gt;
+* Powered USB hub from BigW (\$15)&lt;br /&gt;
+* 2x Sticks \$34&lt;br /&gt;
+* 8x buttons \$20&lt;br /&gt;
+* 2x 1w Champ amplifier kits from Jaycar \$15&lt;br /&gt;
+* 2x 8w speakers from Jaycar \$24&lt;br /&gt;
+* Various cables/plugs/box etc from Jaycar \$20&lt;br /&gt;
+* MDF from Bunnings \$60&lt;br /&gt;
+* Vinyl from ebay \$8&lt;br /&gt;
+* LG 1710B 17" monitor from somewhere over a decade ago.&lt;br /&gt;
+* Edimax tiny wifi dongle \$11&lt;/p&gt;
+&lt;p&gt;In terms of software we have the following;&lt;br /&gt;
+* Raspian (current)&lt;br /&gt;
+* AdvanceMame 1.18? (whatever was before 1.20)&lt;br /&gt;
+* AdvanceMenu for a frontend&lt;br /&gt;
+* SDL DISPMANX backend (awesome!)&lt;/p&gt;
+&lt;p&gt;Config overview&lt;br /&gt;
+* Pulseaudio removed (Poettering is a menace)&lt;br /&gt;
+* 950Mhz overclock&lt;br /&gt;
+* All software scaling disabled (DISPMANX does it for free)&lt;br /&gt;
+* Advmenu and Advmame shortcuts tuned for UI goodness without a
+keyboard.&lt;/p&gt;
+&lt;p&gt;Instead of the usual "get every rom from pleasesuredome" approach I've
+decided to hand pick my games. Less games mean they get played more so
+I'll start with those I loved playing as a teenager and also only run
+ones that work well. Here's some pics&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/20130211_004.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/20130211_0021.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;While it's a bit busy under the panel with the minipac loom its actually
+quite roomy at the back. The cabinet was designed in Blender to scale
+and I'll post the .blend file shortly.&lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>Libre Status Update</title><link href="http://www.scorch.org/posts/2012/Dec/28/libre-status-update/" rel="alternate"></link><updated>2012-12-28T20:05:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-12-28:posts/2012/Dec/28/libre-status-update/</id><summary type="html">&lt;p&gt;While I'm a Free Software Activist and want to get more involved I
+certainly don't practise 100% what I preach. I have the following
+devices in my home.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 Windows Netbook - It's Hazel's and will be replaced when it dies&lt;/li&gt;
+&lt;li&gt;1 Debian Wheezy Desktop - It has and AMD gfx card and runs binary
+    firmware. It also contains various binary games. I think the only
+    binary applicaiton on it is flash.&lt;/li&gt;
+&lt;li&gt;1 Lenovo x121 with Arch Linux. Also contains games and runs binary
+    firmware for the Intel wifi card.&lt;/li&gt;
+&lt;li&gt;1 Mythbuntu server - Not sure what binaries are on this. Likely not
+    many.&lt;/li&gt;
+&lt;li&gt;1 Mythbuntu Zbox id11 - Serves as a myth front end. Will be running
+    nVidia binary blobs for VDPAU acceleration.&lt;/li&gt;
+&lt;li&gt;Nokia N900 and Sony Xperia Mini - Typical smartphone firmwares.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So we're not doing very well there. I've started raising the bar by
+converting the laptop, which I do most gamedev on and play games, to
+&lt;a href="http://www.parabolagnulinux.org"&gt;Parabola GNU/Linux&lt;/a&gt;. This is a free distro based on Arch and is very
+easy to migrate to on any machines already running Arch. My first step
+was to find and install a Mini-PCIE Wifi card that doesn't need binary
+firmware. Ebay was very helpful here and I obtained an Atheros card for
+buttons. Once installed it's simply a case of following the Parabola
+migration guide, installing Parabola repos, doing a pacman -Syyu to
+update and then remove any binary packages that there doesn't exist a
+free equivalent for. I only lost a couple of packages I wasn't even
+using.&lt;/p&gt;
+&lt;p&gt;I then needed to do some grub tweaking to enable my LUKS encrypted
+rootfs and I'm up and running. No games to play but no closed software
+other than my UEFI bios.&lt;/p&gt;</summary><category term="Free Software"></category><category term="Open Source"></category><category term="Parabola GNULinux"></category></entry><entry><title>It's alive!</title><link href="http://www.scorch.org/posts/2012/Aug/29/its-alive/" rel="alternate"></link><updated>2012-08-29T20:53:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-29:posts/2012/Aug/29/its-alive/</id><summary type="html">&lt;p&gt;Mamecab update.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Boot to Advmenu now worky&lt;/li&gt;
+&lt;li&gt;Ultimarc minipac installed and working&lt;/li&gt;
+&lt;li&gt;Player 1 stick and buttons in and working&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+It also passed the Girlie Test. She played it once, then when game
+overed she pressed 1up for another game! Win!
+
+&lt;/div&gt;</summary><category term="mame"></category><category term="raspberrypi"></category></entry><entry><title>...but not got telly</title><link href="http://www.scorch.org/posts/2012/Aug/22/but-not-got-telly/" rel="alternate"></link><updated>2012-08-22T20:51:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-22:posts/2012/Aug/22/but-not-got-telly/</id><summary type="html">&lt;p&gt;I'd collected a couple of portable telly's to use in my mame cab. The
+picture quality with Black Tiger running is outstanding. Just like a
+mini arcade machine. However, some inquiries how I might utilise the
+power inside the telly has warned me off of using a CRT. Telly's are
+inheritantly dangerous beasts and I'd underestimated just how dodgy they
+can be. Since I'm not a CRT repair man and I'm probably going to be
+inside this box quite a lot (and I have kids who quite like their dada)
+I'm going to compromise and stick to an LCD.&lt;/p&gt;
+&lt;p&gt;Perfection may not be achieved but at least I'll be around to see the
+project finished. I do have an old 17" LCD lying around but I think it's
+a little too big. I'll wait till I do my Blender mockup and get some
+proper sizing around the joystick panel before I decide.&lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>Got Sticks!</title><link href="http://www.scorch.org/posts/2012/Aug/17/got-sticks/" rel="alternate"></link><updated>2012-08-17T13:04:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-17:posts/2012/Aug/17/got-sticks/</id><summary type="html">&lt;p&gt;Got my sticks today. I went for the reputable Sanwa variety. They feel
+of hardcore arcade greatness. A nice selection buttons too. Can't do
+anything with them though till I get my Ultimarc mini-pac which was just
+ordered from the US.&lt;/p&gt;
+&lt;p&gt;On the software side I have advancemame running reasonably well with the
+Pi clocked up to 900Mhz. It plays Greenberet, Black Tiger etc at full
+speed which makes me well happy. I'll finish Black Tiger yet, oh yes.&lt;/p&gt;
+&lt;p&gt;I've also got advancemenu compiled and launching apps fine so that's
+basically the mame stuff sorted.&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/20120816_001.jpg"&gt;&lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>Random Things In Odd Places #1</title><link href="http://www.scorch.org/posts/2012/Aug/17/random-things-in-odd-places-1/" rel="alternate"></link><updated>2012-08-17T12:58:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-17:posts/2012/Aug/17/random-things-in-odd-places-1/</id><summary type="html">&lt;p&gt;A great thing about having kids is constantly finding random objects
+sitting in places they shouldn't be and since we're always busy doing
+more important things these objects will sometimes sit in their place
+for days or weeks on end before someone can be bothered moving them.&lt;br /&gt;
+I kept meaning to start a series of Random Thing in Odd Places. So
+here's #1. It's a harmonica, in it's case sitting on the shelf above
+the toilet. It used to sit on the sink next to the toothbrushes for
+several days until someone moved it up here. It looks quite comfy where
+it is and may be handy if you want a toot while you scoot. :)&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://www.scorch.org/wp-content/uploads/2012/08/20120817_001-1024x576.jpg" title="20120817_001" /&gt;][]&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://www.scorch.org/wp-content/uploads/2012/08/20120817_001-1024x576.jpg" title="20120817_001" /&gt;]: http://www.scorch.org/?attachment_id=391&lt;/p&gt;</summary><category term="random"></category></entry><entry><title>Raspberry Pi Mame Bartop</title><link href="http://www.scorch.org/posts/2012/Aug/07/raspberry-pi-mame-bartop/" rel="alternate"></link><updated>2012-08-07T20:46:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-08-07:posts/2012/Aug/07/raspberry-pi-mame-bartop/</id><summary type="html">&lt;p&gt;I always wanted to build a MAME cabinet but the plan was to wait till
+the kids were bigger and I had more time on my hands. Mame Cabs are
+generally big, full sized things and have a full PC in them. Big, clunky
+and expensive to build and run.&lt;/p&gt;
+&lt;p&gt;Enter the &lt;a href="http://www.raspberrypi.org"&gt;RaspberryPi&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;I'm now intending to build a bartop mame cabinet. Just big enough to fit
+two people playing side by side so probably no bigger than a 17" screen.
+It'll be easy to move it around, put it in a cupboard etc when not in
+use and hide it from children when I don't want to damaged. :)&lt;/p&gt;
+&lt;p&gt;Here's the shopping list in AUD.&lt;/p&gt;
+&lt;p&gt;1x raspberrypi \$40&lt;br /&gt;
+1x powered USB Hub \$15&lt;br /&gt;
+1x 8GB Class 10 SDCard \$9&lt;br /&gt;
+1x EDUP Wifi Dongle \$10&lt;/p&gt;
+&lt;p&gt;That's the compute bit. Now the arcade bit.&lt;/p&gt;
+&lt;p&gt;1x Ultimarc mini-pac keyboard encoder \$50&lt;br /&gt;
+2x sticks \$30&lt;br /&gt;
+7x buttons (2 fire buttons per player, 1 + 2 player buttons and a coin
+insert.&lt;/p&gt;
+&lt;p&gt;Then a screen from somewhere and some speakers as well. Haven't quite
+planned that bit yet.&lt;/p&gt;
+&lt;p&gt;We then need a version of MAME to run on the Pi. There's a couple of
+efforts underway, Advancedmame and RetroArch which uses iMame4All. Since
+the Pi is a bit juice starved I'll aim for one that can run without X
+and outputs directly to the framebuffer. OpenglES accel would be nice
+too if possible.&lt;/p&gt;
+&lt;p&gt;I've currently got the pi hooked up with Galaxians running on Retroarch.
+I can't see to get the keyboard working properly though. Early days.&lt;/p&gt;</summary><category term="raspberrypi"></category></entry><entry><title>GNOME 3. Why Red Hat?</title><link href="http://www.scorch.org/posts/2012/Jul/30/gnome-3-why-red-hat/" rel="alternate"></link><updated>2012-07-30T21:19:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-07-30:posts/2012/Jul/30/gnome-3-why-red-hat/</id><summary type="html">&lt;p&gt;Lots has been written on GNOME3 already so I'll make this quick
+(probably not). Let's start with some facts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNOME2 was the primary desktop of Linux and the majority of
+    Distributions. It is after all considered GNU software.&lt;/li&gt;
+&lt;li&gt;GNOME is driven by Red Hat as they pay the wages of the main
+    developers.&lt;/li&gt;
+&lt;li&gt;Red Hat sells server software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There's a conundrum or two there. Consumer devices are rushing towards
+tablets and the main players, Apple, Microsoft, Google and to a lesser
+extent Ubuntu and a bunch of Android resellers, are following them as
+expected.&lt;/p&gt;
+&lt;p&gt;Consumers use tablets as very simple devices. Overjoyed to be rid of the
+complexity of the PC they can now lie on the couch, browse the web,
+check facebook (noone uses email anymore right?), order stuff from the
+top tier online stores, play the odd game of the month and watch a movie
+for 5 minutes before realising it's much better on telly. That's it!
+They aren't going to be doing tax on it, not designing bathrooms, not
+programming, not doing movie editing (really, c'mon Apple). At most they
+will email pictures to Gran.&lt;/p&gt;
+&lt;p&gt;Who loses in this consumer uptopia? The Enterprise and Linux users.&lt;/p&gt;
+&lt;p&gt;The Enterprise loses because they will have to suffer through Windows 8
+before Microsoft realises their foolhardy mistake and continue to
+produce a usable Enterprise desktop. Corporates need power computing on
+the desktop. I don't mean CPU juice, but flexibility and enablement.
+Enterprise is dependant on Microsoft and MS just isn't listening. I do
+expect Enterprise to move to some kind of cloud offering but it's going
+to take time and Office 365 just isn't there.&lt;/p&gt;
+&lt;p&gt;Linux loses because GNOME has completely abandoned the desktop paradigm
+and at the same time not admitting it. They are rushing headlong to the
+tablet interface while still attempting to coerce desktop users to come
+along with them. The worst of it is they've taken a whole bunch of
+technologies with them (GTK, Evolution, Nautilus, etc) and left GNOME2
+behind. The polite to do would be to fork GNOME2 and create a GNOME
+Tablet branch. That way we could merge what technology is useful to the
+desktop and leave what isn't. In my view Red Hat has hijacked the GNOME
+project for it's own ends.&lt;/p&gt;
+&lt;p&gt;What is that end though? At GUADEC the project announced the fateful
+GNOME OS. There's no doubt now that this will be a fedora build and that
+Red Hat are testing the waters of getting into the tablet space. The
+consumer ubiquitus computing market hasn't even  started. The desktop
+era before it was troublesome and Red Hat wisely pulled out and it new
+Linux just wasn't there yet. What chance has it really got? Probably
+quite a good one. Vendors only have Google and Android to choose from.
+Vendors like a good deal and they like flexability.&lt;/p&gt;
+&lt;p&gt;The unfortunate thing is the way Red Hat has went about this. Is taking
+this gamble in what will undoubtedtly become the biggest corporate fight
+in history worth wrecking the GNOME project?&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>Real Ultimate Failure</title><link href="http://www.scorch.org/posts/2012/Jun/04/real-ultimate-failure/" rel="alternate"></link><updated>2012-06-04T20:15:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-06-04:posts/2012/Jun/04/real-ultimate-failure/</id><summary type="html">&lt;p&gt;Well that didn't last long. 4 weeks after returning to Kung Fu I've quit
+it for good. While I'd been pleased with the initial sessions after a
+few weeks the training took it's toll on my joints which gradually
+increased in discomfort and started getting quite sore. Couple that with
+the stage of training which involves lots of jump kicks it it became
+quite clear I couldn't sustain it.&lt;/p&gt;
+&lt;p&gt;So since then I've been cycling to work to keep my fitness up but now
+I've found even that difficult. Any attempt at putting power down
+through my knees results shows up an inherent weakness. It's like when
+you lack in energy and need a Boost bar or something, only it's just at
+the top of my knees. The muscles just don't respond like they should. So
+I'm giving up the bike as well. It's just too uncomfortable.&lt;/p&gt;
+&lt;p&gt;Can't run, can't jump and now can't cycle. What can I do?&lt;/p&gt;</summary></entry><entry><title>Kung Fu Return</title><link href="http://www.scorch.org/posts/2012/Feb/23/kung-fu-return/" rel="alternate"></link><updated>2012-02-23T11:11:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2012-02-23:posts/2012/Feb/23/kung-fu-return/</id><summary type="html">&lt;p&gt;I thought I'd write this down so I don't forget when it happened. After
+a lapse of nearly 2 1/2 years which has seen me visit various
+specialists, had numerous scans and a double hip arthroscope, I returned
+to Kung Fu training last night. The session went well but I expected the
+worst today since I did have quite sore hip joints. Today though I only
+have normal muscle soreness from training and no joint pain whatsoever.
+W00t! I feel my awesomeness returning!&lt;/p&gt;</summary><category term="Blather"></category></entry><entry><title>I just go icky ficky!</title><link href="http://www.scorch.org/posts/2011/May/10/i-just-go-icky-ficky/" rel="alternate"></link><updated>2011-05-10T09:48:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-05-10:posts/2011/May/10/i-just-go-icky-ficky/</id><summary type="html">&lt;p&gt;.. I just go, icky ficky ficky!&lt;/p&gt;
+&lt;p&gt;It's all getting a bit out of control. The mythtv box, which I'm now
+running tt-rss and roundcube on frequently crashes running out of
+memory. Turns out it's only ever had 1 GB of ram in it which is pretty
+good going for a combined back/frontend. I've had to disable apache to
+keep the WAF. I've ordered a Zotac ND22 for a frontend from PriceUSA
+(about \$300 delivered) and it's on its way.&lt;/p&gt;
+&lt;p&gt;I've now got a VPS with Quickweb for serving video's quicker to the
+folks back home. At some point I'll knock up a basic javascript gallery
+streaming site on it. As well as host my tt-rss and cube sites. I'm
+quite impressed with it so far. (lowendscript for teh w1n)&lt;/p&gt;
+&lt;p&gt;The debian desktop is a tragedy. It throws random segfaults on any heavy
+process. Much swapping of parts has narrowed it down to the motherboard
+which I'll now attempt to RMA. Oddly enough one of my replacement parts
+is a \$40 sempron 140. A single core chip with the mobo has successfully
+unlocked to dual core. Nice. :)&lt;/p&gt;</summary><category term="Tech"></category></entry><entry><title>Exit The Cloud - One Month On</title><link href="http://www.scorch.org/posts/2011/Apr/20/exit-the-cloud-one-month-on/" rel="alternate"></link><updated>2011-04-20T02:01:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-04-20:posts/2011/Apr/20/exit-the-cloud-one-month-on/</id><summary type="html">&lt;p&gt;So where are a month after my tirade against the oppression of freedom
+and liberty?&lt;/p&gt;
+&lt;p&gt;Macbook Pro has been sold. They hold their value quite well and the
+money from it (a 4 year old machine) paid for the build of my new Debian
+desktop plus some left over. That, plus the cash from my HTC Desire
+leaves me some \$500 in profit from this venture.&lt;/p&gt;
+&lt;p&gt;Debian and the WAF. Photo management is lacking in linux. Even the
+latest Shotwell just doesn't have a decent enough feature set to
+completely satisfy the missus or me for that matter. Workflow for
+mailing photos is just rubbish. Editing tools are poor meaning I need to
+export to Fotoxx which is ok for me, but no use for her. Still, we make
+compromises and get on with it.&lt;/p&gt;
+&lt;p&gt;Youtube has been the biggest headache to replace. Attempts at self
+hosting family videos have failed. It's just too slow to serve 20MB
+files at 64kbps upstream so I've now invested in a cheapie VPS which
+gives me 1Mbps instead and I'll probably knock up a simple streaming
+webapp to serve them. The next challenge is to find the balance between
+a completely free code (ogg/theora) and something that the folks back
+home can play without hassle (probably h264/mkv).&lt;/p&gt;
+&lt;p&gt;I still have a bothersome requirement of keeping Windows on my Netbook
+around purely for the need to restore Hazel's iPod every time Linux
+stuffs it up.&lt;/p&gt;
+&lt;p&gt;I've also now got a lot more maintenance to do. The mythbox now does
+backup and hosts webapps. I have a vps to backup and keep secure and a
+debian box that tempts me to fiddle with all the time.&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>Exited The Cloud #7</title><link href="http://www.scorch.org/posts/2011/Mar/18/exited-the-cloud-7/" rel="alternate"></link><updated>2011-03-18T11:20:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-03-18:posts/2011/Mar/18/exited-the-cloud-7/</id><summary type="html">&lt;p&gt;I'm about 90% towards where I wanted to be which is pretty good. Let's
+see the score card.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GMail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replaced by Fastmail.fm. This is still cloud side but self hosting email
+is a nasty business. My self hosting platform is still immature. I do
+have a self hosted roundcube though for accessing it from anywhere
+(work).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Reader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replaced by self hosted Tiny Tiny RSS. Works really well.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google Code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Traction Edge has been moved to Sourceforge and will no longer be
+developed for Mac and Windows. Open platforms only for my creations.
+This also means Moolah has been abandoned and the source is offline.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;YouTube&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No replacement as yet. The videos have been taken down and I'll probably
+use a self hosted clip-bucket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Android Phone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sold! Glad to be back to the peace and quiet of a stupid phone.
+Smartphones are like television. They stop people thinking.&lt;/p&gt;
+&lt;p&gt;All this means I can close my Google account. Which I've done. Yay!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Social Networking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I still have an identica account which I never use. This one needs a lot
+more thought. Social sites are very good for information spread. We just
+need to ensure that those in control are at least responsible but we're
+much better off with a decentralised system. One day.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mac&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Debian Squeeze PC bought and built. It's also passed preliminary Wife
+Acceptance!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iPhoto&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This tragedy of an application (iLife 11 is guff) is replaced by
+Shotwell v8 from unstable. It's simple and functional. For editing I use
+Fotoxx. A very comprehensive editor with a small footprint.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iMovie&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kino does the job here. The new PC has firewire on board is no hassles.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iDVD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bombono. Still to really try this but it looks functional. iDVD was a
+train wreck anyway.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Video Conferencing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alas I'm still stuck with Skype. This currently the only non open source
+package on this system. Even my gfx drivers are open source.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A good result. It's taken a couple of months of shuffling things around,
+researching, buying and building but I'm now a lot more ethically
+responsible than I was before. I count myself lucky (again) that I have
+the technical know how to run a Free system at home and to make a
+contribution to the freedom of people everywhere.&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>Exiting The Cloud #6</title><link href="http://www.scorch.org/posts/2011/Mar/05/exiting-the-cloud-6/" rel="alternate"></link><updated>2011-03-05T10:50:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-03-05:posts/2011/Mar/05/exiting-the-cloud-6/</id><summary type="html">&lt;p&gt;In order to dump the Mac I need to replace it with something that meets
+the equivalent Wife Acceptance Factor. I've managed to lower the WAF a
+bit by explaining why I'm doing this. She appears to agree, or at the
+very least, allowed me to my madness.&lt;/p&gt;
+&lt;p&gt;I've knocked up her a user on Debian. Made it nice and purple and put
+her usual apps in a dock similar to the Mac. All good. Except for
+iPhoto. She uses this heavily for printing and emailing pics. Nothing on
+in Open Source land comes close to iPhoto or Picassa so I've stretched
+out on a limb to meet the bare minimum of WAF.&lt;/p&gt;
+&lt;p&gt;The requirements are to be able to resize multiple pics and send via
+email, print and edit in some manner. The candidates are Shotwell (base
+Gnome install), gThumb, Picasa or F-Photo. gThumb is pretty basic and
+doesn't email so thats out the window. Shotwell doesn't either though in
+the incarnation that comes with Squeeze. I've had to dip into
+experimental to pull out v8.1 to get a sendto function. So far it's been
+stable. F-Photo uses Mono so it's against the grain to encourage such
+dubious technology and it's far too slow anyway. Picasa works, is too
+feature packed but is a proprietary blob belonging to Google that runs
+on wine and looks like Windows.&lt;/p&gt;
+&lt;p&gt;I've settled on Shotwell v8 but a bug in nautilus-sendto means I have to
+revert to Evolution instead of Icedove for sending pics. Shame as
+Icedove is a far superior product in terms of UX.&lt;/p&gt;
+&lt;p&gt;In other news ttrss on my self hosted box is running really well so that
+only leaves youtube to be replaced. I've a good mind to close it anyway
+and solve the problem later.&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>Exiting The Cloud #5</title><link href="http://www.scorch.org/posts/2011/Feb/24/exiting-the-cloud-5/" rel="alternate"></link><updated>2011-02-24T10:28:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-02-24:posts/2011/Feb/24/exiting-the-cloud-5/</id><summary type="html">&lt;p&gt;Traction Edge is now officially over at &lt;a href="http://sourceforge.net/projects/tractionedge/"&gt;Sourceforge&lt;/a&gt;. I'm quite happy
+with this as Sourceforge's kit is a level up from Googlecodes in terms
+of functions. I now get to make a pretty website for TE.&lt;/p&gt;
+&lt;p&gt;I've also made inroads into self hosting but it takes some work. My
+initial plan is to replace Google Reader with &lt;a href="http://tt-rss.org"&gt;Tiny Tiny RSS&lt;/a&gt;. Apache
+though, if you haven't done much work with it, takes a bit of kicking to
+get into shape. I already host a few internal webs (Mythweb, Squeezebox,
+etc) and need to ensure its all secure before I go poking holes to the
+outside. I also don't like my server running mythbuntu but that can't be
+helped. Debian doesn't have MythTV packages yet.&lt;/p&gt;
+&lt;p&gt;Hopefully this week I can dump Google Reader which then only leaves
+Youtube to be replaced. My current thinking is to either move this blog
+to Freedom Cottage entirely and host the vids using a video gallery
+plugin or similar, or just the vids. I can then lock them up and dish
+out logins to family etc.&lt;/p&gt;
+&lt;p&gt;In other news it's good to see the &lt;a href="http://www.freedomboxfoundation.org"&gt;FreedomBox Foundation&lt;/a&gt; get there
+kickstarter funding in good time. Look's like a great project hopefully
+getting some momentum into non-cloud solutions.&lt;/p&gt;</summary><category term="Open Source"></category><category term="Traction Edge"></category></entry><entry><title>Exiting The Cloud #4</title><link href="http://www.scorch.org/posts/2011/Feb/17/exiting-the-cloud-4/" rel="alternate"></link><updated>2011-02-17T11:07:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-02-17:posts/2011/Feb/17/exiting-the-cloud-4/</id><summary type="html">&lt;p&gt;I've been angling towards self hosting over the last couple of days.
+Firstly I just shrugged off the idea as being too much hassle, possibly
+costly, difficult to maintain etc. The more I thought about it the more
+I warmed to it though. I mean, all I need to do is poke some holes for
+what I need (www only really) and make sure I have a proper backup. I'd
+start off with SVN, move this blog there, integrated some video
+streaming plugin for the clan to what kidlet videos and then think about
+tackling mail. Job done. A Total Cloud Exit Event[tm].&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exiting Google Code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So this evening I've been wrestling with svnsync as I want my full
+repository and history for TE and google code won't let me do a svnadmin
+dump. 2 hours in I've actually got it working but now realised it's a
+bit trickier than first thought. I need a hosted, local, on the wire SVN
+so I can sync from the Mac and my Netbook. That means putting SVN hosted
+on the server. Now this server is no ordinary server. It's the
+BeanBox[tm] so called because Cooper uses it to watch Mr Bean. As in,
+it's a MythTV media server. It's also running ancient technology, AGP
+vid card, LGA775 P4. It also sits under the house next to the water
+boiler and is frequently exposed to 30C+ for long periods. This box
+breaks often and is the bane of my life.&lt;/p&gt;
+&lt;p&gt;So, in order to do any self hosting at all I need to do the MythTV
+refresh I've been putting off in order to get some robustness to the
+platform. This means splitting the Frontend off into a SFF unit of some
+kind. Sticking that to the back of the telly allowing me to move the
+backend server into the house downstairs where it belongs. I can then
+hang some backup disk off it and give it cuddles or glaring looks when
+it needs it.&lt;/p&gt;
+&lt;p&gt;This is where I start to spend money. A FrontEnd unit will probably skin
+me \$300+ as I insist on silence in the living room. No Asrock or Zotac
+nonsense here.&lt;/p&gt;
+&lt;p&gt;In the meantime I think I'll sync my repository to Sourceforge if I can.&lt;/p&gt;</summary><category term="Open Source"></category><category term="Traction Edge"></category></entry><entry><title>Exiting The Cloud #3</title><link href="http://www.scorch.org/posts/2011/Feb/16/exiting-the-cloud-3/" rel="alternate"></link><updated>2011-02-16T12:18:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-02-16:posts/2011/Feb/16/exiting-the-cloud-3/</id><summary type="html">&lt;p&gt;So actually ignoring the cloud for the moment and returning to Kitten
+Ranch. The primary offender onsite is our MacBook Pro. This, being the
+main computer, was purchased and put in operation because "it just
+works". After years of faffing around with Linux I wanted something
+stable and good. Good it has been. It's fast, stable, Hazel mostly likes
+it and it does it's job well. How far can we extract ourselves from it
+though?&lt;/p&gt;
+&lt;p&gt;Locally I have the following critical functions being serviced by it;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local email storage.&lt;/li&gt;
+&lt;li&gt;1.2GB of photo's - currently held in iPhoto&lt;/li&gt;
+&lt;li&gt;9GB of movies. Mostly home video in probably in .mov format&lt;/li&gt;
+&lt;li&gt;TE and Moolah development done in XCode - TE is cross platform but
+    Moolah is pure Cocoa&lt;/li&gt;
+&lt;li&gt;Various artifacts from projects over the years.&lt;/li&gt;
+&lt;li&gt;Finance managment in jGnash.&lt;/li&gt;
+&lt;li&gt;Skype&lt;/li&gt;
+&lt;li&gt;Hazel uses it to plunder eBay, use email, Skype etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So I'm tackling this lot very slowly. Firstly I've installed reFit and
+dual booting Debian 6.0 (squeeze). After a bit of slapping I've got
+Gnome looking pretty good and I'm quite impressed with the whole
+package. It's very fast, stable so far and a lot easier to install than
+I remember. It takes ages to boot though as I had to use LILO to get
+past some 64bit reFIT/mbr issue. What about the above list?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email was moved up to Fastmail and a copy imported into Thunderbird.
+    Evolution just doesn't cut it. It's a UI disaster and Thunderbird is
+    cross platform.&lt;/li&gt;
+&lt;li&gt;XCode is replaced with Geany. This is a lovely lightweight IDE with
+    basic but good features. Since TE is part developed in VIM on a
+    ArchLinux netbook then this was easy. Moolah however is now an
+    abandoned project. How can I develop for a proprietary platform?
+    This also means TE is now a Linux only game project. SFML 1.6
+    (latest stable), which TE uses for graphics and input is also in
+    Squeeze. Bonus!&lt;/li&gt;
+&lt;li&gt;jGnash is java but I had to dip into contrib and non-free to get the
+    sun-java6-jre. I'm really trying to stay out of those repositories
+    as much as possible. Finance Management sorted.&lt;/li&gt;
+&lt;li&gt;Movies - I'd sort of moved away from iMovie anyway as it just wasn't
+    efficient and importing and converting to a youtube format (more on
+    that later) so I expect I can find a suitable commandline way to do
+    this.&lt;/li&gt;
+&lt;li&gt;Photos - These will need to stay on OSX until Hazel moves across.
+    She's the last thing to migrate and this is a no rollback situation.&lt;/li&gt;
+&lt;li&gt;Skype - Killer. This is essential to talking to folks back home and
+    I'm not aware of any usable alternative. There's no 64bit binary for
+    Linux available so I expect a debacle trying to get this to work.&lt;/li&gt;
+&lt;li&gt;Flash - Debian comes with gnash which in my mind shouldn't exist
+    (like mono) and it's not very good. readingeggs.com does not work
+    with it. I'll try resisting install Flash but it may have to happen
+    not just for reading eggs but also to help meet the WAF.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The hard part is the Hazel migration as she does get fed up with me
+changing things every few years. I do have the fact that she appears to
+think anything Apple is a bit pretentious. Which of course it is.&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>Exiting The Cloud #1</title><link href="http://www.scorch.org/posts/2011/Feb/01/exiting-the-cloud-1/" rel="alternate"></link><updated>2011-02-01T10:17:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-02-01:posts/2011/Feb/01/exiting-the-cloud-1/</id><summary type="html">&lt;p&gt;So the Exit The Cloud/Be A Bolshy Arse strategy is underway.&lt;/p&gt;
+&lt;p&gt;Let's see how we're doing so far.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apple&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My home PC is a Macbook Pro. I need to install and use Linux on it
+instead.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="color:#339966;"&gt;Debian Squeeze is (probably) released
+    next week. I'll assess that then.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Social Networking&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have an identi.ca and ~~twitter~~ account. Noone uses Identi.ca and
+I’ve only started using Twitter since the floods. I can easily cancel
+both accounts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="color:#339966;"&gt;Twitter account deleted. Identi.ca
+    remains as I get a feel for the risk.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Google&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;~~GMail~~ - Replaced by Fastmail. Hosting completely out of the
+    cloud is beyond my time at the moment. The GMail account has been
+    completely deleted but no doubt Google has already had their metrics
+    from all my emails.&lt;/li&gt;
+&lt;li&gt;Calendar - All events deleted. Failed to delete completely.&lt;/li&gt;
+&lt;li&gt;Android Phone (Market, Checkout etc)&lt;/li&gt;
+&lt;li&gt;Maps&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;GoogleCode (for Traction Edge and Moolah) - Will move to sourceforge&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Search&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;~~Blogger~~ - Redirect sent to Wordpress.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;\&amp;lt;lots more I don’t realise&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So we're doing quite well. It will be interesting to see how much falls
+over now I've removed the GMail account and also how far I can push for
+separation between Google and my Android phone.&lt;/p&gt;
+&lt;p&gt;In other news I've removed a dependancy at work by replacing One Note
+with Emacs &lt;a href="http://www.orgmode.org"&gt;Orgmode&lt;/a&gt; and an excellent Open Source screenshot app
+called &lt;a href="http://www.getgreenshot.org"&gt;Greenshot&lt;/a&gt;. Radical or what?&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>The Importance Of Being Open</title><link href="http://www.scorch.org/posts/2011/Jan/29/the-importance-of-being-open/" rel="alternate"></link><updated>2011-01-29T10:56:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2011-01-29:posts/2011/Jan/29/the-importance-of-being-open/</id><summary type="html">&lt;p&gt;Last week at LCA2011, &lt;a href="http://blog.futurestreetconsulting.com/wp-trackback.php?p=484"&gt;Mark Pesce&lt;/a&gt; delivered a compelling keynote
+speech on privacy. His premise was this;&lt;/p&gt;
+&lt;p&gt;We are enticed into giving up information about ourselves to closed
+systems. Facebook being the worst offender. The kind of data we give up
+forms a &lt;a href="http://en.wikipedia.org/wiki/Social_graph"&gt;social graph&lt;/a&gt;. This graph can be used through the phenomenon
+of &lt;a href="http://en.wikipedia.org/wiki/Mimesis"&gt;mimesis&lt;/a&gt; to manipulate us.&lt;/p&gt;
+&lt;p&gt;Let me explain that a bit more incase you've failed to read Mark's
+entire post. Mimesis is like peer group pressure. We are constantly
+influenced by those around us and we constantly influence others. The
+social graph provides a closed corporate entity with what we like,
+dislike, who our friends are, which type of friends we talk to more
+often, which type of friends influence our habits more, which topics
+influence us more (or less) etc. Facebook can potentially use this
+information to manipulate us. Change our habits, change our likes and
+dislikes or even change our politics!&lt;/p&gt;
+&lt;p&gt;For some reason I've been blessed with a brain that can easily
+extrapolate situations and ideas to the very extreme (studying Buddhist
+philosophy demands that) and can see Mark's apocalyptic future fairly
+clearly. This gradual submission of our social data to closed systems
+are pebbles in the jar of the erosion of human rights. This erosion
+happens so slowly and we are so glad to be relieved of some daily
+suffering by the pleasure these systems give us that we don't even
+realise how we are already being manipulated.&lt;/p&gt;
+&lt;p&gt;Ultimately, by using Facebook you are committing crimes against
+humanity, albiet very slowly and by proxy. Harsh but true. By
+contributing to the success of closed systems you contribute to the
+gradual erosion of freedom and human rights. You put more pebbles in the
+jar.&lt;/p&gt;
+&lt;p&gt;Look at Egypt. While Mark was delivering his speech, the government
+disabled the internet and people have been killed. That is the reality
+we will inevitably face should we fail to wake up.&lt;/p&gt;
+&lt;p&gt;So what should be we do?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Hard Option&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Mark pretty much tells us how to resist such invasion by building a
+&lt;a href="http://www.servalproject.org/"&gt;decentralised mesh network&lt;/a&gt; and open alternatives to closed social
+networking sites. Lure people aware from Facebook and the closed systems
+will become open. That is hard.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;An Easy(ish) Option&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Minimise personal data in the cloud.&lt;/li&gt;
+&lt;li&gt;Use open source software where possible.&lt;/li&gt;
+&lt;li&gt;This takes your pebbles back out of the jar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ok, so what am I going to do? Basically the strategy is to minimise the
+exposure of my personal data to closed or proprietary systems. Any
+programs or systems where it involves inputting data that can be used to
+profile me is a target. So things like games will mostly be exempt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apple&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My home PC is a Macbook Pro. I need to install and use Linux on it
+instead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Social Networking&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have an identi.ca and twitter account. Noone uses Identi.ca and I've
+only started using Twitter since the floods. I can easily cancel both
+accounts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Google&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the tricky one. Let's look at what I use Google for;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;GMail&lt;/li&gt;
+&lt;li&gt;Calendar&lt;/li&gt;
+&lt;li&gt;Android Phone (Market, Checkout etc)&lt;/li&gt;
+&lt;li&gt;Maps&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;li&gt;GoogleCode (for Traction Edge and Moolah)&lt;/li&gt;
+&lt;li&gt;Search&lt;/li&gt;
+&lt;li&gt;Blogger&lt;/li&gt;
+&lt;li&gt;\&amp;lt;lots more I don't realise&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Google is pretty intrinsic to my online existence. Out of all of these
+the hardest ones would be the Android Phone and GMail. Everyone knows
+that Google reads your email and builds a graph to sell to advertisers
+but GMail will take some work to replace. The other is the Android
+Phone. Even though my phone is hacked and I'm running a pure AOSP build
+on it you still need a Google Account to basically use the phone.&lt;/p&gt;
+&lt;p&gt;The Blogger one I've knocked over already as I've moved this blog to
+Wordpress and made everything Creative Commons. I do realise though that
+blogging in itself broadcasts social graph data but I'm harming myself
+to help others. See? Buddhist!&lt;/p&gt;
+&lt;p&gt;So this sets out the experiment. How much of my proprietary life can I
+replace with open systems? Let's see.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;/p&gt;</summary><category term="Open Source"></category></entry><entry><title>&gt;Molly Catherine Hamilton</title><link href="http://www.scorch.org/posts/2010/Jan/01/molly-catherine-hamilton/" rel="alternate"></link><updated>2010-01-01T03:14:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2010-01-01:posts/2010/Jan/01/molly-catherine-hamilton/</id><summary type="html">&lt;p&gt;&gt;Bubzilla #2 arrived yesterday 31st December 2009 at 5.17pm with no
+drama at all. Hazel had some "stomach pains" overnight which developed
+into minor contractions in the morning. After all the chaos of Cooper's
+birth we were reluctant to even phone in, only to be sent home again.
+However, they were fairly regular and speeding up fast. 15 mins apart at
+9am then 10mins apart at 1pm. We phoned in, Cooper was at daycare and in
+we went with bags packed.&lt;/p&gt;
+&lt;div&gt;
+Contractions then were about 7 mins apart (my god this is going fast).
+We impressed this acceleration apon the staff who, in their usual
+relaxed manner (how can you relax, someones about to give birth!!),
+declined to see the urgency. One examination later told us she was 4-5cm
+dilated and wasn't going anywhere except a birthing suite.
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+I race back to daycare, pick Cooper up and deposit him on to a mate
+(Thanks Ste for watching him) then back to the hossie. Hazel's in birth
+suite 16, bub's facing transverse instead of OP. Goodo. We again impress
+the urgency on the staff for an epidural as we don't want caught with an
+OP baby with no decent pain control. Bloke turns up, sticks a needle in
+here back and we're good in 30 mins.
+
+&lt;/div&gt;
+
+&lt;div&gt;
+I read a book for a bit, while some more tube insertion goes on. By this
+time it's 4 mins to 5pm, Hazel panicks a bit thinking her insides are
+coming out. She's right, they are. Membrane bursts. Some cleanup is
+performed and in a few mins another midwife team leader appears, they
+say it's time to have a baby and to start pushing.
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+7 minutes of pretty good pushing has Molly out into the world with good
+skin to skin and she started feeding pretty much straight away. It's
+such a positive contrast with Cooper's birth. We had such a traumatic
+time with him and this happened so fast and so straight forward it makes
+me want 6 more!! Only kidding. :) Pics
+soon.&lt;span style="white-space:pre;"&gt; &lt;/span&gt;
+
+&lt;/div&gt;</summary><category term="Miniskreeg"></category><category term="MollySkreeg"></category></entry><entry><title>&gt;moolah 0.6.3 kicked out the door</title><link href="http://www.scorch.org/posts/2009/Jun/10/moolah-0-6-3-kicked-out-the-door/" rel="alternate"></link><updated>2009-06-10T12:43:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2009-06-10:posts/2009/Jun/10/moolah-0-6-3-kicked-out-the-door/</id><summary type="html">&lt;p&gt;&gt;It's quite alarming that the more I hack on moolah the more bugs I
+find and probably the more I introduce. I'm just not paying attention
+and applying the correct gumption in learning to code tightly and more
+professionally. My coding time is so limited that it always boils down
+to be a case of 'get it in, ooh it works, let's not bother tidying it
+up, right what's next?'&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+This is probably a very common problem among us amateur programmers and
+very likely not one that's going to be fixed. Moolah is my first cocoa
+application ever. It's fairly complicated under the hood as it's
+handling normal data in a fairly abnormal fashion (envelope budgeting)
+but trying to fit within the standard accounting practises. It does work
+well, and it is getting more stable so I'm quite happy to bang along
+adding more functionality and frequently embarrassing myself when I look
+back at old code.
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+Next on the list is a search filter, more interface polishing and then
+onto reports.
+
+&lt;/div&gt;</summary><category term="moolah"></category><category term="Tech"></category></entry><entry><title>&gt;More maintenance</title><link href="http://www.scorch.org/posts/2009/May/15/more-maintenance/" rel="alternate"></link><updated>2009-05-15T09:15:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2009-05-15:posts/2009/May/15/more-maintenance/</id><summary type="html">&lt;p&gt;&gt;Getting quite large chunks of dev time on moolah recently but it all
+seems to be going on maintenance of the existing code. I'm still not
+what you would call an experienced Cocoa coder but even already I look
+back at previous code and think wtf! I'm almost embarrassed to be in the
+same room as myself.&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+The next major version bump to 0.7 will include basic reporting and a
+framework for expanding reports fairly easily. Before I get there though
+I'm reworking chunks of code that was banged in early on to get
+functionality up and running. Until I get around to subclassing my own
+tableview's to include type ahead functions and more intuitive keyboard
+workflow I'm reverting the transactions views back to an instant write
+to the database. The current method of entering transactions is a
+shocking mess. :)
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+0.6.3 with added sanity due soon.
+
+&lt;/div&gt;</summary><category term="moolah"></category><category term="Tech"></category></entry><entry><title>&gt;moolah dev overboard</title><link href="http://www.scorch.org/posts/2009/Feb/25/moolah-dev-overboard/" rel="alternate"></link><updated>2009-02-25T11:46:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2009-02-25:posts/2009/Feb/25/moolah-dev-overboard/</id><summary type="html">&lt;p&gt;&gt;Well ok, not quite overboard but at very least we've left the marina.
+After a lovely hiatus of drinking cheap wine, eating biscuits and
+playing Mass Effect I've picked up moolah dev again. It always gets a
+bit slow when something I'm writing reaches a functional level that I'm
+happy with myself but I've reached a point now where certain things are
+pissing even me off. Like the disorderly budget window, the slow
+transaction updates, the crash if you click save too quick and the
+complete lack of reporting and search functions. So, in no certain order
+the following iteems shall be tackled;&lt;/p&gt;
+&lt;div&gt;
+-   Save last accounts selected in import and budget windows. Document
+    prefs!
+-   Sort that bloody menu bar out, it's a disgrace.
+-   Finished the Getting Started wiki as more people are downloading it
+    and probably feeling a bit negative about the experience.
+-   Search function! Get a scope bar in there. Yeah baby!
+-   Reports. The biggy. I already have this designed in my head. Should
+    be fun.
+
+&lt;div&gt;
+Still enjoying coding and I shouldn't leave it too long again. Today I
+had to stare at some code for about 3 minutes to find a syntax error. :)
+
+&lt;/div&gt;
+
+&lt;/div&gt;</summary><category term="moolah"></category></entry><entry><title>I love wood with wood on it</title><link href="http://www.scorch.org/posts/2009/Jan/08/i-love-wood-with-wood-on-it/" rel="alternate"></link><updated>2009-01-08T10:31:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2009-01-08:posts/2009/Jan/08/i-love-wood-with-wood-on-it/</id><summary type="html">&lt;p&gt;Trainset by Toys'r'Us. Table by Ozzy. After the Thomas Tank engine
+exhibition at the Ipswich railway museum I realised we needed a table
+quicksmart so I got stuck into it. What we have here is a mitred frame
+surrounded by a larger mitred frame to provide a lip and facia. The legs
+are fixed to both the frame and facia with gold coloured bolts. The
+table top is standard 15x600x900mm MDF which is double sided. On one
+side we have a trainset and the other is plain white. The tabletop just
+sits in the frame so we can easily pop it out, turn it over and Coop can
+scribble, colour in, throw blocks at it or whatever. I'm still undecided
+on whether to epoxy the trainset to the top or not. I've already glued
+most of it together to stop it coming apart. The whole thing is made out
+of cheapo pine and finished off with industrial grade marine varnish to
+withstand what will no doubt be a good playing on.&lt;/p&gt;
+&lt;p&gt;The trainset is a Thomas compatible sized wooden railway range called
+Imaginarium. Learning Curve have a cheek charging the prices they do for
+Thomas wooden railway stuff. Especially since its made in the same
+Chinese sweatshops as the cheaper stuff.&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/img_3565.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I'm quite chuffed with this. Made in record time of less than a week
+with only minor mistakes requiring more wood. (I stuck the legs on
+pointing upwards would you believe?). Now what can I make next?&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;moolah v0.6 - Thoughts on releases</title><link href="http://www.scorch.org/posts/2008/Dec/29/moolah-v0-6-thoughts-on-releases/" rel="alternate"></link><updated>2008-12-29T21:24:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-12-29:posts/2008/Dec/29/moolah-v0-6-thoughts-on-releases/</id><summary type="html">&lt;p&gt;&gt;A few weeks ago I knocked out the first release of moolah. This, being
+0.5 and pretty rough, was done under the "release early, release often"
+advice that google and many other Open Source developers preach. Does
+this really hold for a Mac app though? In general, Mac users aren't used
+to unfinished, unpolished, buggy apps. They're a bit "ordinary" (I
+suppose you could almost say snobby) in that they like they're apps to
+be v1.0 at least, nicely polished, and without bugs.&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+Luckily, only 3 people have downloaded it and I've seen no mention of it
+anywhere else so word isn't getting out there and that's just how I like
+it. Developing this as OSS is a bit odd. The program is being written
+with my own personal requirements in mind, while at the same time
+keeping the code, interface and workflow generic enough to suit everyone
+else. It's an interesting challenge and one I'm sure lots of indie
+developers face when they start off.
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+v0.6 if now released. I've tidied up the UI so it looks more final.
+Added more functionality, again based on what I want in the app and
+squashed bugs. Bugs, bugs bugs! I find them all the time but they're
+always easy and fun to fix. In fact, coding the entire thing has been a
+joy so far. The frameworks, Objective-C, Xcode is all a breeze to use.
+Just like the Mac in general.
+
+&lt;/div&gt;</summary><category term="moolah"></category><category term="Tech"></category></entry><entry><title>&gt;CoopCamp #1</title><link href="http://www.scorch.org/posts/2008/Nov/02/coopcamp-1/" rel="alternate"></link><updated>2008-11-02T08:54:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-11-02:posts/2008/Nov/02/coopcamp-1/</id><summary type="html">&lt;p&gt;&gt;This weekend we went camping for the first time since The Miniskreeg
+showed up. I have a camping checklist and it now has a "Cooper" section
+in it with unforgettable items like dummies, portacots and ehgoo's.
+Camping always has something missing but the impact of forgetting the
+unforgettable when there's a baby involved is a magnitute greater than
+normal. Luckily, all we forgot was good weather, which was both a
+blessing and a curse. We coped well despite some setbacks but also
+learned how difficult it is entertaining a toddler in a tent when its
+raining.&lt;/p&gt;
+&lt;p&gt;Thing we need to add to the list.&lt;/p&gt;
+&lt;div&gt;
+-   Ground sheet - Cooper got utterly mockit in 5 minutes of arriving
+-   Tarp + Poles - Even if going one night. Makes rain go away for
+    cooking
+-   Good esky. I mean a GOOD esky.
+
+&lt;div&gt;
+Cooper got up at 4am, it rained, we cooked breakfast, got wet, packed up
+and left at 7am. It was a success though as we had a good curry and a
+lot drink and idle camp chatter. Job done. :)
+
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;</summary><category term="Miniskreeg"></category><category term="Weekends"></category></entry><entry><title>&gt;Swim swim swim!</title><link href="http://www.scorch.org/posts/2008/Oct/28/swim-swim-swim/" rel="alternate"></link><updated>2008-10-28T12:00:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-10-28:posts/2008/Oct/28/swim-swim-swim/</id><summary type="html">&lt;p&gt;&gt;The trick to a happy evening is to tire the child out during the day.
+Keeping him "cooped" up in the house drives everyone nuts so at weekends
+we like to get out places. Cooper loves pools, water, skiddling,
+anything wet related. Sunday we took him up to the Redcliffe lagoon
+which is a nice pool area beside the seaside. This kid is going to be
+swimming unaided before he's 3 I reckon. He's already doggy paddling!&lt;/p&gt;</summary><category term="Miniskreeg"></category><category term="Weekends"></category></entry><entry><title>&gt;moolahDev</title><link href="http://www.scorch.org/posts/2008/Oct/27/moolahdev/" rel="alternate"></link><updated>2008-10-27T09:51:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-10-27:posts/2008/Oct/27/moolahdev/</id><summary type="html">&lt;p&gt;&gt;One thing I've noticed when reading a lot of dev blogs is that people
+get burnt out and take a break. I've just hit the same thing and now
+realise why. I was on a coding splurge, believing I was close to getting
+moolah to a point where I could run it "in production" with my own
+accounts. Some odd things started happening and I realised a whole chunk
+of calculating code is all wrong and does exactly what a frog does when
+trying to get to the other side a river with a jumping strategy that
+involves each new jump being exactly half the distance of the last one.
+I'm not going to be filling many envelopes with that one. I'm now on a
+couple of weeks break from it. I'll ponder and muse occasionally on my
+code conundrum.&lt;/p&gt;
+&lt;p&gt;I'm also gaining more respect for the authors of current envelope
+programs out there. What initially appears a simple and earnest task is
+actually a lot more complicated than I first thought. It's easy making
+an envelope budgeting but its damn hard keeping it simple.&lt;/p&gt;</summary><category term="moolah"></category><category term="Tech"></category></entry><entry><title>Toybox complete</title><link href="http://www.scorch.org/posts/2008/Oct/26/toybox-complete/" rel="alternate"></link><updated>2008-10-26T04:26:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-10-26:posts/2008/Oct/26/toybox-complete/</id><summary type="html">&lt;p&gt;Actually its been complete for a while but I'm just slow at getting
+pictures online. It's turned out great for something made out of scrap
+wood by an IT bloke who knows nothing about wood (I love wood).
+Everything a toddler could ask for. Nice bright paint, heavy duty
+varnish and a chain to trap the fingers when gravity and the lid
+conspire against him (again).&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/img_2830.jpg"&gt;&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;moolah for Mac</title><link href="http://www.scorch.org/posts/2008/Oct/13/moolah-for-mac/" rel="alternate"></link><updated>2008-10-13T09:45:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-10-13:posts/2008/Oct/13/moolah-for-mac/</id><summary type="html">&lt;p&gt;&gt;As I said below I'm now a budding Mac developer. To learn any
+programming language I always need a personal project that fills a gap
+that can't be filled from anywhere else. In this case its a decent
+personal finance program. Out recent run in with the bank manager has
+left us a bit strapped and I always new cash flow was a bit of a problem
+since we moved here. We simply always spend more than we make and the
+missus doesn't see this as a problem as the machine just keeps giving
+her money. Once we tallied up what we were spending versus what we make
+we needed to put it right. That's where &lt;a href="http://www.daveramsey.com/etc/cms/index.cfm?intContentID=3461"&gt;envelope budgeting&lt;/a&gt; comes in.&lt;/p&gt;
+&lt;p&gt;Simple put, its a method of stuffing money into envelopes allocated to a
+particular item, like food, electricity etc. Unlike most finance
+programs that track where your money has went and that's their idea of
+helping you budget. Envelope budgeting makes sure you have money for an
+item BEFORE we spend it on something else.&lt;/p&gt;
+&lt;p&gt;On the Mac there's two envelope budgeting programs. Moneywell and
+Budget. Both are well established and able programs but never suited my
+needs so I'm writing my own. I'll elaborate on why they don't suit me in
+a later post. moolah, is written in Objective-C and Cocoa and it's open
+source. It's almost in a usable state for the daring. Get it &lt;a href="http://code.google.com/p/moolah/"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><category term="moolah"></category><category term="Tech"></category></entry><entry><title>&gt;Incursion Roguelike</title><link href="http://www.scorch.org/posts/2008/Oct/07/incursion-roguelike/" rel="alternate"></link><updated>2008-10-07T11:30:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-10-07:posts/2008/Oct/07/incursion-roguelike/</id><summary type="html">&lt;p&gt;&gt;For some reason I never got around to writing about this before. Some
+months ago I decided to get into Mac software development but being a
+jaded gamer that can't see to stay on the wagon I was addicted to a game
+called Incursion-Roguelike. Incursion is a classic roguelike in the same
+vein as the famous Nethack and Adom but uses the D20 ruleset from
+Wizards of the Coast. Think a Nethack version of Neverwinter Nights and
+you have it. It rocks. It also differs from traditional roguelikes in
+that it uses the Allegro library for it's graphics instead of plain old
+ncurses. This means that it can't run in a terminal, but what it also
+means is that it can be easily ported to Mac.&lt;/p&gt;
+&lt;p&gt;To get back into C programming, my last effort of which was fishbot, an
+error prone and maniacal IRC bot written in C on the Amiga, I offered to
+port Incursion to the Mac. This turned out to be fairly easy and was a
+good primer in getting familiar with XCode and the Mac build system.
+I've been maintaining Mac Incursion for over 6 months now and can pump
+out a new build in less than 5 minutes.&lt;/p&gt;
+&lt;p&gt;Incursion Roguelike for Mac can be found on the &lt;a href="http://www.incursion-roguelike.com"&gt;official Incursion
+website&lt;/a&gt;.&lt;/p&gt;</summary><category term="Tech"></category></entry><entry><title>&gt;Miniskreeg walks!</title><link href="http://www.scorch.org/posts/2008/Sep/13/miniskreeg-walks/" rel="alternate"></link><updated>2008-09-13T09:29:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-09-13:posts/2008/Sep/13/miniskreeg-walks/</id><summary type="html">&lt;p&gt;&gt;Well he took his time getting around to it but at 1 year and 2 days
+little Miniskreeg finally decided to start walking on his own. It's like
+a switch has just turned on enabling him to do it. Amazingly, we caught
+it on video as well. Here we go.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://vimeo.com/moogaloop.swf?clip_id=1722270&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=&amp;amp;fullscreen=1"&gt;http://vimeo.com/moogaloop.swf?clip_id=1722270&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=&amp;amp;fullscreen=1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm trying out &lt;a href="http://www.vimeo.com"&gt;Vimeo&lt;/a&gt; instead of youtube this time as I hear the
+quality is better.&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;Skreegles</title><link href="http://www.scorch.org/posts/2008/Jul/12/skreegles/" rel="alternate"></link><updated>2008-07-12T12:39:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-07-12:posts/2008/Jul/12/skreegles/</id><summary type="html">&lt;p&gt;&gt;A brief update of what can be described in business speak as "where
+we're at and what we look like going forward".&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight:bold;"&gt;House&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Painters are finishing off the outside next week. The project is then
+complete with only the inside to be finished. We're trying to get that
+done quick smart as Coop is almost needing somewhere to stretch his
+legs.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight:bold;"&gt;Cars&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Disaster: The Beast has a busted gearbox. No idea whats wrong but its
+going to involve dropping the box out the thing and taking a look at
+whats most likely pieces of shrapnel. We have 3 weeks to do it as the
+Bodgy Run is on the 16th and me and the bloke over the road (mechanic)
+is entering hardcore class!&lt;/p&gt;
+&lt;p&gt;Joy: The Grand Vitara is sold! At last, we're a one and a half car
+family.&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight:bold;"&gt;Coop&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Getting big, throwing balls around with direction deliberateness, saying
+Dad a lot. :)&lt;/p&gt;</summary><category term="Blather"></category></entry><entry><title>&gt;Cooper vids</title><link href="http://www.scorch.org/posts/2008/May/28/cooper-vids/" rel="alternate"></link><updated>2008-05-28T10:18:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-05-28:posts/2008/May/28/cooper-vids/</id><summary type="html">&lt;p&gt;&gt;A whole buncha new Miniskreeg vids courtesy of glootube. He's 8.5
+months now and crawling, laughin, grabbing, screamin, falling, hurting,
+laughing, crawling, crawling and crawling. Did I say he could crawl?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/p/0FB67FE2B571AED8"&gt;http://www.youtube.com/p/0FB67FE2B571AED8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There's 6 videos in all. You click on the little grey bits left and
+right to change between them. If thats too hard you can go &lt;a href="http://www.youtube.com/view_play_list?p=0FB67FE2B571AED8"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;Blather #1</title><link href="http://www.scorch.org/posts/2008/May/28/blather-1/" rel="alternate"></link><updated>2008-05-28T04:07:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-05-28:posts/2008/May/28/blather-1/</id><summary type="html">&lt;p&gt;&gt;Today's an oddly grey day and apparently its supposed to rain all
+week. We get so used to Brisbane weather with its clear blue skies and
+comfortable temperatures during the non-summer months that its actually
+surprising and a little perplexing when its overcast. Its just so
+unusual to see.&lt;/p&gt;
+&lt;p&gt;I'm off ill yesterday and today with what is an excellent effort by
+Cooper to kill off his dad with exotic diseases from daycare. I've been
+almost deaf in one ear for about a week and the last two days I've had
+toothache through blocked sinusy tubes in my head. I can't believe how
+sick I've been since we got back from Scotland. At least 1 day off a
+fortnight since January all through having some lergy that "the carrier"
+has brought back from his "brothers" at "the lab". When does it end?
+Very shortly I imagine since I have no sick leave left.&lt;/p&gt;
+&lt;p&gt;The toybox is progressing. Got sides cut and had a practise at some
+finger joints. Dovetails are too tricky with plywood so fingers it will
+be. Fairly easy to do and strong enough too. Had a praccy at manual
+routing for the base but that's going to take time and be ugly. Plywood
+just splits all over the place and I'm not buying a leccy router for one
+job.&lt;/p&gt;
+&lt;p&gt;Talking of buying stuff, now we're officially mortgaged up to the
+gunnels we can get a good indication of how much money we don't have to
+spend. Some budgeting is in order and I've forced an envelope style
+budgeting method into &lt;a href="http://www.moneydance.com"&gt;Moneydance&lt;/a&gt;. It was a bit tricky but I think
+I've got it sussed. At the very least I can get an accurate picture of
+just how skint we actually are. It's &lt;a href="http://en.wikipedia.org/wiki/Cleanskin_%28wine%29"&gt;cleanskins&lt;/a&gt; from now on! oink!&lt;/p&gt;</summary><category term="Blather"></category></entry><entry><title>&gt;7 months on</title><link href="http://www.scorch.org/posts/2008/Apr/14/7-months-on/" rel="alternate"></link><updated>2008-04-14T20:23:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-04-14:posts/2008/Apr/14/7-months-on/</id><summary type="html">&lt;p&gt;&gt;Hard to believe Cooper is 7 months old now. When I look at him now its
+very hard to remember the little baby he used to be. He's changed so
+much and is more a little boy now than a baby. He's still got the cold
+and has done ever since he started daycare. Toblerones are few and far
+between as well which makes us worry slightly about another relapse into
+compact bowel mode. That gets less every day but its always in the backs
+of our minds when he's screaming for something.&lt;/p&gt;
+&lt;p&gt;He's also not very good at sleeping through. We've more or less put this
+down to not eating enough, or we're not feeding him enough. He doesn't
+get a lot of meat and that has a lot of energy in it which is harder to
+digest. Last night he got some processed meaty jar thing mixed with baby
+pasta. It was so thick and heavy his little belly was distended and he
+couldn't finish it but he still managed a yoghurt and a 250ml bottle of
+milk after it. No more could be done and this was our last best hope for
+a good nights sleep. He was still up at midnight for a wee snack and up
+at 5am this morning. Too early, too early in anyones language.&lt;/p&gt;
+&lt;p&gt;It's best not to be too bothered by this. Yes it would be great to get a
+full nights sleep and even better to not have to get up till 6.30 but
+he's still a good kid and sleeping patterns change constantly. We seem
+to conveniently forget that we're still really only at the start of this
+adventure and that its still an ever changing game.&lt;/p&gt;
+&lt;p&gt;I seem to have neglected this blog over the last year so when I publish
+new vids I'm going to put them here and that might make me write a bit
+more. Oh look, here's one coming now!&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=3_tHIL50fIc]&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>Sorry Mr Bank Manager...</title><link href="http://www.scorch.org/posts/2008/Feb/24/sorry-mr-bank-manager/" rel="alternate"></link><updated>2008-02-24T04:17:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-02-24:posts/2008/Feb/24/sorry-mr-bank-manager/</id><summary type="html">&lt;p&gt;...but I had to do it. While I have cash in the bank I decided to buy
+another car. We've up/downgraded to a 1999 Pajero (Shogun to old world
+folks). Its got real low mileage and its real clean for an 8 year old
+car. It does however, have a heart breaking 3.5ltr petrol donk in it.
+The reasoning is that in order to go camping we need more space. Baby +
+Car seat + Camping gear does not in any way equal a Grande Vitara so it
+has to go and I owe nature a slice of my soul when I die. :) Anyone want
+a 2003 GV?&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/3208539.jpg"&gt;&lt;/p&gt;</summary><category term="4wd"></category></entry><entry><title>Woah there slow down!</title><link href="http://www.scorch.org/posts/2008/Feb/19/woah-there-slow-down/" rel="alternate"></link><updated>2008-02-19T11:31:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-02-19:posts/2008/Feb/19/woah-there-slow-down/</id><summary type="html">&lt;p&gt;7 days of builders doing stuff so far and they've done a hella lot.
+Amazing what you can do when someones giving you money to do it. Stuff
+done so far? Deck ripped up, sealed and nearly tiled, new concrete slab
+down underneath, round side and behind carport for the tank. Posts and
+cross timbers in for car port. Frame up for walls and back extension.
+There's stuff just everywhere. Its like some mad builders construction
+bomb has went off. Oh, and my water tank finally showed up. No! You
+can't steal it, I've moved it over the fence. &lt;/p&gt;</summary><category term="Freedom Cottage"></category></entry><entry><title>&gt;Coopermergency</title><link href="http://www.scorch.org/posts/2008/Feb/07/coopermergency/" rel="alternate"></link><updated>2008-02-07T09:43:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-02-07:posts/2008/Feb/07/coopermergency/</id><summary type="html">&lt;p&gt;&gt;Lille Cooperman was rushed into the hozzie last friday morning. Some
+violent vomiting followed by going limp and extremely white prompted us
+to get an ambulance pronto. 3 hours and an ultrasound later confirmed it
+as an.... wait for it..... intersusection of the bowel. Yeah I know, wtf
+is that you say? Its when the bowel, not being the brightest organ in
+the trunk decides to push itself into itself telescopic style. This is
+very painful and dangerous for lille coopermen as it cuts off blood
+supply and can go necrotic.&lt;/p&gt;
+&lt;p&gt;The solution to this is to place your baby on a realtime X-Ray table,
+shove a hose up his arse and blow air into his gut. This makes his gut
+balloon and pop back into the correct place (hopefully). There's a 95%
+chance of success and a small risk of perforation of the gut. The other
+option is an operation so no thanks, the tube it is. So the wee man
+proudly done the biggest fart of his short life and probably the biggest
+one he'll do for the next 40 years.&lt;/p&gt;
+&lt;p&gt;2 days later and it's like it never happened. He's a very happy child.
+Recently learnt to roll over and get stuck on his stomach. He can
+balance sitting up fairly well and loves carrot! Even though he won't
+consciously remember anything of this weekend I'm sure it must have some
+affect on him. Every input coaxes and prods the brains development in
+certain directions. We sub-consciously, in some alien manner remember
+everything we ever experience. Perhaps he'll develop a hose allergy.&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>I love wood...</title><link href="http://www.scorch.org/posts/2008/Feb/07/i-love-wood/" rel="alternate"></link><updated>2008-02-07T09:37:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2008-02-07:posts/2008/Feb/07/i-love-wood/</id><summary type="html">&lt;p&gt;... and just look at how much of it I've bought.&lt;/p&gt;
+&lt;p&gt;Yep, a little over a year and 2 months after getting plans drawn up
+we've finally got movement on the Kitten Ranch Expansion Project (KREP).
+We've got wood, steel beams, some concrete sheeting and a big feck off
+rusty builders trailer full of hidden secrets and black mojo. Rumour has
+it there's some builders showing up at some point tomorrow to start
+dismantling the rear deck. Yeah right!&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/img_2172.jpg"&gt;&lt;/p&gt;</summary><category term="Freedom Cottage"></category></entry><entry><title>&gt;Reno fun.</title><link href="http://www.scorch.org/posts/2007/Dec/02/reno-fun/" rel="alternate"></link><updated>2007-12-02T07:03:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-12-02:posts/2007/Dec/02/reno-fun/</id><summary type="html">&lt;p&gt;&gt;We've finally, nine months after getting plans drawn up, engaged a
+builder to start the extension of Freedom Cottage. However, 2 months in
+and engaged is all we've managed to do. Windows and steel is ordered but
+there's some trouble with the concrete slab underneath. The council here
+demand thousands of dollars if you want to change your curtains and the
+certifier wants proof the slab underneath if cool. This is a problem. I
+have no documents on it and an no engineer will ever come out and sign
+it off as it's already laid. Previous owners are uncontactable and the
+certifier who done that previous work was recently struck off for
+professional misconduct. Concrete is fun.&lt;/p&gt;
+&lt;p&gt;At worst case I'll have to dig it up and relay it. Probably costing
+about \$10,000. Negotiations will decide that this week.&lt;/p&gt;</summary><category term="Freedom Cottage"></category></entry><entry><title>&gt;A finer cog count on the sprocket of time.</title><link href="http://www.scorch.org/posts/2007/Dec/02/a-finer-cog-count-on-the-sprocket-of-time/" rel="alternate"></link><updated>2007-12-02T06:52:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-12-02:posts/2007/Dec/02/a-finer-cog-count-on-the-sprocket-of-time/</id><summary type="html">&lt;p&gt;&gt;Time these days is weird. Time used to work like this. You would do
+stuff, then do more stuff, then even more stuff then say something like
+"geez where has the last year went" or "remember that stuff we done?
+That was five years ago what happened?". This is because in general
+every day terms not a lot changes that fast. You age so slowly you don't
+notice it until you try and do Kung Fu.&lt;/p&gt;
+&lt;p&gt;Nowadays though, I have a new barometer of time. Young Coop changes
+rapidly. Every day he's doing something new, or getting visibly bigger.
+Every week he loses another set of clothes or outgrows a hat. Actually
+we've never had a hat to fit him ever, we simply can't get ahead of the
+curve on that one no matter how quickly we buy hats. Buy a hat that
+fits, great. Get around to using it a week later and it pings off his
+head. He's the AntiHat[tm].&lt;/p&gt;
+&lt;p&gt;This daily change has the effect of enforcing the passage of time,
+shoving it in our faces and make us feel just how important every day
+is. I feel literally dragged along through time with so much less focus
+on the future or the past. For a Buddhist this is great.&lt;/p&gt;
+&lt;p&gt;Cooper is 3 months old next week but it seems like he's been here for
+longer. Days start early at 4.45am, lunch is at 10am and we're ready for
+bed at teatime. Somehow there's no time during the day to actually do
+anything that doesn't involve child rearing.&lt;/p&gt;
+&lt;p&gt;We wouldn't change it for the world though. He's also taught us just how
+creepy parents can be. We'll sneak into his room 2 or 3 times an evening
+and just stand and stare at him without waking him up. I believe all
+parents do this. I'm gonna pull mine up about that.&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;God is weird</title><link href="http://www.scorch.org/posts/2007/Oct/31/god-is-weird/" rel="alternate"></link><updated>2007-10-31T06:12:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-10-31:posts/2007/Oct/31/god-is-weird/</id><summary type="html">&lt;p&gt;&gt;After the emergence of Sprogzilla I've gave a bit of thought towards
+&lt;a href="http://en.wikipedia.org/wiki/Intelligent_design"&gt;Intelligent Design&lt;/a&gt;. The extremes of the birthing process, from the
+pain of delivery to the love of the result, seems too freakish to be the
+product of just random evolution.&lt;/p&gt;
+&lt;p&gt;Another factor lending credence to this theory is one of limbs. We've
+discovered that the average parent requires a minimum of three arms to
+successfully administer to the needs of a baby. Said baby, who in
+reality appears to have only two arms, constantly feel like they have at
+least four.&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>Cooper James Hamilton. The Birth.</title><link href="http://www.scorch.org/posts/2007/Sep/17/cooper-james-hamilton-the-birth/" rel="alternate"></link><updated>2007-09-17T10:11:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-09-17:posts/2007/Sep/17/cooper-james-hamilton-the-birth/</id><summary type="html">&lt;p&gt;Cooper James Hamilton was born on 11/09/2007 at 18.10 weighing 8lbs
+9oz and this is his story.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 5am&lt;/strong&gt;&lt;br /&gt;
+Mum jumps out of bed having felt her waters break. Excitement takes
+hold, we phone the hospital and they tell us to come in. We, probably
+naively, phone relatives and we get into the hospital at about 7am. An
+examination ensues and membranes are still present over the babies head.
+Waters can break up behind the babies head but though they can't confirm
+this they treat it like it's broken anyway. Because of the risk of
+infection they give us 24 hours to start labour or she'll be induced.
+We're told she's 1cm dilated and thinned to 1/2cm. This pleases us and
+we go home.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 10am&lt;/strong&gt;&lt;br /&gt;
+Mum starts getting contractions. We get excited and during the day we do
+some "duck ponding". Man and pregnant woman walking around a bit outside
+slowly pondering on whats to come and occasionally bending over in pain.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 3pm&lt;/strong&gt;&lt;br /&gt;
+The contractions fade away and stop. This is a concern as we do not want
+induction after hearing how intense it can be.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 5pm&lt;/strong&gt;&lt;br /&gt;
+Contractions start again! We sussed out that earlier that morning Hazel
+was lying on her side. She does this again and bam, they kick off again.
+We're both quite surprised by how painful they are but she manages to
+struggle on to 2am until they are about 5 minutes apart. Too painful to
+suffer any longer, we head for the hospital.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 2am&lt;/strong&gt;&lt;br /&gt;
+We get in, meet a male midwife and are shown to our lovely public
+delivery suite. A place we were quite familiar with already having been
+there at the 20 week mark. We sit, wondering what's to come. She has an
+examination and told she's 3cm dilated. Pretty good.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 5am&lt;/strong&gt;&lt;br /&gt;
+Hazel is now on the nitrous oxide. She puffs on it through contractions
+but the big ones still make her squeal. They are clearly extremely
+painful and I found this so hard to watch. We're both caught by surprise
+by how painful this is and we weren't even at the active labour bit yet.
+The contractions also aren't settling into a rhythm.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 7am&lt;/strong&gt;&lt;br /&gt;
+A new midwife starts with a male student midwife in tow. Hazel is
+examined and we're told the baby could be OP (facing the wrong way). The
+midwifes are a bit unsure about this and also think he might be facing
+kinda sideways. I start mentioning epidurals and get slightly dismissive
+responses. Hazel meanwhile is sucking on gas like it's a new friend
+which makes conversation difficult. For 30 seconds after a contraction
+she talks gibberish and seems to have a problem who said what and more
+importantly, when they said it. This concerns me as she can't make a
+sensible decision about pain relief.&lt;/p&gt;
+&lt;p&gt;I escape to get a coffee. I sit outside and cry for her.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 10.30am&lt;/strong&gt;&lt;br /&gt;
+Madness has finally landed. The midwives have her on the bed and want to
+examine her in new and interesting ways. We know by this time that the
+contractions are not normal. They rise and fall randomly but sometimes
+do not fall at all. One contraction flows into the next, especially as
+they move her around for examinations. She's sucking on gas like oxygen
+never existed, screams and whimpers, stops between contractions when she
+can and asks me what's going on and why everything is so weird. I'm
+helpless and it kills me. A doctor comes in and there's talk about the
+position of the baby. They attach a probe to bubs head as they can't get
+the outside monitors to work. The probe falls off 10 minutes later and
+they attach another one, causing Hazel more pain.&lt;/p&gt;
+&lt;p&gt;I need Hazel to ask for an epidural. We take the gas off her to get her
+head clear and she needs to sit through a couple of contractions with
+nothing. She screams for her gas, we don't give it to her. This is the
+hardest thing I've ever done.&lt;/p&gt;
+&lt;p&gt;The doctor steals my moment of "Hazel Clarity" to talk about some other
+stuff and she ends up back on the gas before I get her to ask for an
+epidural. More frustration. But some miracle happens and some 5 minutes
+later she says "I want an epidural!" At last, some civility!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 11.40am&lt;/strong&gt;&lt;br /&gt;
+The anesthetist has taken an hour to get to Hazel. Meanwhile she's been
+given pethedine which has helped a little. When she finally gets the
+epidural in there is blessed relief and suddenly everything is calm for
+the first time in hours. She has a sleep. I have a sleep.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 2pm&lt;/strong&gt;&lt;br /&gt;
+Hazel is examined again. Every vaginal examination increases the risk of
+infection to the baby. They find that the membrane over the babies head
+is still intact and she has still only dilated to 4cm. I can't believe
+it! This should have been discovered on the first VE and removed. They
+get the crochet hook out and burst the membrane. Aha, that feels
+different, there's hair there now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 4pm&lt;/strong&gt;&lt;br /&gt;
+Another VE and another probe onto bubs head as they keep falling off.
+This time we're stunned when we find out she's dilated to 9cm! Woah. A
+grope around the belly from another more experienced midwife (2nd
+opinion) reveals bub is directly OP with full limbs facing out the way.
+We're told that 95% of OP babies turn at the push. More calmness and
+muttering behind curtains from midwives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 5.30pm&lt;/strong&gt;&lt;br /&gt;
+It's push time. A quick VE reveals a fully dilated cervix. Hazel is
+instructed on pushing and off we go. The epidural is bang on and she has
+good sensations of pressure for pushing. The contractions are still
+random and some are too soft for a good push. Bub's heart-rate rises to
+around 180bpm and stays constant. The midwives don't like this and calls
+in the reg. Instead we get the consultant and she tells us bub has to
+come out pretty sharpish and asks if we can use the von-tuse (no idea on
+the spelling of that) suction. We agree.&lt;/p&gt;
+&lt;p&gt;The reg turns up and a pediatrician. The consultant sticks around and
+keeps charge of the delivery. The place is rapidly filling up with
+people. We have 3 pushes with suction with success. The baby hasn't
+turned around and his head cannot come out in the optimal direction. The
+consultant requests to use forceps and we agree. As if we'd say
+otherwise?. We use every contraction, weak or not and the consultant
+pulls like she's changing a truck tyre. Levering up and down and pulling
+with her weight.&lt;/p&gt;
+&lt;p&gt;Eventually Cooper's head appears facing straight upwards. His body
+appears on the next push and I don't get time to think. He's whupped
+onto Hazel's chest for about 2 seconds skin to skin. They shout at me
+repeatedly to cut the cord which I do. He's then whipped off Hazel and
+away round the corner onto a tray. I'm told to follow.&lt;/p&gt;
+&lt;p&gt;He's on the tray with a few people rubbing him like a kitten. He's grey
+and not breathing. At this point I'm not alarmed. My brains are still
+trying to catch up. He's still not breathing and they use the little
+oxygen mask pump, suction his lungs, more pump, more suction, more
+kitten rubbing. I start to realise that this isn't how it normally goes
+and I finally get an inkling just how serious this birth has been.
+Eventually, after 5 minutes he breaths his first breath. It's tiny, fast
+and makes a little hitching noise.&lt;/p&gt;
+&lt;p&gt;Hazel at last gets to hold him for a couple of minutes before he's taken
+away to the Special Care Nursery. 20 minutes later the Pediatrician
+comes back and talks to us about babies natural birth processes and
+their defense mechanisms in times of distress. I'm then taken to the
+nursery and see a now pink Cooper lying on his stomach in a thermacot
+with a drip and monitor wires. He looks straight at me through the glass
+and mouths around looking for food. The nurses give me good news
+regarding his oxygen saturation (98%) and I feel very pleased that he's
+bouncing back already.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tuesday 7.30pm&lt;/strong&gt;&lt;br /&gt;
+Hazel gets cleaned up and wheelchair bound we go to visit him together.
+He's looking even more healthy looking with his purple feet faded to a
+healthy pink. He's still mouthing very actively. The consultant pede
+happens to walk by and seeing his antics is convinced he should be let
+out of the tank to try and feed. He latches straight away and has a good
+guzzle for 5 minutes each side. Just what he needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thursday 3am&lt;/strong&gt;&lt;br /&gt;
+Hazel is brought a visitor from Special Care. Cooper is finally released
+(or evicted for causing too much noise) and given a clear bill of
+health. He still bears the wounds of his experience with suction marks,
+forceps scrapes, bruising and a weird looking head but he's already
+almost at 100%. Hazel and Cooper are natural at breast feeding. A lucky
+turn which I think is well deserved considering what they've both
+endured.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 17th 8pm&lt;/strong&gt;&lt;br /&gt;
+Cooper is now 5 days old and we're having a great time. Lack of sleep
+and the love we're feeling constantly fills us with laughter. Our lives
+once again, change irrevocably, and we're embarking yet again on another
+big adventure. This time though, instead of traveling the planet, we're
+traveling through a new life. Let the fun begin!&lt;/p&gt;
+&lt;p&gt;&lt;img width="640" src="/static/images/img_1362.jpg"&gt;&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;Double Ding</title><link href="http://www.scorch.org/posts/2007/Sep/08/double-ding/" rel="alternate"></link><updated>2007-09-08T09:47:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-09-08:posts/2007/Sep/08/double-ding/</id><summary type="html">&lt;p&gt;&gt;Due date today. Last 24 hours Hazel's been having slight painful
+contractions randomly between 14 and 30 minutes. Still can't be called
+the start of labour but it does make me think somethings gonna happen in
+the next couple of days. Let's take a guess at a hospital visit Monday
+morning. Let's say I have to go to work on Monday morning then have to
+come home again as soon as I get there.&lt;/p&gt;
+&lt;p&gt;In other news Hazel's just lost a bit of a tooth. Luckily I have a long
+experience with dentists, fillings as well as bits of tooth falling out
+my mouth so I can able to provide adequate consolation. I feel for her
+though. As someone who's ignored dentists all her life but still had
+relatively healthy teeth she's not going to enjoy next week.&lt;/p&gt;
+&lt;p&gt;That'll be 2 sore orificies!&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;Ding! Time's up</title><link href="http://www.scorch.org/posts/2007/Aug/17/ding-times-up/" rel="alternate"></link><updated>2007-08-17T23:06:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-08-17:posts/2007/Aug/17/ding-times-up/</id><summary type="html">&lt;p&gt;&gt;Yay! Today the bell finally when on the Oven of Sprogzilla. MiniSkreeg
+is now 37 weeks and full term. Come out and tidy your room! We're
+basically just waiting now. Everything is prepared, room ready, little
+socks ironed, hospital bags packed. All we need now is a good ol' flex
+of the uterus.&lt;/p&gt;
+&lt;p&gt;I suppose I should write something about how I feel coming up to this
+life changing event but I find the gestation process, and the
+preparation work you do during it has taken so long that it's kinda
+taken away some of the impact. It's not like one minute we're coasting
+along doing normal Oz things then bam there's a kid. The whole 9 months
+has been talking about it, buying stuff, reading about it, going to
+classes etc... We've been becoming parents gradually all the time.&lt;/p&gt;
+&lt;p&gt;Let's be real here though, it's still going to be BAM there's a kid to
+look after but I feel that we're ready for it. Nerves? pfft!&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>&gt;Glasshouse Mountains</title><link href="http://www.scorch.org/posts/2007/Aug/17/glasshouse-mountains/" rel="alternate"></link><updated>2007-08-17T22:48:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-08-17:posts/2007/Aug/17/glasshouse-mountains/</id><summary type="html">&lt;p&gt;&gt;Oh the joy of a non-updated blog.&lt;/p&gt;
+&lt;p&gt;While the outlaws were visiting over July time I exploited the presence
+of 2 larger males in the group as a reason to wheeling. We met up with a
+ragtag log from the Outerlimits4x4 forum and off we went into the bush
+at the Glasshouse Mountains. This is an area the zook club go to quite
+often but somehow I've never got there. The trouble with going with the
+Outerlimits crew is since it's not an official club the trip is lacking
+a certain feeling of safety and responsibility. Everyone is friendly and
+fun loving but I'm uncertain what would happen if big important bits
+started falling off your car and you needed to rely on them. Zook club
+members would be all over a broken rig no problems but with unofficial
+groups I'm not so sure.&lt;/p&gt;
+&lt;p&gt;We had 3 Sierras, a Vitara, a Maverick (Patrol), a Landcruiser and at 30
+year old F100. Steers like an oil tanker and weighed about the same.
+Glasshouse has some excellent hill climbs and we even found some mud
+holes to get stuck in. A much smaller area than Mount Mee where I'd been
+previously and easier to find some ridiculous hills to get stuck on.&lt;/p&gt;
+&lt;p&gt;I got bogged in a mud hole once and had to get pulled out. I've since
+changed the leads and plugs so hopefully this sorta thing will happen
+less often. I also got stuck on my tail on a slope with no way to roll
+backwards and couldn't start the car.&lt;/p&gt;
+&lt;p&gt;Carnage: Bent exhaust into mudflap. Melted mudflap now gone. Swapped
+paint with a rock while bashing front right wheel flare. I've just
+sprayed over it and will try and get new flares later (sssh, don't tell
+the handbrake :) )&lt;/p&gt;
+&lt;p&gt;Here's some vids.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/p/2A840B4BDB1BE392"&gt;http://www.youtube.com/p/2A840B4BDB1BE392&lt;/a&gt;&lt;/p&gt;</summary><category term="4wd"></category></entry><entry><title>&gt;Gadget Detox</title><link href="http://www.scorch.org/posts/2007/Jun/24/gadget-detox/" rel="alternate"></link><updated>2007-06-24T09:43:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-06-24:posts/2007/Jun/24/gadget-detox/</id><summary type="html">&lt;p&gt;&gt;For some bizarre reason I decided to spend the entire week free of
+gadgets. No mobile phone, no mp3 player, no nintendo DS and no computer
+at home for 7 days. Is this actually possible for a Type A personality
+that's been gaming since 1982? No it's not.&lt;/p&gt;
+&lt;p&gt;Last Sunday went ok. I got on with some DIY, dug a hole, found a pipe,
+broke a pipe, fixed a pipe then realised the pipe was in the wrong place
+so it was no use to me anyway. I then decided to change the diff and
+gear oil in the beast only to be thwarted by the lack of available
+information on oil capacity levels. Levels of which are containted in a
+certain PDF upstairs on a now inaccessible machine. Ah well. Then it was
+TV veg time so I survived that day.&lt;/p&gt;
+&lt;p&gt;Monday was a bit trickier. Haz was late shift Monday and Tuesday so I
+had to make it alone in a house surrounded by gadgets from 5pm till it
+was time for Wushu at 8pm. I passed the time by watching TV (the bad
+news mainly), reading comics of which I'd recently received a big order,
+reading a book and doing a bit of drawing. Then off to wushu to get
+holes poked in me by some newbie who didn't realise it was generally a
+non-contact sport, else people get hurt. Ah well. Tuesday was much the
+same. More comics, more drawing, more reading and meditating. Very
+relaxing.&lt;/p&gt;
+&lt;p&gt;The latter half of the week was more difficult. Since Skreegette is in
+the house I don't have the luxury of doing whatever I feel like.
+Interaction is inevitable and with the TV being on most of the time
+comics and meditating is rendered almost impossible. This poses a
+paradox. Hazel is entertained by the TV (relatively) and if it's on I
+must provide that entertainment. However, if the TV's on I can't do
+quiet stuff and if it's off I still can't do quiet stuff. I'm sure
+there's a sensible solution to this that probably involves me not
+sitting infront of a keyboard. :)&lt;/p&gt;
+&lt;p&gt;Saturday burst the bubble as a builder was coming round for a look at
+the house and I had to have a mobile with me in case he phoned. I think
+it's a shame that our lifestyle is made so much easier by these devices
+that the inconvenience of being without them overshadows the
+tranquillity of leaving them behind. I've had an interesting week and
+found myself much more relaxed and was surprised I even got some drawing
+done for once. It did bring home the difficulty of entertaining
+ourselves without TV. Once you turn it off there's this gap to fill and
+I realise now that this is a gap Hazel sees much more often than me.&lt;/p&gt;</summary><category term="Tech"></category></entry><entry><title>Myth PoC</title><link href="http://www.scorch.org/posts/2007/May/12/myth-poc/" rel="alternate"></link><updated>2007-05-12T23:01:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-05-12:posts/2007/May/12/myth-poc/</id><summary type="html">&lt;div&gt;
+Before Miniskreeg hits the sheets I have certain milestones to reach.
+One of these is the replacing of the current house PC (running Ubuntu
+Feisty) with a Mac of some kind, probably a laptop since I can tax dodge
+it and reincarnate the PC as a MythTV media centre. Shove it in a secure
+cabinet under the house with the cables coming up through the floor to
+the TV. Such a project needs to meet full 100% WAF qualifications (Wife
+Acceptance Factor).  
+&lt;/br&gt;  
+&lt;/br&gt;Since I can't tax dodge a lappy until July I thought I'd get a head
+start on the Myth box. I bought a Dvico FusionHDTV Home single tuner
+card which has a BT878 chipset. It was mostly detected by 'bunty and
+after reminding it to load a couple more modules it was up and running
+in no time. Ubuntu Myth packages made the install almost completely
+painless. I've even got the included remote control working too.  
+&lt;/br&gt;  
+&lt;/br&gt;MythTV is an awesome piece of software. It downloads program guide
+data, has fantastic recording options ensuring you never miss a
+particular show plus it's the only PVR software to include commercial
+ripping. Is this the saviour of Australia TV?  
+&lt;/br&gt;
+&lt;/div&gt;</summary><category term="Tech"></category></entry><entry><title>More Press Play On Tape</title><link href="http://www.scorch.org/posts/2007/May/03/more-press-play-on-tape/" rel="alternate"></link><updated>2007-05-03T09:30:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-05-03:posts/2007/May/03/more-press-play-on-tape/</id><summary type="html">&lt;div&gt;
+Oh I had no idea. The crazy germans have a website, do regular gigs and
+have a host of videos online with live, bootleg and rehearsals.
+Absolutely stunning is the mad violinist playing Monty On The Run.
+Fantastic.  
+&lt;/br&gt;  
+&lt;/br&gt;&lt;http://www.pressplayontape.com/&gt;  
+&lt;/br&gt;
+&lt;/div&gt;</summary><category term="Blather"></category></entry><entry><title>Pumpkin Man</title><link href="http://www.scorch.org/posts/2007/May/03/pumpkin-man/" rel="alternate"></link><updated>2007-05-03T09:13:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-05-03:posts/2007/May/03/pumpkin-man/</id><summary type="html">&lt;div&gt;
+If you were a C64 head back in the eighties you might have played a game
+called Cauldron, or Cauldron II. This was released by Ocean software and
+of course had the invincible Martin Galway providing the music. Looks
+like some mad germans have done a live on stage remix of the music from
+the sequel. Awesome!  
+&lt;/br&gt;  
+&lt;/br&gt;&lt;http://www.youtube.com/watch?v=Hfi6TkpCv-I&gt;
+&lt;/div&gt;</summary><category term="Blather"></category><category term="Miniskreeg"></category></entry><entry><title>Beast Carnage</title><link href="http://www.scorch.org/posts/2007/Apr/09/beast-carnage/" rel="alternate"></link><updated>2007-04-09T11:35:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-04-09:posts/2007/Apr/09/beast-carnage/</id><summary type="html">&lt;p&gt;Gran and Grandpa Skreeg were over visiting during the last month. I
+thought it would be nice to take Grandpa Skreeg out "wheeling" in The
+Beast[tm], a 1992 Suzuki Sierra. It's pretty much stock with only a body
+lift and 29" tyres on it but I love it to bits. It's good fun. Anyway,
+ol Papa Skreeg used to do a bit of rally driving in his younger years
+and spent most of life hotting up cars in some form or another so you'd
+think he would be able to pick a line in a 4wd travelling at less than
+walking speed. Think again!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/v/51hMNrDlVME"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The end result on that little tumble was a bent door and windowscreen
+frame both of which are getting a little tricky to get a hold of these
+days. 800 bucks later and we're back on the road. Good job too, I have
+more of this to do.&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=H6L9A8dHgs4]&lt;/p&gt;
+&lt;p&gt;Gotta love them little zooks.&lt;/p&gt;</summary><category term="4wd"></category></entry><entry><title>Rate My Egg</title><link href="http://www.scorch.org/posts/2007/Apr/08/rate-my-egg/" rel="alternate"></link><updated>2007-04-08T06:07:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-04-08:posts/2007/Apr/08/rate-my-egg/</id><summary type="html">&lt;p&gt;It's Happy Zombie Jesus weekend and we've done our eggs. Which one is
+best? The loser gets rolled a lot faster than a mortal ovum can survive.&lt;/p&gt;
+&lt;p&gt;Judge Egg.&lt;/p&gt;
+&lt;div style="text-align:center;"&gt;
+[![][]][]
+
+&lt;/div&gt;
+
+&lt;div style="text-align:left;"&gt;
+or the Egg Fairy.  
+[![][1]][]
+
+&lt;p&gt;
+You decide.
+
+&lt;/div&gt;
+
+&lt;p&gt;[&lt;img alt="" src="http://bp0.blogger.com/_MKqlq3WVEmY/RhiG9TnBYbI/AAAAAAAAAAk/aHwu-Chrhvg/s320/00020.jpg" /&gt;]: http://bp0.blogger.com/_MKqlq3WVEmY/RhiG9TnBYbI/AAAAAAAAAAk/aHwu-Chrhvg/s1600-h/00020.jpg
+  [&lt;img alt="" src="http://bp3.blogger.com/_MKqlq3WVEmY/RhiHUDnBYcI/AAAAAAAAAAs/2nPVKdJe5lI/s320/00021.jpg" /&gt;]: http://bp3.blogger.com/_MKqlq3WVEmY/RhiHUDnBYcI/AAAAAAAAAAs/2nPVKdJe5lI/s1600-h/00021.jpg&lt;/p&gt;</summary><category term="Blather"></category></entry><entry><title>Introducing Miniskreeg</title><link href="http://www.scorch.org/posts/2007/Apr/08/introducing-miniskreeg/" rel="alternate"></link><updated>2007-04-08T02:19:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-04-08:posts/2007/Apr/08/introducing-miniskreeg/</id><summary type="html">&lt;p&gt;The 13 week scan was over a month ago now but no less a significant
+event now than it was then. I've always looked at pictures of other
+peoples scans with almost complete disinterest. A static photo just
+simply doesn't do the event justice. The image is basically a real time
+"slice" of the baby and surrounding paraphernalia. Each frame taken by
+itself looks like a mess but with the doctor moving the "camera" back
+and forth the image constantly changes. Your brain magically joins all
+the images together in your head and you end up with a fairly clear idea
+that you're looking at a tiny miniature human being inside the torso of
+your spouse.&lt;/p&gt;
+&lt;p&gt;We weren't quite prepared for this. The doctor doesn't exactly set the
+scene or give any warning. One minute there's nothing then wham! There's
+the baby! Legs stretched out, little brain, organs, ribs, spine, fingers
+and... it's alive! It moves! In fact, it wouldn't stay still and it took
+the doc some time to get a clear enough view to take the NT scan. We
+were both very surprised at how mobile it was. Legs and arms kicking,
+jaw going up and down like it's chewing gum. Amazing stuff and just to
+join the hordes of almost intelligible pictures of 13 week scans on the
+net. Here's Miniskreeg.&lt;/p&gt;
+&lt;p&gt;Look Mom! I'm on t'Internet!&lt;br /&gt;
+[&lt;img alt="" src="http://bp2.blogger.com/_MKqlq3WVEmY/RhhUXznBYaI/AAAAAAAAAAc/_ZxBanl1E-0/s320/00024.jpg" /&gt;][]&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://bp2.blogger.com/_MKqlq3WVEmY/RhhUXznBYaI/AAAAAAAAAAc/_ZxBanl1E-0/s320/00024.jpg" /&gt;]: http://bp2.blogger.com/_MKqlq3WVEmY/RhhUXznBYaI/AAAAAAAAAAc/_ZxBanl1E-0/s1600-h/00024.jpg&lt;/p&gt;</summary><category term="Miniskreeg"></category></entry><entry><title>Welcome to The Skreegs online!</title><link href="http://www.scorch.org/posts/2007/Apr/08/welcome-to-the-skreegs-online/" rel="alternate"></link><updated>2007-04-08T01:39:00+10:00</updated><author><name>mongrol</name></author><id>tag:www.scorch.org,2007-04-08:posts/2007/Apr/08/welcome-to-the-skreegs-online/</id><summary type="html">&lt;p&gt;It seems this internet thing is quite popular and I see lots of people
+like to write blog thingies about their lives so other folk can see how
+much more dull there's is in comparison. In an effort to make ours less
+dull I've decided to start writing a blog thingy myself. Hey, I've only
+written a couple of sentences and I can feel my life becoming more
+interesting already. It really works!&lt;/p&gt;
+&lt;p&gt;Ok, the real reason is all about Miniskreeg. Spawn of my loins is
+currently baking at body temperature and the timers set for the 8th of
+September. This is quite obviously a life changing event for all of us
+(especially the kid) and I thought it'd be a good idea to get a blog
+together to record the experience for you "folks back home".&lt;/p&gt;</summary><category term="Blather"></category></entry></feed>

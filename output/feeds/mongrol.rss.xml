@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>the skreegs - mongrol</title><link>/</link><description></description><lastBuildDate>Wed, 30 Oct 2013 21:53:00 +1000</lastBuildDate><item><title>VPS gone</title><link>posts/2013/Oct/30/vps%20gone/</link><description>&lt;p&gt;I've now knocked up my other Raspberrypi Model B as a web server to replace
+my slowing VPS. It's performing way better than I expected. I've set it up with
+Lighttpd, Postgresql and enabled php-apc to cache php. Php-apc is giving a 
+reasonable speedup of around 30%. The Pi is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 30 Oct 2013 21:53:00 +1000</pubDate><guid isPermaLink="false">tag:None,2013-10-30:posts/2013/Oct/30/vps gone/</guid><category>The Skreegs</category><category>raspberrypi</category></item><item><title>Mame4all-pi</title><link>posts/2013/Mar/16/mame4all-pi/</link><description>&lt;p&gt;Mame4all is the ONLY way to play mame on the Pi. Combined with DISPMANX
+it gives a near 50% performance increase and perfect sound. AWESOME! Get
+it here.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://code.google.com/p/mame4all-pi/"&gt;https://code.google.com/p/mame4all-pi/&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 16 Mar 2013 14:22:00 +1000</pubDate><guid isPermaLink="false">tag:None,2013-03-16:posts/2013/Mar/16/mame4all-pi/</guid><category>The Skreegs</category></item><item><title>MongCade Update</title><link>posts/2013/Feb/12/mongcade-update/</link><description>&lt;p&gt;Roughly on schedule the final physical build is complete. It's turned
+out very well with only the usual audio issues from advmame on the Pi.
+Here's the parts list.&lt;/p&gt;
+&lt;p&gt;* Raspberry Pi \$40&lt;br&gt;
+* Ultimarc miniPac keyboard encoder (\$60 delivered from USA)&lt;br&gt;
+* Powered USB hub from BigW (\$15)&lt;br&gt;
+* 2x Sticks \$34&lt;br&gt;
+* 8x …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 12 Feb 2013 19:42:00 +1000</pubDate><guid isPermaLink="false">tag:None,2013-02-12:posts/2013/Feb/12/mongcade-update/</guid><category>The Skreegs</category><category>raspberrypi</category></item><item><title>Libre Status Update</title><link>posts/2012/Dec/28/libre-status-update/</link><description>&lt;p&gt;While I'm a Free Software Activist and want to get more involved I
+certainly don't practise 100% what I preach. I have the following
+devices in my home.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 Windows Netbook - It's Hazel's and will be replaced when it dies&lt;/li&gt;
+&lt;li&gt;1 Debian Wheezy Desktop - It has and AMD gfx card …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 28 Dec 2012 20:05:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-12-28:posts/2012/Dec/28/libre-status-update/</guid><category>The Skreegs</category><category>Free Software</category><category>Open Source</category><category>Parabola GNULinux</category></item><item><title>Traction Edge Development Ceased</title><link>posts/2012/Dec/28/traction-edge-development-ceased/</link><description>&lt;p&gt;Unfortunately TE development is now over and probably never to restart.
+Basically after 3 years of work I still have only a small game to show.
+My limited time doesn't leave much space to make the game I envisage.
+C++ development is slow with a lot of my time fighting …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 28 Dec 2012 13:13:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-12-28:posts/2012/Dec/28/traction-edge-development-ceased/</guid><category>Traction Edge</category></item><item><title>It's alive!</title><link>posts/2012/Aug/29/its-alive/</link><description>&lt;p&gt;Mamecab update.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Boot to Advmenu now worky&lt;/li&gt;
+&lt;li&gt;Ultimarc minipac installed and working&lt;/li&gt;
+&lt;li&gt;Player 1 stick and buttons in and working&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+It also passed the Girlie Test. She played it once, then when game
+overed she pressed 1up for another game! Win!
+
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 29 Aug 2012 20:53:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-29:posts/2012/Aug/29/its-alive/</guid><category>The Skreegs</category><category>mame</category><category>raspberrypi</category></item><item><title>Appraise? Nah</title><link>posts/2012/Aug/27/appraise-nah/</link><description>&lt;p&gt;I had the appraise skill in and about to start using it when I realised
+I didn't need it. What is an appraise skill anyway? It's based on
+intelligence and lets you identify creatures and objects but you can't
+raise it with skill points. This means UI work to avoid …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 27 Aug 2012 21:39:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-27:posts/2012/Aug/27/appraise-nah/</guid><category>Traction Edge</category><category>AI</category></item><item><title>AI stable</title><link>posts/2012/Aug/24/ai-stable/</link><description>&lt;p&gt;Fleeing monsters are now in, they do tend to do a bit of pillar dancing
+in and out of FOV but I'll fix that later. Next up though I want to get
+some individuality in and we can do that with the flee desire. I want
+monsters to have different …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 24 Aug 2012 21:14:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-24:posts/2012/Aug/24/ai-stable/</guid><category>Traction Edge</category><category>AI</category></item><item><title>TE AI Update</title><link>posts/2012/Aug/23/te-ai-update/</link><description>&lt;p&gt;My Dijkstra implementation is now in and providing some lovely
+pathfinding indeed. I'm now finishing up initial desires and getting
+monsters to flee appropriately. I'm sure my handling of the various DJ
+maps isn't very efficient. After this is done I'll move onto something
+else as it's taken a few …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 23 Aug 2012 21:14:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-23:posts/2012/Aug/23/te-ai-update/</guid><category>Traction Edge</category></item><item><title>...but not got telly</title><link>posts/2012/Aug/22/but-not-got-telly/</link><description>&lt;p&gt;I'd collected a couple of portable telly's to use in my mame cab. The
+picture quality with Black Tiger running is outstanding. Just like a
+mini arcade machine. However, some inquiries how I might utilise the
+power inside the telly has warned me off of using a CRT. Telly's are …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 22 Aug 2012 20:51:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-22:posts/2012/Aug/22/but-not-got-telly/</guid><category>The Skreegs</category><category>raspberrypi</category></item><item><title>Got Sticks!</title><link>posts/2012/Aug/17/got-sticks/</link><description>&lt;p&gt;Got my sticks today. I went for the reputable Sanwa variety. They feel
+of hardcore arcade greatness. A nice selection buttons too. Can't do
+anything with them though till I get my Ultimarc mini-pac which was just
+ordered from the US.&lt;/p&gt;
+&lt;p&gt;On the software side I have advancemame running reasonably …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 17 Aug 2012 13:04:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-17:posts/2012/Aug/17/got-sticks/</guid><category>The Skreegs</category><category>raspberrypi</category></item><item><title>Random Things In Odd Places #1</title><link>posts/2012/Aug/17/random-things-in-odd-places-1/</link><description>&lt;p&gt;A great thing about having kids is constantly finding random objects
+sitting in places they shouldn't be and since we're always busy doing
+more important things these objects will sometimes sit in their place
+for days or weeks on end before someone can be bothered moving them.&lt;br&gt;
+I kept meaning …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 17 Aug 2012 12:58:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-17:posts/2012/Aug/17/random-things-in-odd-places-1/</guid><category>The Skreegs</category><category>random</category></item><item><title>Raspberry Pi Mame Bartop</title><link>posts/2012/Aug/07/raspberry-pi-mame-bartop/</link><description>&lt;p&gt;I always wanted to build a MAME cabinet but the plan was to wait till
+the kids were bigger and I had more time on my hands. Mame Cabs are
+generally big, full sized things and have a full PC in them. Big, clunky
+and expensive to build and run …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 07 Aug 2012 20:46:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-08-07:posts/2012/Aug/07/raspberry-pi-mame-bartop/</guid><category>The Skreegs</category><category>raspberrypi</category></item><item><title>GNOME 3. Why Red Hat?</title><link>posts/2012/Jul/30/gnome-3-why-red-hat/</link><description>&lt;p&gt;Lots has been written on GNOME3 already so I'll make this quick
+(probably not). Let's start with some facts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GNOME2 was the primary desktop of Linux and the majority of
+    Distributions. It is after all considered GNU software.&lt;/li&gt;
+&lt;li&gt;GNOME is driven by Red Hat as they pay the wages of …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 30 Jul 2012 21:19:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-07-30:posts/2012/Jul/30/gnome-3-why-red-hat/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>Straight And True</title><link>posts/2012/Jul/19/straight-and-true/</link><description>&lt;p&gt;I was fairly quick getting Dijkstra maps in for path finding but still
+found my monsters taking round about paths to get to targets. Exactly
+the same as my old code. It took an infuriatingly long time to fix as
+well. The problem was I was calculating every tile around …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 19 Jul 2012 20:21:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-07-19:posts/2012/Jul/19/straight-and-true/</guid><category>Traction Edge</category></item><item><title>Desire me Dijkstra</title><link>posts/2012/Jul/10/desire-me-dijkstra/</link><description>&lt;p&gt;The AI refresh is going great. I have some fantasy is my head about
+ditching the state machine, which technically I have. The idea is to
+update awareness of every loop, then update desires, and goals for those
+desires,  based on that awareness. The final result is a djmap that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 10 Jul 2012 20:24:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-07-10:posts/2012/Jul/10/desire-me-dijkstra/</guid><category>Traction Edge</category></item><item><title>Game Stuff</title><link>posts/2012/Jun/14/game-stuff/</link><description>&lt;p&gt;Firstly I just watched the talk by Icculus at Flourish 2012. Very good
+talk and a great overview of all the useful tools the open source
+community provides for game programmers. Picked up a few myself
+including Valgrind and I'm even more interested in Lua that I was before
+thought …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 14 Jun 2012 20:47:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-06-14:posts/2012/Jun/14/game-stuff/</guid><category>Traction Edge</category></item><item><title>XP progression in</title><link>posts/2012/Jun/06/xp-progression-in/</link><description>&lt;p&gt;So now I've got XP progression in and had a good play testing session.
+The result.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It's beatable until the Gimps on level 3 appear.&lt;/li&gt;
+&lt;li&gt;Path finding sucks. Monsters still get stuck at map edges&lt;/li&gt;
+&lt;li&gt;AI needs obvious real work&lt;/li&gt;
+&lt;li&gt;XP gain grants too many skill points.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+ I only have …&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 06 Jun 2012 20:05:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-06-06:posts/2012/Jun/06/xp-progression-in/</guid><category>Traction Edge</category></item><item><title>TE update</title><link>posts/2012/Jun/04/te-update/</link><description>&lt;p&gt;XP gain is now in. There's a rough curve that'll need tuning as we go
+but now after a map your patrolmen will have attribute points to spend
+on level up.&lt;/p&gt;
+&lt;p&gt;I hate UI programming. It's just painful and timeconsuming. I first had
+a go at doing some window,view …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 04 Jun 2012 20:18:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-06-04:posts/2012/Jun/04/te-update/</guid><category>Traction Edge</category></item><item><title>Real Ultimate Failure</title><link>posts/2012/Jun/04/real-ultimate-failure/</link><description>&lt;p&gt;Well that didn't last long. 4 weeks after returning to Kung Fu I've quit
+it for good. While I'd been pleased with the initial sessions after a
+few weeks the training took it's toll on my joints which gradually
+increased in discomfort and started getting quite sore. Couple that with …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 04 Jun 2012 20:15:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-06-04:posts/2012/Jun/04/real-ultimate-failure/</guid><category>The Skreegs</category></item><item><title>TE Simplification Project</title><link>posts/2012/May/20/te-simplification-project/</link><description>&lt;p&gt;I've done no dev in the last 4 weeks for a couple of main reasons. 1)
+I've been hammered by anxiety and 2) I realise that with my current game
+design I won't be finished for another 3 years at my current rate. So
+it's time for the Traction Edge …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 20 May 2012 13:48:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-05-20:posts/2012/May/20/te-simplification-project/</guid><category>Traction Edge</category></item><item><title>Dev Distractions</title><link>posts/2012/May/02/dev-distractions/</link><description>&lt;p&gt;The last two weeks have been pretty hard for me as an anxiety sufferer
+so practically no devving has been done at all. Anxiety makes you reach
+for escape and distraction and this came in the form of a nearly new
+Nokia N900. The ultimate geeks phone. :)&lt;/p&gt;
+&lt;p&gt;Back on TE …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 02 May 2012 21:12:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-05-02:posts/2012/May/02/dev-distractions/</guid><category>Traction Edge</category></item><item><title>UI Mistake Redux</title><link>posts/2012/Apr/16/ui-mistake-redux/</link><description>&lt;p&gt;My last post berated my event loop and UI structure. I had a good old
+look at it today and some reading and I'm not so sure I've got it wrong
+after all. MVC means the view reacts to events and sends commands to the
+controller. The controller then translates …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 16 Apr 2012 20:39:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-04-16:posts/2012/Apr/16/ui-mistake-redux/</guid><category>Traction Edge</category></item><item><title>Traction Edge Design Mistakes #1</title><link>posts/2012/Apr/11/traction-edge-design-mistakes-1/</link><description>&lt;p&gt;Traction Edge is the one and only C++ program I've ever written. I
+didn't start with Hello World. I just got in and started moving an @
+around using SFML (then called EnemyX) and it just kept going from
+there. Since my dev time is quite limited and games take a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 11 Apr 2012 20:55:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-04-11:posts/2012/Apr/11/traction-edge-design-mistakes-1/</guid><category>Traction Edge</category></item><item><title>blah for teh logw1n.</title><link>posts/2012/Apr/08/blah-for-teh-logw1n/</link><description>&lt;p&gt;I've now ripped through all the code and replaced any output with
+&lt;a href="https://bitbucket.org/edd/blah/overview" title="blah"&gt;blah&lt;/a&gt;. This is an awesome little C++ logger library and has
+completely solved all my debug woes, std::cout spam and my poor effort
+at a logger. Who wants to write a perfect logger? Not me, I'd rather …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 08 Apr 2012 20:44:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-04-08:posts/2012/Apr/08/blah-for-teh-logw1n/</guid><category>Traction Edge</category></item><item><title>Traction Edge v0.3 Released</title><link>posts/2012/Mar/30/traction-edge-v0-3-released/</link><description>&lt;p&gt;Yay! That makes 3 releases in less than 3 years. Awesome! This is the
+first release that I consider a playable game in that it allows you to
+progress through several levels of increasing difficulty with the
+ability to boost your skills during map intervals. I've also setup a new …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 30 Mar 2012 22:03:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-03-30:posts/2012/Mar/30/traction-edge-v0-3-released/</guid><category>Traction Edge</category></item><item><title>Level Level</title><link>posts/2012/Mar/16/level-level/</link><description>&lt;p&gt;I've been meaning to do a post on my programming mistakes with Traction
+Edge since I started. I'll do it soon but one item that will be in the
+list bit me on the bum yesterday. Because I'm such a genius, my Creature
+class has all it's attributes as int's …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 16 Mar 2012 20:42:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-03-16:posts/2012/Mar/16/level-level/</guid><category>Traction Edge</category></item><item><title>Level up!</title><link>posts/2012/Mar/13/level-up/</link><description>&lt;p&gt;We're getting close to the next release. We now have skill point
+upgrades between levels and modified melee damage to be dependent on
+strength hopefully encouraging players to build tank style squaddies.&lt;/p&gt;
+&lt;p&gt;What's left before the next release? Not a lot.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level up with XP gain. Every level grants you …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 13 Mar 2012 22:54:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-03-13:posts/2012/Mar/13/level-up/</guid><category>Traction Edge</category></item><item><title>Kung Fu Return</title><link>posts/2012/Feb/23/kung-fu-return/</link><description>&lt;p&gt;I thought I'd write this down so I don't forget when it happened. After
+a lapse of nearly 2 1/2 years which has seen me visit various
+specialists, had numerous scans and a double hip arthroscope, I returned
+to Kung Fu training last night. The session went well but …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 23 Feb 2012 11:11:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-02-23:posts/2012/Feb/23/kung-fu-return/</guid><category>The Skreegs</category><category>Blather</category></item><item><title>Attack code sucks</title><link>posts/2012/Feb/23/attack-code-sucks/</link><description>&lt;p&gt;Now I'm back into the actual game proper and done with PCG for the time
+being, I've quickly realised that my old ranged attack code sucks quite
+badly. I also jammed melee attack code into it without fully realising
+how sucky it was. The result is some ugly components that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 23 Feb 2012 11:07:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-02-23:posts/2012/Feb/23/attack-code-sucks/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>PCG Screenshot</title><link>posts/2012/Feb/16/pcg-screenshot/</link><description>&lt;p&gt;I'm really quite pleased with how its turned out. Not bad for a first
+attempt at all. It's also flexible enough to be able to make it easy to
+create other map types like villages, towns, cities etc.&lt;/p&gt;
+&lt;p&gt;Here's a screenshot.&lt;/p&gt;
+&lt;p&gt;{% img /static/images/tepcg.png 640 %}&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 16 Feb 2012 09:29:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-02-16:posts/2012/Feb/16/pcg-screenshot/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>PCG Phase 1 Complete</title><link>posts/2012/Feb/14/pcg-phase-1-complete/</link><description>&lt;p&gt;Phew, that took some doing. For my first PCG map "farm" I've used
+Cellular Automation for tree generation. This took some tweaking to get
+right with some random variables liberally sprinkled to get the right
+amount of clumping and spacing. I didn't want a cavern type thick forest
+and it …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 14 Feb 2012 10:29:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-02-14:posts/2012/Feb/14/pcg-phase-1-complete/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>Ok, more PCG</title><link>posts/2012/Jan/30/ok-more-pcg/</link><description>&lt;p&gt;Just had a wee play through. I'm not very happy with the state of PCG as
+it is. If I left it as it is I'd have to live with it for probably 6
+months or more and it'll just piss me off. So, targets are.&lt;/p&gt;
+&lt;p&gt;* Correct meandering roads and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 30 Jan 2012 10:34:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-01-30:posts/2012/Jan/30/ok-more-pcg/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>PCG draft 1 complete</title><link>posts/2012/Jan/27/pcg-draft-1-complete/</link><description>&lt;p&gt;PCG is up to a state now that I can move on a bit. Currently I have one
+scenario, the farm. 2 sizes of construction, random trees and a dirst
+road. The trees and road I'm not happy with but it'll do just now.  &lt;/p&gt;
+&lt;p&gt;I now need to figure out …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 27 Jan 2012 21:36:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-01-27:posts/2012/Jan/27/pcg-draft-1-complete/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>PCG Update</title><link>posts/2012/Jan/24/pcg-update/</link><description>&lt;p&gt;Good progress today. A trip to Sydney resulted in much code being
+written on the plane and in the airport. I now have 5x5 and 10x10
+building placement into a base map with the config for each scenario
+parsed from xml files. Next up is to tighten up the code …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 24 Jan 2012 09:50:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-01-24:posts/2012/Jan/24/pcg-update/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>TE on Freegamer</title><link>posts/2012/Jan/22/te-on-freegamer/</link><description>&lt;p&gt;Traction Edge landed a news post on &lt;a href="http://freegamer.blogspot.com/2012/01/traction-edge-squad-based-tactics.html"&gt;freegamer&lt;/a&gt; this week. Cool! Cept,
+now 25 people have downloaded my source in 2 days, more than my current
+2 year total. Will I have guilt for not working on it? No! Because I am
+working on it!. muha!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 22 Jan 2012 04:12:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-01-22:posts/2012/Jan/22/te-on-freegamer/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>PCG Progress</title><link>posts/2012/Jan/05/pcg-progress/</link><description>&lt;p&gt;I've successfully switched my PCG code from the convoluted BSP code to
+the much simpler map squares alah UFO(Xcom). The square size of 5x5
+seems a nice fit too. I've also got masking in so buildings that don't
+entirely fill the square simply overlay on top of the ground …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 05 Jan 2012 23:32:00 +1000</pubDate><guid isPermaLink="false">tag:None,2012-01-05:posts/2012/Jan/05/pcg-progress/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>TE and PCG</title><link>posts/2011/Dec/30/te-and-pcg/</link><description>&lt;p&gt;I'm now plugging away at procedural maps. Maps are created for
+"scenarios", e.g. Farm, Village, City, Dungeon etc. With custom code for
+each without obvious reuse where possible. Buildings are then generated
+and placed into the map where there is space. Finding space is the
+tricky part. At first …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 30 Dec 2011 03:42:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-12-30:posts/2011/Dec/30/te-and-pcg/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>TE progress</title><link>posts/2011/Nov/16/te-progress/</link><description>&lt;p&gt;ARRP 2011 is now two months gone and I've so far, in my usual slow
+fashion, implemented melee. I'm becoming more conscious of the usability
+of the interface as this is exacerbated by the success of indie games
+recently. User's have higher expectations and Indie games these days
+have to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 16 Nov 2011 10:34:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-11-16:posts/2011/Nov/16/te-progress/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>Traction Edge v0.2 Released</title><link>posts/2011/Sep/21/traction-edge-v0-2-released/</link><description>&lt;p&gt;I've finally got another release successfully out he door last weekend.
+v0.2 was punted out for the ARRP 2011. Main changes were updated AI,
+reaction fire and stats affecting gameplay.&lt;/p&gt;
+&lt;p&gt;Since I'm only distributing source, and since the source is always
+available and a release is only a sort …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 21 Sep 2011 05:12:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-09-21:posts/2011/Sep/21/traction-edge-v0-2-released/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>Terminal Monotony</title><link>posts/2011/Aug/07/terminal-monotony/</link><description>&lt;p&gt;My coding fruition reaches new lows as it's taken nearly 10 weeks to
+implement a save game feature. My god that was dull. In the end though,
+it actually turned out easier, and more monotonous than I thought.
+Loading all the data in and bootstrapping the game at whatever screen …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 07 Aug 2011 10:02:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-08-07:posts/2011/Aug/07/terminal-monotony/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>Serialised Monotony</title><link>posts/2011/May/10/serialised-monotony/</link><description>&lt;p&gt;I'm now starting to implement the savegame feature in Traction Edge. A
+worthwhile and necessary task that's sure to propel it into the annals
+of gaming history. It's incredibly tedious though. I'm using TinyXML so
+that's the file IO burden removed but trawling through all the objects
+needing to be …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 10 May 2011 09:53:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-05-10:posts/2011/May/10/serialised-monotony/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>I just go icky ficky!</title><link>posts/2011/May/10/i-just-go-icky-ficky/</link><description>&lt;p&gt;.. I just go, icky ficky ficky!&lt;/p&gt;
+&lt;p&gt;It's all getting a bit out of control. The mythtv box, which I'm now
+running tt-rss and roundcube on frequently crashes running out of
+memory. Turns out it's only ever had 1 GB of ram in it which is pretty
+good going for a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 10 May 2011 09:48:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-05-10:posts/2011/May/10/i-just-go-icky-ficky/</guid><category>The Skreegs</category><category>Tech</category></item><item><title>Exit The Cloud - One Month On</title><link>posts/2011/Apr/20/exit-the-cloud-one-month-on/</link><description>&lt;p&gt;So where are a month after my tirade against the oppression of freedom
+and liberty?&lt;/p&gt;
+&lt;p&gt;Macbook Pro has been sold. They hold their value quite well and the
+money from it (a 4 year old machine) paid for the build of my new Debian
+desktop plus some left over. That …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 20 Apr 2011 02:01:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-04-20:posts/2011/Apr/20/exit-the-cloud-one-month-on/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>Reactions</title><link>posts/2011/Mar/25/reactions/</link><description>&lt;p&gt;An important feature of any XCom-a-like is opportunity fire, or reaction
+fire. This means when you click to move your wee man and he starts
+moving towards his destination, if an enemy see's him there's a chance
+of the opposition getting a free shot at him, during your turn, if …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 25 Mar 2011 10:21:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-03-25:posts/2011/Mar/25/reactions/</guid><category>Traction Edge</category><category>Traction Edge</category></item><item><title>Exited The Cloud #7</title><link>posts/2011/Mar/18/exited-the-cloud-7/</link><description>&lt;p&gt;I'm about 90% towards where I wanted to be which is pretty good. Let's
+see the score card.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GMail&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replaced by Fastmail.fm. This is still cloud side but self hosting email
+is a nasty business. My self hosting platform is still immature. I do
+have a self hosted …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 18 Mar 2011 11:20:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-03-18:posts/2011/Mar/18/exited-the-cloud-7/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>Exiting The Cloud #6</title><link>posts/2011/Mar/05/exiting-the-cloud-6/</link><description>&lt;p&gt;In order to dump the Mac I need to replace it with something that meets
+the equivalent Wife Acceptance Factor. I've managed to lower the WAF a
+bit by explaining why I'm doing this. She appears to agree, or at the
+very least, allowed me to my madness.&lt;/p&gt;
+&lt;p&gt;I've knocked …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 05 Mar 2011 10:50:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-03-05:posts/2011/Mar/05/exiting-the-cloud-6/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>Traction Edge: Stable AI</title><link>posts/2011/Mar/01/traction-edge-stable-ai/</link><description>&lt;p&gt;My second iteration of TE's AI has finally reached some kind of
+stability. It's the first draft of a fairly basic state machine with a
+few bits of bandaid over my rushed code.&lt;/p&gt;
+&lt;p&gt;The FSM consists of Patrol state, Attack State and Run State. Each
+state, during update will run …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 01 Mar 2011 09:15:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-03-01:posts/2011/Mar/01/traction-edge-stable-ai/</guid><category>Traction Edge</category><category>Open Source</category><category>Traction Edge</category></item><item><title>Exiting The Cloud #5</title><link>posts/2011/Feb/24/exiting-the-cloud-5/</link><description>&lt;p&gt;Traction Edge is now officially over at &lt;a href="http://sourceforge.net/projects/tractionedge/"&gt;Sourceforge&lt;/a&gt;. I'm quite happy
+with this as Sourceforge's kit is a level up from Googlecodes in terms
+of functions. I now get to make a pretty website for TE.&lt;/p&gt;
+&lt;p&gt;I've also made inroads into self hosting but it takes some work. My
+initial …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 24 Feb 2011 10:28:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-02-24:posts/2011/Feb/24/exiting-the-cloud-5/</guid><category>The Skreegs</category><category>Open Source</category><category>Traction Edge</category></item><item><title>Exiting The Cloud #4</title><link>posts/2011/Feb/17/exiting-the-cloud-4/</link><description>&lt;p&gt;I've been angling towards self hosting over the last couple of days.
+Firstly I just shrugged off the idea as being too much hassle, possibly
+costly, difficult to maintain etc. The more I thought about it the more
+I warmed to it though. I mean, all I need to do …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 17 Feb 2011 11:07:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-02-17:posts/2011/Feb/17/exiting-the-cloud-4/</guid><category>The Skreegs</category><category>Open Source</category><category>Traction Edge</category></item><item><title>Exiting The Cloud #3</title><link>posts/2011/Feb/16/exiting-the-cloud-3/</link><description>&lt;p&gt;So actually ignoring the cloud for the moment and returning to Kitten
+Ranch. The primary offender onsite is our MacBook Pro. This, being the
+main computer, was purchased and put in operation because "it just
+works". After years of faffing around with Linux I wanted something
+stable and good. Good …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 16 Feb 2011 12:18:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-02-16:posts/2011/Feb/16/exiting-the-cloud-3/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>Exiting The Cloud #1</title><link>posts/2011/Feb/01/exiting-the-cloud-1/</link><description>&lt;p&gt;So the Exit The Cloud/Be A Bolshy Arse strategy is underway.&lt;/p&gt;
+&lt;p&gt;Let's see how we're doing so far.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apple&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My home PC is a Macbook Pro. I need to install and use Linux on it
+instead.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style="color:#339966;"&gt;Debian Squeeze is (probably) released
+    next week. I'll assess that then.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Social Networking …&lt;/strong&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 01 Feb 2011 10:17:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-02-01:posts/2011/Feb/01/exiting-the-cloud-1/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>The Importance Of Being Open</title><link>posts/2011/Jan/29/the-importance-of-being-open/</link><description>&lt;p&gt;Last week at LCA2011, &lt;a href="http://blog.futurestreetconsulting.com/wp-trackback.php?p=484"&gt;Mark Pesce&lt;/a&gt; delivered a compelling keynote
+speech on privacy. His premise was this;&lt;/p&gt;
+&lt;p&gt;We are enticed into giving up information about ourselves to closed
+systems. Facebook being the worst offender. The kind of data we give up
+forms a &lt;a href="http://en.wikipedia.org/wiki/Social_graph"&gt;social graph&lt;/a&gt;. This graph can be used …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 29 Jan 2011 10:56:00 +1000</pubDate><guid isPermaLink="false">tag:None,2011-01-29:posts/2011/Jan/29/the-importance-of-being-open/</guid><category>The Skreegs</category><category>Open Source</category></item><item><title>&gt;Molly Catherine Hamilton</title><link>posts/2010/Jan/01/molly-catherine-hamilton/</link><description>&lt;p&gt;&gt;Bubzilla #2 arrived yesterday 31st December 2009 at 5.17pm with no
+drama at all. Hazel had some "stomach pains" overnight which developed
+into minor contractions in the morning. After all the chaos of Cooper's
+birth we were reluctant to even phone in, only to be sent home again.
+However …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 01 Jan 2010 03:14:00 +1000</pubDate><guid isPermaLink="false">tag:None,2010-01-01:posts/2010/Jan/01/molly-catherine-hamilton/</guid><category>The Skreegs</category><category>Miniskreeg</category><category>MollySkreeg</category></item><item><title>&gt;moolah 0.6.3 kicked out the door</title><link>posts/2009/Jun/10/moolah-0-6-3-kicked-out-the-door/</link><description>&lt;p&gt;&gt;It's quite alarming that the more I hack on moolah the more bugs I
+find and probably the more I introduce. I'm just not paying attention
+and applying the correct gumption in learning to code tightly and more
+professionally. My coding time is so limited that it always boils down …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 10 Jun 2009 12:43:00 +1000</pubDate><guid isPermaLink="false">tag:None,2009-06-10:posts/2009/Jun/10/moolah-0-6-3-kicked-out-the-door/</guid><category>The Skreegs</category><category>moolah</category><category>Tech</category></item><item><title>&gt;More maintenance</title><link>posts/2009/May/15/more-maintenance/</link><description>&lt;p&gt;&gt;Getting quite large chunks of dev time on moolah recently but it all
+seems to be going on maintenance of the existing code. I'm still not
+what you would call an experienced Cocoa coder but even already I look
+back at previous code and think wtf! I'm almost embarrassed to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 15 May 2009 09:15:00 +1000</pubDate><guid isPermaLink="false">tag:None,2009-05-15:posts/2009/May/15/more-maintenance/</guid><category>The Skreegs</category><category>moolah</category><category>Tech</category></item><item><title>&gt;moolah dev overboard</title><link>posts/2009/Feb/25/moolah-dev-overboard/</link><description>&lt;p&gt;&gt;Well ok, not quite overboard but at very least we've left the marina.
+After a lovely hiatus of drinking cheap wine, eating biscuits and
+playing Mass Effect I've picked up moolah dev again. It always gets a
+bit slow when something I'm writing reaches a functional level that I'm
+happy …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 25 Feb 2009 11:46:00 +1000</pubDate><guid isPermaLink="false">tag:None,2009-02-25:posts/2009/Feb/25/moolah-dev-overboard/</guid><category>The Skreegs</category><category>moolah</category></item><item><title>I love wood with wood on it</title><link>posts/2009/Jan/08/i-love-wood-with-wood-on-it/</link><description>&lt;p&gt;Trainset by Toys'r'Us. Table by Ozzy. After the Thomas Tank engine
+exhibition at the Ipswich railway museum I realised we needed a table
+quicksmart so I got stuck into it. What we have here is a mitred frame
+surrounded by a larger mitred frame to provide a lip and facia …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 08 Jan 2009 10:31:00 +1000</pubDate><guid isPermaLink="false">tag:None,2009-01-08:posts/2009/Jan/08/i-love-wood-with-wood-on-it/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;moolah v0.6 - Thoughts on releases</title><link>posts/2008/Dec/29/moolah-v0-6-thoughts-on-releases/</link><description>&lt;p&gt;&gt;A few weeks ago I knocked out the first release of moolah. This, being
+0.5 and pretty rough, was done under the "release early, release often"
+advice that google and many other Open Source developers preach. Does
+this really hold for a Mac app though? In general, Mac users …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 29 Dec 2008 21:24:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-12-29:posts/2008/Dec/29/moolah-v0-6-thoughts-on-releases/</guid><category>The Skreegs</category><category>moolah</category><category>Tech</category></item><item><title>&gt;CoopCamp #1</title><link>posts/2008/Nov/02/coopcamp-1/</link><description>&lt;p&gt;&gt;This weekend we went camping for the first time since The Miniskreeg
+showed up. I have a camping checklist and it now has a "Cooper" section
+in it with unforgettable items like dummies, portacots and ehgoo's.
+Camping always has something missing but the impact of forgetting the
+unforgettable when there's …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 02 Nov 2008 08:54:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-11-02:posts/2008/Nov/02/coopcamp-1/</guid><category>The Skreegs</category><category>Miniskreeg</category><category>Weekends</category></item><item><title>&gt;Swim swim swim!</title><link>posts/2008/Oct/28/swim-swim-swim/</link><description>&lt;p&gt;&gt;The trick to a happy evening is to tire the child out during the day.
+Keeping him "cooped" up in the house drives everyone nuts so at weekends
+we like to get out places. Cooper loves pools, water, skiddling,
+anything wet related. Sunday we took him up to the Redcliffe …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 28 Oct 2008 12:00:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-10-28:posts/2008/Oct/28/swim-swim-swim/</guid><category>The Skreegs</category><category>Miniskreeg</category><category>Weekends</category></item><item><title>&gt;moolahDev</title><link>posts/2008/Oct/27/moolahdev/</link><description>&lt;p&gt;&gt;One thing I've noticed when reading a lot of dev blogs is that people
+get burnt out and take a break. I've just hit the same thing and now
+realise why. I was on a coding splurge, believing I was close to getting
+moolah to a point where I could …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 27 Oct 2008 09:51:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-10-27:posts/2008/Oct/27/moolahdev/</guid><category>The Skreegs</category><category>moolah</category><category>Tech</category></item><item><title>Toybox complete</title><link>posts/2008/Oct/26/toybox-complete/</link><description>&lt;p&gt;Actually its been complete for a while but I'm just slow at getting
+pictures online. It's turned out great for something made out of scrap
+wood by an IT bloke who knows nothing about wood (I love wood).
+Everything a toddler could ask for. Nice bright paint, heavy duty
+varnish …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 26 Oct 2008 04:26:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-10-26:posts/2008/Oct/26/toybox-complete/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;moolah for Mac</title><link>posts/2008/Oct/13/moolah-for-mac/</link><description>&lt;p&gt;&gt;As I said below I'm now a budding Mac developer. To learn any
+programming language I always need a personal project that fills a gap
+that can't be filled from anywhere else. In this case its a decent
+personal finance program. Out recent run in with the bank manager has …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 13 Oct 2008 09:45:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-10-13:posts/2008/Oct/13/moolah-for-mac/</guid><category>The Skreegs</category><category>moolah</category><category>Tech</category></item><item><title>&gt;Incursion Roguelike</title><link>posts/2008/Oct/07/incursion-roguelike/</link><description>&lt;p&gt;&gt;For some reason I never got around to writing about this before. Some
+months ago I decided to get into Mac software development but being a
+jaded gamer that can't see to stay on the wagon I was addicted to a game
+called Incursion-Roguelike. Incursion is a classic roguelike in …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 07 Oct 2008 11:30:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-10-07:posts/2008/Oct/07/incursion-roguelike/</guid><category>The Skreegs</category><category>Tech</category></item><item><title>&gt;Miniskreeg walks!</title><link>posts/2008/Sep/13/miniskreeg-walks/</link><description>&lt;p&gt;&gt;Well he took his time getting around to it but at 1 year and 2 days
+little Miniskreeg finally decided to start walking on his own. It's like
+a switch has just turned on enabling him to do it. Amazingly, we caught
+it on video as well. Here we go …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 13 Sep 2008 09:29:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-09-13:posts/2008/Sep/13/miniskreeg-walks/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;Skreegles</title><link>posts/2008/Jul/12/skreegles/</link><description>&lt;p&gt;&gt;A brief update of what can be described in business speak as "where
+we're at and what we look like going forward".&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-weight:bold;"&gt;House&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Painters are finishing off the outside next week. The project is then
+complete with only the inside to be finished. We're trying to get that
+done quick …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 12 Jul 2008 12:39:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-07-12:posts/2008/Jul/12/skreegles/</guid><category>The Skreegs</category><category>Blather</category></item><item><title>&gt;Cooper vids</title><link>posts/2008/May/28/cooper-vids/</link><description>&lt;p&gt;&gt;A whole buncha new Miniskreeg vids courtesy of glootube. He's 8.5
+months now and crawling, laughin, grabbing, screamin, falling, hurting,
+laughing, crawling, crawling and crawling. Did I say he could crawl?&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/p/0FB67FE2B571AED8"&gt;http://www.youtube.com/p/0FB67FE2B571AED8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There's 6 videos in all. You click on the little grey bits …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 28 May 2008 10:18:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-05-28:posts/2008/May/28/cooper-vids/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;Blather #1</title><link>posts/2008/May/28/blather-1/</link><description>&lt;p&gt;&gt;Today's an oddly grey day and apparently its supposed to rain all
+week. We get so used to Brisbane weather with its clear blue skies and
+comfortable temperatures during the non-summer months that its actually
+surprising and a little perplexing when its overcast. Its just so
+unusual to see.&lt;/p&gt;
+&lt;p&gt;I'm …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 28 May 2008 04:07:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-05-28:posts/2008/May/28/blather-1/</guid><category>The Skreegs</category><category>Blather</category></item><item><title>&gt;7 months on</title><link>posts/2008/Apr/14/7-months-on/</link><description>&lt;p&gt;&gt;Hard to believe Cooper is 7 months old now. When I look at him now its
+very hard to remember the little baby he used to be. He's changed so
+much and is more a little boy now than a baby. He's still got the cold
+and has done ever …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 14 Apr 2008 20:23:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-04-14:posts/2008/Apr/14/7-months-on/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>Sorry Mr Bank Manager...</title><link>posts/2008/Feb/24/sorry-mr-bank-manager/</link><description>&lt;p&gt;...but I had to do it. While I have cash in the bank I decided to buy
+another car. We've up/downgraded to a 1999 Pajero (Shogun to old world
+folks). Its got real low mileage and its real clean for an 8 year old
+car. It does however, have …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 24 Feb 2008 04:17:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-02-24:posts/2008/Feb/24/sorry-mr-bank-manager/</guid><category>The Skreegs</category><category>4wd</category></item><item><title>Woah there slow down!</title><link>posts/2008/Feb/19/woah-there-slow-down/</link><description>&lt;p&gt;7 days of builders doing stuff so far and they've done a hella lot.
+Amazing what you can do when someones giving you money to do it. Stuff
+done so far? Deck ripped up, sealed and nearly tiled, new concrete slab
+down underneath, round side and behind carport for the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Tue, 19 Feb 2008 11:31:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-02-19:posts/2008/Feb/19/woah-there-slow-down/</guid><category>The Skreegs</category><category>Freedom Cottage</category></item><item><title>&gt;Coopermergency</title><link>posts/2008/Feb/07/coopermergency/</link><description>&lt;p&gt;&gt;Lille Cooperman was rushed into the hozzie last friday morning. Some
+violent vomiting followed by going limp and extremely white prompted us
+to get an ambulance pronto. 3 hours and an ultrasound later confirmed it
+as an.... wait for it..... intersusection of the bowel. Yeah I know, wtf
+is that …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 07 Feb 2008 09:43:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-02-07:posts/2008/Feb/07/coopermergency/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>I love wood...</title><link>posts/2008/Feb/07/i-love-wood/</link><description>&lt;p&gt;... and just look at how much of it I've bought.&lt;/p&gt;
+&lt;p&gt;Yep, a little over a year and 2 months after getting plans drawn up
+we've finally got movement on the Kitten Ranch Expansion Project (KREP).
+We've got wood, steel beams, some concrete sheeting and a big feck off
+rusty builders …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 07 Feb 2008 09:37:00 +1000</pubDate><guid isPermaLink="false">tag:None,2008-02-07:posts/2008/Feb/07/i-love-wood/</guid><category>The Skreegs</category><category>Freedom Cottage</category></item><item><title>&gt;Reno fun.</title><link>posts/2007/Dec/02/reno-fun/</link><description>&lt;p&gt;&gt;We've finally, nine months after getting plans drawn up, engaged a
+builder to start the extension of Freedom Cottage. However, 2 months in
+and engaged is all we've managed to do. Windows and steel is ordered but
+there's some trouble with the concrete slab underneath. The council here
+demand thousands …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 02 Dec 2007 07:03:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-12-02:posts/2007/Dec/02/reno-fun/</guid><category>The Skreegs</category><category>Freedom Cottage</category></item><item><title>&gt;A finer cog count on the sprocket of time.</title><link>posts/2007/Dec/02/a-finer-cog-count-on-the-sprocket-of-time/</link><description>&lt;p&gt;&gt;Time these days is weird. Time used to work like this. You would do
+stuff, then do more stuff, then even more stuff then say something like
+"geez where has the last year went" or "remember that stuff we done?
+That was five years ago what happened?". This is because …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 02 Dec 2007 06:52:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-12-02:posts/2007/Dec/02/a-finer-cog-count-on-the-sprocket-of-time/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;God is weird</title><link>posts/2007/Oct/31/god-is-weird/</link><description>&lt;p&gt;&gt;After the emergence of Sprogzilla I've gave a bit of thought towards
+&lt;a href="http://en.wikipedia.org/wiki/Intelligent_design"&gt;Intelligent Design&lt;/a&gt;. The extremes of the birthing process, from the
+pain of delivery to the love of the result, seems too freakish to be the
+product of just random evolution.&lt;/p&gt;
+&lt;p&gt;Another factor lending credence to this theory is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Wed, 31 Oct 2007 06:12:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-10-31:posts/2007/Oct/31/god-is-weird/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>Cooper James Hamilton. The Birth.</title><link>posts/2007/Sep/17/cooper-james-hamilton-the-birth/</link><description>&lt;p&gt;Cooper James Hamilton was born on 11/09/2007 at 18.10 weighing 8lbs
+9oz and this is his story.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monday 5am&lt;/strong&gt;&lt;br&gt;
+Mum jumps out of bed having felt her waters break. Excitement takes
+hold, we phone the hospital and they tell us to come in. We, probably
+naively, phone …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 17 Sep 2007 10:11:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-09-17:posts/2007/Sep/17/cooper-james-hamilton-the-birth/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;Double Ding</title><link>posts/2007/Sep/08/double-ding/</link><description>&lt;p&gt;&gt;Due date today. Last 24 hours Hazel's been having slight painful
+contractions randomly between 14 and 30 minutes. Still can't be called
+the start of labour but it does make me think somethings gonna happen in
+the next couple of days. Let's take a guess at a hospital visit Monday …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 08 Sep 2007 09:47:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-09-08:posts/2007/Sep/08/double-ding/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;Ding! Time's up</title><link>posts/2007/Aug/17/ding-times-up/</link><description>&lt;p&gt;&gt;Yay! Today the bell finally when on the Oven of Sprogzilla. MiniSkreeg
+is now 37 weeks and full term. Come out and tidy your room! We're
+basically just waiting now. Everything is prepared, room ready, little
+socks ironed, hospital bags packed. All we need now is a good ol' flex …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 17 Aug 2007 23:06:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-08-17:posts/2007/Aug/17/ding-times-up/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>&gt;Glasshouse Mountains</title><link>posts/2007/Aug/17/glasshouse-mountains/</link><description>&lt;p&gt;&gt;Oh the joy of a non-updated blog.&lt;/p&gt;
+&lt;p&gt;While the outlaws were visiting over July time I exploited the presence
+of 2 larger males in the group as a reason to wheeling. We met up with a
+ragtag log from the Outerlimits4x4 forum and off we went into the bush
+at …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Fri, 17 Aug 2007 22:48:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-08-17:posts/2007/Aug/17/glasshouse-mountains/</guid><category>The Skreegs</category><category>4wd</category></item><item><title>&gt;Gadget Detox</title><link>posts/2007/Jun/24/gadget-detox/</link><description>&lt;p&gt;&gt;For some bizarre reason I decided to spend the entire week free of
+gadgets. No mobile phone, no mp3 player, no nintendo DS and no computer
+at home for 7 days. Is this actually possible for a Type A personality
+that's been gaming since 1982? No it's not.&lt;/p&gt;
+&lt;p&gt;Last Sunday …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 24 Jun 2007 09:43:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-06-24:posts/2007/Jun/24/gadget-detox/</guid><category>The Skreegs</category><category>Tech</category></item><item><title>Myth PoC</title><link>posts/2007/May/12/myth-poc/</link><description>&lt;div&gt;
+Before Miniskreeg hits the sheets I have certain milestones to reach.
+One of these is the replacing of the current house PC (running Ubuntu
+Feisty) with a Mac of some kind, probably a laptop since I can tax dodge
+it and reincarnate the PC as a MythTV media centre. Shove …&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sat, 12 May 2007 23:01:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-05-12:posts/2007/May/12/myth-poc/</guid><category>The Skreegs</category><category>Tech</category></item><item><title>More Press Play On Tape</title><link>posts/2007/May/03/more-press-play-on-tape/</link><description>&lt;div&gt;
+Oh I had no idea. The crazy germans have a website, do regular gigs and
+have a host of videos online with live, bootleg and rehearsals.
+Absolutely stunning is the mad violinist playing Monty On The Run.
+Fantastic.  
+&lt;/br&gt;  
+&lt;/br&gt;&lt;http://www.pressplayontape.com/&gt;  
+&lt;/br&gt;
+&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 03 May 2007 09:30:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-05-03:posts/2007/May/03/more-press-play-on-tape/</guid><category>The Skreegs</category><category>Blather</category></item><item><title>Pumpkin Man</title><link>posts/2007/May/03/pumpkin-man/</link><description>&lt;div&gt;
+If you were a C64 head back in the eighties you might have played a game
+called Cauldron, or Cauldron II. This was released by Ocean software and
+of course had the invincible Martin Galway providing the music. Looks
+like some mad germans have done a live on stage remix …&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Thu, 03 May 2007 09:13:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-05-03:posts/2007/May/03/pumpkin-man/</guid><category>The Skreegs</category><category>Blather</category><category>Miniskreeg</category></item><item><title>Beast Carnage</title><link>posts/2007/Apr/09/beast-carnage/</link><description>&lt;p&gt;Gran and Grandpa Skreeg were over visiting during the last month. I
+thought it would be nice to take Grandpa Skreeg out "wheeling" in The
+Beast[tm], a 1992 Suzuki Sierra. It's pretty much stock with only a body
+lift and 29" tyres on it but I love it to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Mon, 09 Apr 2007 11:35:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-04-09:posts/2007/Apr/09/beast-carnage/</guid><category>The Skreegs</category><category>4wd</category></item><item><title>Rate My Egg</title><link>posts/2007/Apr/08/rate-my-egg/</link><description>&lt;p&gt;It's Happy Zombie Jesus weekend and we've done our eggs. Which one is
+best? The loser gets rolled a lot faster than a mortal ovum can survive.&lt;/p&gt;
+&lt;p&gt;Judge Egg.&lt;/p&gt;
+&lt;div style="text-align:center;"&gt;
+[![][]][]
+
+&lt;/div&gt;
+&lt;div style="text-align:left;"&gt;
+or the Egg Fairy.  
+[![][1]][]
+
+&lt;p&gt;
+You decide.
+
+&lt;/div&gt;
+
+&lt;p&gt;[&lt;img alt="" src="http://bp0.blogger.com/_MKqlq3WVEmY/RhiG9TnBYbI/AAAAAAAAAAk/aHwu-Chrhvg/s320/00020.jpg"&gt;]: http://bp0.blogger.com/_MKqlq3WVEmY/RhiG9TnBYbI/AAAAAAAAAAk/aHwu-Chrhvg/s1600-h/00020.jpg&lt;/p&gt;
+&lt;p&gt;[&lt;img alt="" src="http://bp3.blogger.com/_MKqlq3WVEmY/RhiHUDnBYcI/AAAAAAAAAAs/2nPVKdJe5lI/s320/00021.jpg"&gt;]: http://bp3.blogger …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 08 Apr 2007 06:07:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-04-08:posts/2007/Apr/08/rate-my-egg/</guid><category>The Skreegs</category><category>Blather</category></item><item><title>Introducing Miniskreeg</title><link>posts/2007/Apr/08/introducing-miniskreeg/</link><description>&lt;p&gt;The 13 week scan was over a month ago now but no less a significant
+event now than it was then. I've always looked at pictures of other
+peoples scans with almost complete disinterest. A static photo just
+simply doesn't do the event justice. The image is basically a real …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 08 Apr 2007 02:19:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-04-08:posts/2007/Apr/08/introducing-miniskreeg/</guid><category>The Skreegs</category><category>Miniskreeg</category></item><item><title>Welcome to The Skreegs online!</title><link>posts/2007/Apr/08/welcome-to-the-skreegs-online/</link><description>&lt;p&gt;It seems this internet thing is quite popular and I see lots of people
+like to write blog thingies about their lives so other folk can see how
+much more dull there's is in comparison. In an effort to make ours less
+dull I've decided to start writing a blog …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mongrol</dc:creator><pubDate>Sun, 08 Apr 2007 01:39:00 +1000</pubDate><guid isPermaLink="false">tag:None,2007-04-08:posts/2007/Apr/08/welcome-to-the-skreegs-online/</guid><category>The Skreegs</category><category>Blather</category></item></channel></rss>
