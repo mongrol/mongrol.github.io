@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VuSitu snapshot viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Daisy Hill Water Quality Governance Committee Visualization Reference Centre</h1>
+    <p class="subtitle">Water quality readings from a VuSitu export</p>
+  </header>
+
+  <main class="main">
+    <section class="controls card">
+      <label class="field">
+        <span class="field-label">Location</span>
+        <select id="location-select" aria-label="Select location"></select>
+      </label>
+      <p class="hint">Run a static server in this folder (e.g. <code>python -m http.server</code>). The app loads <code>vudata/VuSitu_Snapshot_2026-03-27.csv</code> (symlink to the repo export).</p>
+    </section>
+
+    <p id="load-error" class="load-error hidden" role="alert"></p>
+
+    <section id="summary" class="summary card hidden"></section>
+
+    <section id="charts-section" class="charts-section hidden">
+      <h2 class="section-title">Metrics over time</h2>
+      <div id="charts-grid" class="charts-grid"></div>
+    </section>
+
+    <section id="table-section" class="table-section card hidden">
+      <h2 class="section-title">Readings</h2>
+      <div class="table-wrap">
+        <table id="readings-table">
+          <thead id="readings-thead"></thead>
+          <tbody id="readings-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
